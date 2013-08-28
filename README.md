@@ -5,12 +5,15 @@ This repository is the Research Object for the comparison of sizes between HCGs 
 
 It has the following structure:
 
-    root
-	 |
-	 +- README.md: This file
-	 +- sql: folder with SQL related-stuff
-	 +- scripts: folder with Python scripts, other
-	 +- workflows: folder with Taverna workflows
+    project
+	   |
+	   +- README.md: This file
+	   |
+	   +- sql: folder with SQL related-stuff
+	   |
+	   +- scripts: folder with Python scripts, other
+	   |
+	   +- workflows: folder with Taverna workflows
 
 
 Steps to reproduce
