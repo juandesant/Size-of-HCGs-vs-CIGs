@@ -22,8 +22,8 @@ Steps to reproduce
 1. Run the `create_hcg_table.sql` script to create the HCG data supporting table.
 1. Run the `populate_hcg_coordinates.py` script
 
-TODO list
+Todo list
 =========
 
-1. Create and run the script for populating the coordinates from Sesame
-1. Create and run the script for populating the sizes from Hyperleda
+1. TODO: Create and run the script for populating the coordinates from Sesame
+1. TODO: Create and run the script for populating the sizes from Hyperleda
