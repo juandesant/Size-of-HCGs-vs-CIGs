@@ -1,4 +1,5 @@
-USE DB SIZES_HCG_VS_CIG;
+CREATE DATABASE `SIZES_HCG_VS_CIG` DEFAULT CHARACTER SET `utf8`;
+USE SIZES_HCG_VS_CIG;
 CREATE TABLE `HCG_LVM_2001` (
   `hcg_id` int(11) unsigned NOT NULL,
   `ra2000` float DEFAULT NULL COMMENT 'right ascension of the HCG centre in degrees',
