@@ -17,7 +17,7 @@ Steps to reproduce
 ==================
 
 1. Run the `create_hcg_table.sql` script to create the HCG data supporting table.
-1. Run the ``
+1. Run the `populate_hcg_coordinates.py` script
 
 TODO list
 =========
