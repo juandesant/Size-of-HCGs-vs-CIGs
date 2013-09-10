@@ -1,0 +1,216 @@
+%%
+%% $Id: sizes_of_hcgs_vs_cigs.tex
+%%
+%%
+
+%                                                                 aa.dem
+% AA vers. 8.2, LaTeX class for Astronomy & Astrophysics
+% demonstration file
+%                                                       (c) EDP Sciences
+%-----------------------------------------------------------------------
+%
+%\documentclass[referee]{aa} % for a referee version
+%\documentclass[onecolumn]{aa} % for a paper on 1 column  
+%\documentclass[longauth]{aa} % for the long lists of affiliations 
+%\documentclass[rnote]{aa} % for the research notes
+%\documentclass[letter]{aa} % for the letters 
+%\documentclass[bibyear]{aa} % if the references are not structured 
+% according to the author-year natbib style
+
+%
+\documentclass{aa}  
+\usepackage{color}
+%% if you use PostScript figures in your article
+%% use the graphics package for simple commands
+%\usepackage{graphics}
+%% or use the graphicx package for more complicated commands
+\usepackage{graphicx}
+%% or use the epsfig package if you prefer to use the old commands
+%% \usepackage{epsfig}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[varg]{txfonts}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[breaklinks=true]{hyperref}
+% To add links in your PDF file, use the package "hyperref"
+% with options according to your LaTeX or PDFLaTeX drivers.
+% \usepackage{cleveref}
+
+% cleveref can interfere with hyperef; 
+%% To reference earlier footnotes 
+%% http://tex.stackexchange.com/a/10116/35028
+% \crefformat{footnote}{#2\footnotemark[#1]#3}
+
+\newcommand{\urlsamefont}[1]{\urlstyle{same}\url{#1}}
+\newcommand{\hrefnote}[2]{\href{#1}{#2}\footnote{\urlsamefont{#1}}}
+
+\begin{document}
+
+\title{Comparing the sizes of HCGs vs the most isolated galaxies}
+% author example
+% \author{V. ̃Arsenijevic\inst{\ref{inst1}}\and S. ̃Fabbro\inst{\ref{inst2}}\and A. ̃M. ̃Mour\ ̃ao\inst{\ref{inst3}}\and A. ̃J. ̃Rica da Silva\inst{\ref{inst1}}}
+% \institute{Multidisciplinar de Astrof\’{\i}sica, IST, Avenida Rovisco Pais, 1049 Lisbon, Portugal\email{arsenije@ist.utl.pt}\label{inst1}
+% \and
+% Multidisciplinar de Astrof\’{\i}sica, IST, Avenida Rovisco Pais, 1049
+% Lisbon, Portugal\email{arsenije@ist.utl.pt}\label{inst2}
+% \and
+% Multidisciplinar de Astrof\’{\i}sica, IST, Avenida Rovisco Pais, 1049 Lisbon, Portugal\email{arsenije@ist.utl.pt}\label{inst3}
+% }
+
+\author{
+	Santander-Vela, J.D.\inst{\ref{IAA}}\and
+	Verdes-Montenegro, L.\inst{\ref{IAA}}
+}
+
+\institute{
+Instituto de Astrof\'isica de Andaluc\'ia - CSIC, Glorieta de la Astronom\'ia s/n, 18008 Granada, Spain~\email{jdsant@iaa.es}\label{IAA} % \and
+% School of Computer Science, University of Manchester, Kilburne Building, Manchester, UK\label{UMAN}
+}
+
+% \author[IAA]{Ruiz, J.E.\corref{cor1}}
+% \ead{jer@iaa.es}
+% \cortext[jer]{\textit{Phone number: +34 958 230 618}}
+% 
+% \author[IAA]{Garrido, J.\corref{cor1}}
+% \ead{jgs@iaa.es}
+% \cortext[cor1]{\textit{Corresponding author}}
+% 
+% \author[UniMan]{Soiland-Reyes, S.}
+% \ead{soiland-reyes@cs.manchester.ac.uk}
+% \author[IAA]{Santander-Vela, J.D.}
+% \ead{jdsant@iaa.es}
+% \author[IAA]{S\'anchez-Exp\'osito, S.}
+% \ead{sse@iaa.es}
+% \author[IAA]{Verdes-Montenegro, L.}
+% \ead{lourdes@iaa.es}
+% 
+% \address[IAA]{Instituto de Astrof\'isica de Andaluc\'ia - CSIC \\Glorieta de la Astronom\'ia s/n, 18008 Granada, Spain}
+% \address[UniMan]{School of Computer Science, University of Manchester \\Kilburne Building, Manchester, UK}
+
+\date{Received <date> / 
+Accepted <date>}
+
+\abstract{
+%% Text of abstract
+}
+
+\keywords{
+%% keywords here, in the form: keyword , keyword
+%Workflows, Virtual Observatory, e-Science, Interoperability, Archives.
+Methods: data analysis, Astronomical databases: miscellaneous, Virtual observatory tools
+%% MSC codes here, in the form: \MSC code \sep code
+%% or \MSC[2008] code \sep code (2000 is the default)
+}
+
+\maketitle
+
+\titlerunning{Sizes of HCGs vs CIGs}
+\authorrunning{Santander-Vela, J.D. et al.}
+
+%% main text
+\section{Introduction} % (fold)
+\label{sec:introduction}
+
+% section introduction (end)
+
+\section{Results and discussion} % (fold)
+\label{sec:results_and_discussion}
+
+% section results_and_discussion (end)
+
+\begin{acknowledgements}
+
+AstroTaverna has been developed in the framework of the \hrefnote{http://www.wf4ever-project.org/}{Wf4Ever Project} 270129 funded under EU FP7 Digital Libraries and Digital Preservation (ICT-2009.4.1), which leverages workflow technology in order to preserve the scientific methodology, facilitating the reuse and exchange of digital knowledge, and to enable the inspection of the reproducibility of scientific investigation results.
+
+This article has been written as Open Science, with a GitHub repository where this article has been written in the open, in the framework of \hrefnote{http://amiga.iaa.es/p/294-open-science-canube.htm}{CANUBE Project} CEI2013-P-14, an Open Science project granted by the Second Call for Proposals of the \hrefnote{http://biotic.ugr.es/en/}{Bio-TIC Campus of International Excellence} of the University of Granada, in Spain.
+
+This work has been also supported by grant AYA2011-30491-C02-01, co-financed by MICINN and FEDER funds, and the Junta de Andalucía (Spain) grants P08-FQM-4205 and TIC-114.
+
+J.D. Santander-Vela wants to acknowledge CSIC JAE-Doc Program (Junta de Ampliaci\'on de Estudios), cofinanced by the European Social Fund, for his post-doctoral contract.
+
+\end{acknowledgements}
+
+%% The Appendices part is started with the command \appendix;
+%% appendix sections are then done as normal sections
+%% \appendix
+
+%% \section{}
+%% \label{}
+
+%% References
+%%
+%% Following citation commands can be used in the body text:
+%%
+%%  \citet{key}  ==>>  Jones et al. (1990)
+%%  \citep{key}  ==>>  (Jones et al., 1990)
+%%
+%% Multiple citations as normal:
+%% \citep{key1,key2}         ==>> (Jones et al., 1990; Smith, 1989)
+%%                            or  (Jones et al., 1990, 1991)
+%%                            or  (Jones et al., 1990a,b)
+%% \cite{key} is the equivalent of \citet{key} in author-year mode
+%%
+%% Full author lists may be forced with \citet* or \citep*, e.g.
+%%   \citep*{key}            ==>> (Jones, Baker, and Williams, 1990)
+%%
+%% Optional notes as:
+%%   \citep[chap. 2]{key}    ==>> (Jones et al., 1990, chap. 2)
+%%   \citep[e.g.,][]{key}    ==>> (e.g., Jones et al., 1990)
+%%   \citep[see][pg. 34]{key}==>> (see Jones et al., 1990, pg. 34)
+%%  (Note: in standard LaTeX, only one note is allowed, after the ref.
+%%   Here, one note is like the standard, two make pre- and post-notes.)
+%%
+%%   \citealt{key}          ==>> Jones et al. 1990
+%%   \citealt*{key}         ==>> Jones, Baker, and Williams 1990
+%%   \citealp{key}          ==>> Jones et al., 1990
+%%   \citealp*{key}         ==>> Jones, Baker, and Williams, 1990
+%%
+%% Additional citation possibilities
+%%   \citeauthor{key}       ==>> Jones et al.
+%%   \citeauthor*{key}      ==>> Jones, Baker, and Williams
+%%   \citeyear{key}         ==>> 1990
+%%   \citeyearpar{key}      ==>> (1990)
+%%   \citetext{priv. comm.} ==>> (priv. comm.)
+%%   \citenum{key}          ==>> 11 [non-superscripted]
+%% Note: full author lists depends on whether the bib style supports them;
+%%       if not, the abbreviated list is printed even when full requested.
+%%
+%% For names like della Robbia at the start of a sentence, use
+%%   \Citet{dRob98}         ==>> Della Robbia (1998)
+%%   \Citep{dRob98}         ==>> (Della Robbia, 1998)
+%%   \Citeauthor{dRob98}    ==>> Della Robbia
+
+
+%% References with bibTeX database:
+
+\bibliographystyle{aa}
+\bibliography{sizes_of_hcgs_vs_cigs}
+
+%% Authors are advised to submit their bibtex database files. They are
+%% requested to list a bibtex style file in the manuscript if they do
+%% not want to use elsarticle-harv.bst.
+
+%% References without bibTeX database:
+
+% \begin{thebibliography}{00}
+
+%% \bibitem must have one of the following forms:
+%%   \bibitem[Jones et al.(1990)]{key}...
+%%   \bibitem[Jones et al.(1990)Jones, Baker, and Williams]{key}...
+%%   \bibitem[Jones et al., 1990]{key}...
+%%   \bibitem[\protect\citeauthoryear{Jones, Baker, and Williams}{Jones
+%%       et al.}{1990}]{key}...
+%%   \bibitem[\protect\citeauthoryear{Jones et al.}{1990}]{key}...
+%%   \bibitem[\protect\astroncite{Jones et al.}{1990}]{key}...
+%%   \bibitem[\protect\citename{Jones et al., }1990]{key}...
+%%   \harvarditem[Jones et al.]{Jones, Baker, and Williams}{1990}{key}...
+%%
+
+% \bibitem[ ()]{}
+
+% \end{thebibliography}
+
+\end{document}
+
+%%
+%% End of file `AstroTaverna.tex'.
