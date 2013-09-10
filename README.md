@@ -11,6 +11,8 @@ It has the following structure:
 	   |
 	   +- README.md: This file
 	   |
+	   +- article: folder with the article to be written about this RO
+	   |
 	   +- sql: folder with SQL related-stuff
 	   |
 	   +- scripts: folder with Python scripts, other
