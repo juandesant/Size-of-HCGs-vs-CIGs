@@ -3,7 +3,7 @@
 Introduction
 ============
 
-This repository is the Research Object for the comparison of sizes between HCGs and the CIGs.
+This repository is the [Research Object (RO)](http://www.researchobject.org/ "Research Object portal") for the comparison of sizes between HCGs and the CIGs.
 
 It has the following structure:
 
