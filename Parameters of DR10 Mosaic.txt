@@ -1,0 +1,26 @@
+SDSS III DR10 Mosaics:
+
+http://dr10.sdss3.org/mosaics/
+
+Parámetros
+ra (hexa or decimal)
+dec (hexa or decimal)
+size (degrees)
+pixelscale (arcseconds/pixel; default: 0.396)
+allfields (present if all covering fields are to be used)
+
+hidden inputs:
+mosaic_bands=[u][g][r][i][z] (actual parameter getting the content of the bands; for instance, mosaic_bands=gri for downloading data in bands g, r, and i.
+
+Utility input:
+mosaic_u=u (present if the u-band is to be used for the mosaic)
+mosaic_g=g (present if the g-band is to be used for the mosaic)
+mosaic_r=r (present if the r-band is to be used for the mosaic)
+mosaic_i=i (present if the i-band is to be used for the mosaic)
+mosaic_z=z (present if the z-band is to be used for the mosaic)
+
+This leads to the mosaic check, and then you can submit:
+
+curl -e "http://dr10.sdss3.org/mosaics/check" \
+     -o Mosaic.tar \
+"http://dr9.sdss3.org/dr9-cgi/getImages/mosaic?onlyprimary=True&pixelscale=0.396&ra=313.0950391&filters=gri&dec=-5.757906&size=0.22"
