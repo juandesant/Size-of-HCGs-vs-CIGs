@@ -42,10 +42,10 @@ field_names   = map(lambda x: x[0], CIG_field_names_and_formats)
 field_formats = map(lambda x: x[1], CIG_field_names_and_formats)
 
 # Create a list of dictionaries which allow for more semantic data query:
-# data_indexed_list[row_number][field_name],
+# CIG_indexed_data[row_number][field_name],
 # and the list of values of a field for all rows is:
-# map(lambda x: x[field_name], data_indexed_list)
-data_indexed_list = []
+# map(lambda x: x[field_name], CIG_indexed_data)
+CIG_indexed_data = []
 for row in CIG_data:
 	col = 0
 	transformed_row = []
@@ -53,6 +53,6 @@ for row in CIG_data:
 		value = field_format(row[col])
 		col += 1
 		transformed_row.append( (field_name, value) )
-	data_indexed_list.append(dict(transformed_row))
+	CIG_indexed_data.append(dict(transformed_row))
 
 #### Create SExtractor files for CIGs
