@@ -133,7 +133,7 @@ for cig_record in CIG_indexed_data:
     if cig_number in (304, 291, 397, 484, 470, 224):
         param_dict['DETECT_THRESH']   = 5.0
         param_dict['ANALYSIS_THRESH'] = 3.5
-    # size-dependent photo-aperture
+    # size-dependent photo-aperture; we apply (map) the same factor to all elements, and then convert to tuple
     param_dict['PHOT_APERTURES'] = tuple(map(
                                     lambda x: x*radius/10.,
                                     default_param_dict['PHOT_APERTURES']
