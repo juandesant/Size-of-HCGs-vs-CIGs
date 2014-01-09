@@ -23,16 +23,16 @@ CIG_field_names_and_formats = [
     ('rerun',     int)  , # SDSS rerun
     ('camCol',    int)  , # SDSS camcol
     ('field',     int)  , # SDSS field
-    ('colc_g',    float), # 
-    ('colc_i',    float), # 
-    ('colc_r',    float), # 
-    ('colc_u',    float), # 
-    ('colc_z',    float), # 
-    ('rowc_g',    float), # 
-    ('rowc_i',    float), # 
-    ('rowc_r',    float), # 
-    ('rowc_u',    float), # 
-    ('rowc_z',    float), # 
+    ('colc_g',    float), # column center, g band
+    ('colc_i',    float), # column center, i band
+    ('colc_r',    float), # column center, r band
+    ('colc_u',    float), # column center, u band
+    ('colc_z',    float), # column center, z band
+    ('rowc_g',    float), # row center, g band
+    ('rowc_i',    float), # row center, i band
+    ('rowc_r',    float), # row center, r band
+    ('rowc_u',    float), # row center, u band
+    ('rowc_z',    float), # row center, z band
     ('CIG',       int)  , # CIG number
     ('RA_AMIGA',  float), # RA from AMIGA database
     ('DEC_AMIGA', float), # Dec from AMIGA database
