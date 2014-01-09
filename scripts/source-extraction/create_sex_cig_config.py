@@ -139,11 +139,11 @@ for cig_record in CIG_indexed_data:
                                     default_param_dict['PHOT_APERTURES']
     ))
     param_dict['CHECKIMAGE_NAME'] = cig_record['imagen']+'seg.fits'
-    # prepare for writing; file is closed at the end of the with block
     if not all_keywords_are_set(param_dict):
         print "**** Not all keywords set ****"
         pprint(param_dict)
         break
+    # prepare for writing; file is closed at the end of the with block
     print "Writing %s" % sex_file_name
     with open(sex_file_name,"w") as sex_file:
         for key,value in param_dict.iteritems():
