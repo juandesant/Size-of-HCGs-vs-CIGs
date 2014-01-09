@@ -151,4 +151,3 @@ for cig_record in CIG_indexed_data:
             if type(value) == type((1,)):
                 file_value = str(value)[1:-1] # removing parentheses
             sex_file.write("%-20s%s\n" % (key,file_value))
-            print("%-20s%s" % (key,file_value))
