@@ -85,7 +85,7 @@ default_param_dict = {
     'PHOT_AUTOPARAMS':     (2.5,1.5),
     'MASK_TYPE':           'CORRECT',
     'DETECT_TYPE':         'CCD',
-    'PIXEL_SCALE':         0.396, # default SDSS pixel scale
+    'PIXEL_SCALE':         0.39598, # default SDSS pixel scale
     'SATUR_LEVEL':         10.,
     'GAIN':                1.0,
     'MAG_GAMMA':           4.0,
