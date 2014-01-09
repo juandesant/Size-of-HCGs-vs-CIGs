@@ -139,6 +139,8 @@ for cig_record in CIG_indexed_data:
                                     default_param_dict['PHOT_APERTURES']
     ))
     param_dict['CHECKIMAGE_NAME'] = cig_record['imagen']+'seg.fits'
+
+    # check if all keywords in the dictionary are set
     if not all_keywords_are_set(param_dict):
         print "**** Not all keywords set ****"
         pprint(param_dict)
