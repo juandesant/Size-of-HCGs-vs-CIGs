@@ -7,3 +7,5 @@
 *.out
 *.synctex.gz
 stellarmasssize/*
+
+test/MosaicHCG88.tar.bz2
