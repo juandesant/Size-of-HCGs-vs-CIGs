@@ -1,8 +1,0 @@
-MYRO /home/julian/Documents/RO2ndGE/
-IMAGES ./Files/init_data/images/
-PREPROCESSING ./Files/psf/
-SEXTRACTOR ./Files/workflow_results/subset/sex/
-ELLIPSE ./Files/workflow_results/subset/ellipse/
-GALFIT ./Files/workflow_results/subset/galfit/
-PLOTS  ./Files/workflow_results/subset/plots/
-SEXCONFIG ./Files/init_data/config_files/CIG0000.param
