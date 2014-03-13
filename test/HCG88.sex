@@ -1,9 +1,9 @@
 CATALOG_NAME        HCG_test.cat
 PARAMETERS_NAME     HCG_test.param
 CATALOG_TYPE        ASCII_HEAD
-DETECT_MINAREA        999.
+DETECT_MINAREA      10.
 THRESH_TYPE         RELATIVE
-DETECT_THRESH        2.5
+DETECT_THRESH       2.5
 ANALYSIS_THRESH     3.0
 FILTER              Y
 FILTER_NAME         /Users/jdsant/Downloads/star/bin/extractor/config/default.conv
@@ -20,7 +20,7 @@ PIXEL_SCALE         0.396
 SATUR_LEVEL         10.
 GAIN                1.0
 MAG_GAMMA           4.0
-SEEING_FWHM         1.0
+SEEING_FWHM         1.5
 STARNNW_NAME        /Users/jdsant/Downloads/star/bin/extractor/config/default.nnw
 BACK_SIZE           64
 BACK_FILTERSIZE     3
