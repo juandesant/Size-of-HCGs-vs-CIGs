@@ -31,3 +31,10 @@ Todo list
 
 1. TODO: Create and run the script for populating the coordinates from Sesame
 1. TODO: Create and run the script for populating the sizes from Hyperleda
+
+Dependencies
+============
+1. Sextractor software
+2. curl command line tool
+3. Taverna 2.4 + Astrotaverna plugin or Taverna 2.5 Astronomy Edition
+
