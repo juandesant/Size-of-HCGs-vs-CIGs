@@ -1,4 +1,4 @@
-<workflow xmlns="http://taverna.sf.net/2008/xml/t2flow" version="1" producedBy="taverna-astronomy-2.5-SNAPSHOT-20140306T0647"><dataflow id="996a2eda-4180-4ba1-8861-c20358795ba7" role="top"><name>Workflow120</name><inputPorts /><outputPorts><port><name>responseBody</name><lastPredictedDepth>0</lastPredictedDepth><annotations /></port><port><name>crossmatch</name><lastPredictedDepth>0</lastPredictedDepth><annotations /></port></outputPorts><processors><processor><name>Hickson_Gal_</name><inputPorts><port><name>DEC</name><depth>0</depth></port><port><name>RA</name><depth>0</depth></port><port><name>SR</name><depth>0</depth></port></inputPorts><outputPorts><port><name>responseBody</name><depth>0</depth><granularDepth>0</granularDepth></port></outputPorts><annotations /><activities><activity><raven><group>net.sf.taverna.t2.activities</group><artifact>rest-activity</artifact><version>1.5-SNAPSHOT</version></raven><class>net.sf.taverna.t2.activities.rest.RESTActivity</class><inputMap><map from="DEC" to="DEC" /><map from="RA" to="RA" /><map from="SR" to="SR" /></inputMap><outputMap><map from="responseBody" to="responseBody" /></outputMap><configBean encoding="xstream"><net.sf.taverna.t2.activities.rest.RESTActivityConfigurationBean xmlns="">
+<workflow xmlns="http://taverna.sf.net/2008/xml/t2flow" version="1" producedBy="taverna-astronomy-2.5-SNAPSHOT-20140306T0647"><dataflow id="42e0e6ef-ab82-4da1-959b-a1043efffc90" role="top"><name>Workflow120</name><inputPorts /><outputPorts><port><name>responseBody</name><lastPredictedDepth>0</lastPredictedDepth><annotations /></port><port><name>crossmatch</name><lastPredictedDepth>0</lastPredictedDepth><annotations /></port></outputPorts><processors><processor><name>Hickson_Gal_</name><inputPorts><port><name>DEC</name><depth>0</depth></port><port><name>RA</name><depth>0</depth></port><port><name>SR</name><depth>0</depth></port></inputPorts><outputPorts><port><name>responseBody</name><depth>0</depth><granularDepth>0</granularDepth></port></outputPorts><annotations /><activities><activity><raven><group>net.sf.taverna.t2.activities</group><artifact>rest-activity</artifact><version>1.5-SNAPSHOT</version></raven><class>net.sf.taverna.t2.activities.rest.RESTActivity</class><inputMap><map from="DEC" to="DEC" /><map from="RA" to="RA" /><map from="SR" to="SR" /></inputMap><outputMap><map from="responseBody" to="responseBody" /></outputMap><configBean encoding="xstream"><net.sf.taverna.t2.activities.rest.RESTActivityConfigurationBean xmlns="">
   <httpMethod>GET</httpMethod>
   <urlSignature>http://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=hcggalaxy&amp;RA={RA}&amp;DEC={DEC}&amp;SR={SR}</urlSignature>
   <acceptsHeaderValue>application/x-votable+xml, text/xml;content=x-votable, text/xml;votable;q=0.7,  application/xml;q=0.5, text/xml;q=0.6</acceptsHeaderValue>
@@ -24409,7 +24409,7 @@ out1 = out1.replace("XMLSchema-instance\"", "XMLSchema-instance\" xmlns=\"http:/
   <initialDelay>1000</initialDelay>
   <maxDelay>5000</maxDelay>
   <maxRetries>0</maxRetries>
-</net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.RetryConfig></configBean></dispatchLayer><dispatchLayer><raven><group>net.sf.taverna.t2.core</group><artifact>workflowmodel-impl</artifact><version>1.5-SNAPSHOT</version></raven><class>net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.Invoke</class><configBean encoding="xstream"><null xmlns="" /></configBean></dispatchLayer></dispatchStack><iterationStrategyStack><iteration><strategy><cross><port name="in1" depth="0" /></cross></strategy></iteration></iterationStrategyStack></processor><processor><name>Crossmatch</name><inputPorts><port><name>VOTable1</name><depth>0</depth></port><port><name>VOTable2</name><depth>0</depth></port><port><name>values2</name><depth>0</depth></port><port><name>values1</name><depth>0</depth></port><port><name>params</name><depth>0</depth></port></inputPorts><outputPorts><port><name>outputTable</name><depth>0</depth><granularDepth>0</granularDepth></port></outputPorts><annotations /><activities><activity><raven><group>org.purl.wf4ever.astrotaverna</group><artifact>stilts-activity</artifact><version>1.11.tav25-SNAPSHOT</version></raven><class>org.purl.wf4ever.astrotaverna.tjoin.CrossMatch2Activity</class><inputMap><map from="values1" to="values1" /><map from="VOTable2" to="VOTable2" /><map from="params" to="params" /><map from="VOTable1" to="VOTable1" /><map from="values2" to="values2" /></inputMap><outputMap><map from="outputTable" to="outputTable" /></outputMap><configBean encoding="xstream"><org.purl.wf4ever.astrotaverna.tjoin.CrossMatch2ActivityConfigurationBean xmlns="">
+</net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.RetryConfig></configBean></dispatchLayer><dispatchLayer><raven><group>net.sf.taverna.t2.core</group><artifact>workflowmodel-impl</artifact><version>1.5-SNAPSHOT</version></raven><class>net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.Invoke</class><configBean encoding="xstream"><null xmlns="" /></configBean></dispatchLayer></dispatchStack><iterationStrategyStack><iteration><strategy><cross><port name="in1" depth="0" /></cross></strategy></iteration></iterationStrategyStack></processor><processor><name>Crossmatch</name><inputPorts><port><name>VOTable1</name><depth>0</depth></port><port><name>VOTable2</name><depth>0</depth></port><port><name>values2</name><depth>0</depth></port><port><name>values1</name><depth>0</depth></port><port><name>params</name><depth>0</depth></port></inputPorts><outputPorts><port><name>outputTable</name><depth>0</depth><granularDepth>0</granularDepth></port></outputPorts><annotations /><activities><activity><raven><group>org.purl.wf4ever.astrotaverna</group><artifact>stilts-activity</artifact><version>1.11.tav25-SNAPSHOT</version></raven><class>org.purl.wf4ever.astrotaverna.tjoin.CrossMatch2Activity</class><inputMap><map from="values1" to="values1" /><map from="VOTable2" to="VOTable2" /><map from="VOTable1" to="VOTable1" /><map from="params" to="params" /><map from="values2" to="values2" /></inputMap><outputMap><map from="outputTable" to="outputTable" /></outputMap><configBean encoding="xstream"><org.purl.wf4ever.astrotaverna.tjoin.CrossMatch2ActivityConfigurationBean xmlns="">
   <typeOfInput>String</typeOfInput>
   <matchCriteria>sky</matchCriteria>
   <join>1and2</join>
@@ -24442,7 +24442,7 @@ out1 = out1.replace("XMLSchema-instance\"", "XMLSchema-instance\" xmlns=\"http:/
   <maxDelay>5000</maxDelay>
   <maxRetries>0</maxRetries>
 </net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.RetryConfig></configBean></dispatchLayer><dispatchLayer><raven><group>net.sf.taverna.t2.core</group><artifact>workflowmodel-impl</artifact><version>1.5-SNAPSHOT</version></raven><class>net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.Invoke</class><configBean encoding="xstream"><null xmlns="" /></configBean></dispatchLayer></dispatchStack><iterationStrategyStack><iteration><strategy /></iteration></iterationStrategyStack></processor><processor><name>max_error</name><inputPorts /><outputPorts><port><name>value</name><depth>0</depth><granularDepth>0</granularDepth></port></outputPorts><annotations /><activities><activity><raven><group>net.sf.taverna.t2.activities</group><artifact>stringconstant-activity</artifact><version>1.5-SNAPSHOT</version></raven><class>net.sf.taverna.t2.activities.stringconstant.StringConstantActivity</class><inputMap /><outputMap><map from="value" to="value" /></outputMap><configBean encoding="xstream"><net.sf.taverna.t2.activities.stringconstant.StringConstantConfigurationBean xmlns="">
-  <value>0.1</value>
+  <value>50</value>
 </net.sf.taverna.t2.activities.stringconstant.StringConstantConfigurationBean></configBean><annotations /></activity></activities><dispatchStack><dispatchLayer><raven><group>net.sf.taverna.t2.core</group><artifact>workflowmodel-impl</artifact><version>1.5-SNAPSHOT</version></raven><class>net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.Parallelize</class><configBean encoding="xstream"><net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.ParallelizeConfig xmlns="">
   <maxJobs>1</maxJobs>
 </net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.ParallelizeConfig></configBean></dispatchLayer><dispatchLayer><raven><group>net.sf.taverna.t2.core</group><artifact>workflowmodel-impl</artifact><version>1.5-SNAPSHOT</version></raven><class>net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.ErrorBounce</class><configBean encoding="xstream"><null xmlns="" /></configBean></dispatchLayer><dispatchLayer><raven><group>net.sf.taverna.t2.core</group><artifact>workflowmodel-impl</artifact><version>1.5-SNAPSHOT</version></raven><class>net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.Failover</class><configBean encoding="xstream"><null xmlns="" /></configBean></dispatchLayer><dispatchLayer><raven><group>net.sf.taverna.t2.core</group><artifact>workflowmodel-impl</artifact><version>1.5-SNAPSHOT</version></raven><class>net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.Retry</class><configBean encoding="xstream"><net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.RetryConfig xmlns="">
@@ -24454,9 +24454,9 @@ out1 = out1.replace("XMLSchema-instance\"", "XMLSchema-instance\" xmlns=\"http:/
   <annotationAssertions>
     <net.sf.taverna.t2.annotation.AnnotationAssertionImpl>
       <annotationBean class="net.sf.taverna.t2.annotation.annotationbeans.IdentificationAssertion">
-        <identification>b849a1d2-22c3-491c-9e9e-18e6f87bf581</identification>
+        <identification>42e0e6ef-ab82-4da1-959b-a1043efffc90</identification>
       </annotationBean>
-      <date>2014-03-14 10:24:46.72 UTC</date>
+      <date>2014-03-14 10:48:41.869 UTC</date>
       <creators />
       <curationEventList />
     </net.sf.taverna.t2.annotation.AnnotationAssertionImpl>
@@ -24465,9 +24465,20 @@ out1 = out1.replace("XMLSchema-instance\"", "XMLSchema-instance\" xmlns=\"http:/
   <annotationAssertions>
     <net.sf.taverna.t2.annotation.AnnotationAssertionImpl>
       <annotationBean class="net.sf.taverna.t2.annotation.annotationbeans.IdentificationAssertion">
-        <identification>f007569d-9a63-4e0a-9cfc-fe8122915d4c</identification>
+        <identification>3a747ace-c13a-484b-b0c8-fa533e06e2db</identification>
       </annotationBean>
-      <date>2014-03-14 10:08:41.87 UTC</date>
+      <date>2014-03-14 10:13:51.699 UTC</date>
+      <creators />
+      <curationEventList />
+    </net.sf.taverna.t2.annotation.AnnotationAssertionImpl>
+  </annotationAssertions>
+</net.sf.taverna.t2.annotation.AnnotationChainImpl></annotation_chain_2_2><annotation_chain_2_2 encoding="xstream"><net.sf.taverna.t2.annotation.AnnotationChainImpl xmlns="">
+  <annotationAssertions>
+    <net.sf.taverna.t2.annotation.AnnotationAssertionImpl>
+      <annotationBean class="net.sf.taverna.t2.annotation.annotationbeans.IdentificationAssertion">
+        <identification>5858bf57-77f2-4d09-a492-914703fda083</identification>
+      </annotationBean>
+      <date>2014-03-14 09:51:48.404 UTC</date>
       <creators />
       <curationEventList />
     </net.sf.taverna.t2.annotation.AnnotationAssertionImpl>
@@ -24487,9 +24498,20 @@ out1 = out1.replace("XMLSchema-instance\"", "XMLSchema-instance\" xmlns=\"http:/
   <annotationAssertions>
     <net.sf.taverna.t2.annotation.AnnotationAssertionImpl>
       <annotationBean class="net.sf.taverna.t2.annotation.annotationbeans.IdentificationAssertion">
-        <identification>3a747ace-c13a-484b-b0c8-fa533e06e2db</identification>
+        <identification>f007569d-9a63-4e0a-9cfc-fe8122915d4c</identification>
       </annotationBean>
-      <date>2014-03-14 10:13:51.699 UTC</date>
+      <date>2014-03-14 10:08:41.87 UTC</date>
+      <creators />
+      <curationEventList />
+    </net.sf.taverna.t2.annotation.AnnotationAssertionImpl>
+  </annotationAssertions>
+</net.sf.taverna.t2.annotation.AnnotationChainImpl></annotation_chain_2_2><annotation_chain_2_2 encoding="xstream"><net.sf.taverna.t2.annotation.AnnotationChainImpl xmlns="">
+  <annotationAssertions>
+    <net.sf.taverna.t2.annotation.AnnotationAssertionImpl>
+      <annotationBean class="net.sf.taverna.t2.annotation.annotationbeans.IdentificationAssertion">
+        <identification>b849a1d2-22c3-491c-9e9e-18e6f87bf581</identification>
+      </annotationBean>
+      <date>2014-03-14 10:24:46.72 UTC</date>
       <creators />
       <curationEventList />
     </net.sf.taverna.t2.annotation.AnnotationAssertionImpl>
@@ -24512,17 +24534,6 @@ out1 = out1.replace("XMLSchema-instance\"", "XMLSchema-instance\" xmlns=\"http:/
         <identification>84824970-c433-48f4-a1bd-6d816d8b94c4</identification>
       </annotationBean>
       <date>2014-03-14 09:55:00.235 UTC</date>
-      <creators />
-      <curationEventList />
-    </net.sf.taverna.t2.annotation.AnnotationAssertionImpl>
-  </annotationAssertions>
-</net.sf.taverna.t2.annotation.AnnotationChainImpl></annotation_chain_2_2><annotation_chain_2_2 encoding="xstream"><net.sf.taverna.t2.annotation.AnnotationChainImpl xmlns="">
-  <annotationAssertions>
-    <net.sf.taverna.t2.annotation.AnnotationAssertionImpl>
-      <annotationBean class="net.sf.taverna.t2.annotation.annotationbeans.IdentificationAssertion">
-        <identification>5858bf57-77f2-4d09-a492-914703fda083</identification>
-      </annotationBean>
-      <date>2014-03-14 09:51:48.404 UTC</date>
       <creators />
       <curationEventList />
     </net.sf.taverna.t2.annotation.AnnotationAssertionImpl>

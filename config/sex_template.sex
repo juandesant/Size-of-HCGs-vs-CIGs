@@ -7,7 +7,7 @@ DETECT_THRESH       2.5
 ANALYSIS_THRESH     3.0
 FILTER              Y
 FILTER_NAME         $conv$
-DEBLEND_NTHRESH     1
+DEBLEND_NTHRESH     2
 DEBLEND_MINCONT     0.000005
 CLEAN               Y
 CLEAN_PARAM         1.0

@@ -36,7 +36,11 @@ back_value
 backphoto_type
 backphoto_thick
 checkimage_type
-checkimage_name
+checkimage_name_u
+checkimage_name_g
+checkimage_name_r
+checkimage_name_i
+checkimage_name_z
 memory_objstack
 memory_pixstack
 memory_bufsize
