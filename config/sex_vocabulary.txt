@@ -1,5 +1,12 @@
 cat
+cat_u
+cat_g
+cat_r
+cat_i
+cat_z
 sexparam
+nnw
+conv
 parameters_name
 catalog_type
 detect_minarea
