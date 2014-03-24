@@ -1,0 +1,108 @@
+<?xml version='1.0'?>
+<VOTABLE version="1.1"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.ivoa.net/xml/VOTable/v1.1 http://www.ivoa.net/xml/VOTable/v1.1"
+ xmlns="http://www.ivoa.net/xml/VOTable/v1.1">
+<!--
+ !  VOTable written by STIL version 3.0-3 (uk.ac.starlink.votable.VOTableWriter)
+ !  at 2014-03-14T11:48:44
+ !-->
+<RESOURCE>
+<TABLE nrows="2">
+<FIELD arraysize="5" datatype="char" name="objectHCG"/>
+<FIELD datatype="double" name="raHCG"/>
+<FIELD datatype="double" name="decHCG"/>
+<FIELD datatype="short" name="vRecHCG">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD arraysize="96" datatype="char" name="ImagePathHCG_g"/>
+<FIELD arraysize="96" datatype="char" name="ImagePathHCG_i"/>
+<FIELD arraysize="96" datatype="char" name="ImagePathHCG_r"/>
+<FIELD arraysize="96" datatype="char" name="ImagePathHCG_u"/>
+<FIELD arraysize="96" datatype="char" name="ImagePathHCG_z"/>
+<FIELD arraysize="69" datatype="char" name="imageFolder"/>
+<FIELD arraysize="78" datatype="char" name="sex_u"/>
+<FIELD arraysize="78" datatype="char" name="sex_g"/>
+<FIELD arraysize="78" datatype="char" name="sex_r"/>
+<FIELD arraysize="78" datatype="char" name="sex_i"/>
+<FIELD arraysize="78" datatype="char" name="sex_z"/>
+<FIELD arraysize="78" datatype="char" name="cat_u"/>
+<FIELD arraysize="78" datatype="char" name="cat_g"/>
+<FIELD arraysize="78" datatype="char" name="cat_r"/>
+<FIELD arraysize="78" datatype="char" name="cat_i"/>
+<FIELD arraysize="78" datatype="char" name="cat_z"/>
+<FIELD arraysize="55" datatype="char" name="sexparam"/>
+<FIELD arraysize="83" datatype="char" name="checkimage_name_u"/>
+<FIELD arraysize="83" datatype="char" name="checkimage_name_g"/>
+<FIELD arraysize="83" datatype="char" name="checkimage_name_r"/>
+<FIELD arraysize="83" datatype="char" name="checkimage_name_i"/>
+<FIELD arraysize="83" datatype="char" name="checkimage_name_z"/>
+<FIELD arraysize="57" datatype="char" name="nnw"/>
+<FIELD arraysize="58" datatype="char" name="conv"/>
+<DATA>
+<TABLEDATA>
+  <TR>
+    <TD>HCG88</TD>
+    <TD>313.0950391</TD>
+    <TD>-5.757906</TD>
+    <TD>0</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/images/HCG88//J205222.80-054528.4-g.fits</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/images/HCG88//J205222.80-054528.4-i.fits</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/images/HCG88//J205222.80-054528.4-r.fits</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/images/HCG88//J205222.80-054528.4-u.fits</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/images/HCG88//J205222.80-054528.4-z.fits</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/images/HCG88/</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG88_u.sex</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG88_g.sex</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG88_r.sex</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG88_i.sex</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG88_z.sex</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG88_u.cat</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG88_g.cat</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG88_r.cat</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG88_i.cat</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG88_z.cat</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/config/HCG.param</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG88_seg_u.fits</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG88_seg_g.fits</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG88_seg_r.fits</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG88_seg_i.fits</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG88_seg_z.fits</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/config/default.nnw</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/config/default.conv</TD>
+  </TR>
+  <TR>
+    <TD>HCG96</TD>
+    <TD>351.992</TD>
+    <TD>8.773</TD>
+    <TD>0</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/images/HCG96//J232758.08+084622.7-g.fits</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/images/HCG96//J232758.08+084622.7-i.fits</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/images/HCG96//J232758.08+084622.7-r.fits</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/images/HCG96//J232758.08+084622.7-u.fits</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/images/HCG96//J232758.08+084622.7-z.fits</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/images/HCG96/</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG96_u.sex</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG96_g.sex</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG96_r.sex</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG96_i.sex</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG96_z.sex</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG96_u.cat</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG96_g.cat</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG96_r.cat</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG96_i.cat</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG96_z.cat</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/config/HCG.param</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG96_seg_u.fits</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG96_seg_g.fits</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG96_seg_r.fits</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG96_seg_i.fits</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG96_seg_z.fits</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/config/default.nnw</TD>
+    <TD>/home/lourdes/src/Size-of-HCGs-vs-CIGs/config/default.conv</TD>
+  </TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+</RESOURCE>
+</VOTABLE>
