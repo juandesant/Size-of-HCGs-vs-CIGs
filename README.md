@@ -18,6 +18,10 @@ It has the following structure:
 	   +- scripts: folder with Python scripts, other
 	   |
 	   +- workflows: folder with Taverna workflows
+	   |
+	   +- datasets: input data and result data for different steps of the experiment
+	   |
+	   +- config: configuration files to be able to run the workflows and scripts
 
 
 Steps to reproduce
@@ -37,3 +41,8 @@ Dependencies
 1. Sextractor software
 2. curl command line tool
 3. Taverna 2.4 + Astrotaverna plugin or Taverna 2.5 Astronomy Edition. It requires the inclusion of stil.jar in taverna lib folder
+
+Comments on sloan images
+========
+1. HCG74  returns only a image for g-band ---> removed from the workflow
+2. HCG26  the images seems to be incomplete ---> need to verify this.

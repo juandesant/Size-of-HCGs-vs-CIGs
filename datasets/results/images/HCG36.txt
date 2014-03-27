@@ -1,0 +1,5 @@
+/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/images/HCG36/J090923.71+154744.1-g.fits
+/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/images/HCG36/J090923.71+154744.1-i.fits
+/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/images/HCG36/J090923.71+154744.1-r.fits
+/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/images/HCG36/J090923.71+154744.1-u.fits
+/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/images/HCG36/J090923.71+154744.1-z.fits

@@ -353,12 +353,12 @@
   <PARAM name="Soft_Auth" datatype="char" arraysize="*" ucd="meta.bib.author;meta.software" value="Emmanuel Bertin"/>
   <PARAM name="Soft_Ref" datatype="char" arraysize="*" ucd="meta.bib.bibcode;meta.software" value="1996A&amp;AS..117..393B"/>
   <PARAM name="NThreads" datatype="int" ucd="meta.number;meta.software" value="2"/>
-  <PARAM name="Date" datatype="char" arraysize="*" ucd="time.event.end;meta.software" value="2014-03-14"/>
-  <PARAM name="Time" datatype="char" arraysize="*" ucd="time.event.end;meta.software" value="14:55:11"/>
-  <PARAM name="Duration" datatype="float" ucd="time.event;meta.software" value="3" unit="s"/>
+  <PARAM name="Date" datatype="char" arraysize="*" ucd="time.event.end;meta.software" value="2014-03-25"/>
+  <PARAM name="Time" datatype="char" arraysize="*" ucd="time.event.end;meta.software" value="11:45:06"/>
+  <PARAM name="Duration" datatype="float" ucd="time.event;meta.software" value="271" unit="s"/>
   <PARAM name="User" datatype="char" arraysize="*" ucd="meta.curation" value="lourdes"/>
   <PARAM name="Host" datatype="char" arraysize="*" ucd="meta.curation" value="(null)"/>
-  <PARAM name="Path" datatype="char" arraysize="*" ucd="meta.dataset" value="/tmp/usecase6473834567375023031dir"/>
+  <PARAM name="Path" datatype="char" arraysize="*" ucd="meta.dataset" value="/tmp/usecase274734321451542345dir"/>
   <PARAM name="Image_Name" datatype="char" arraysize="*" ucd="obs.image;meta.fits" value="/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/images/HCG88//J205222.80-054528.4-u.fits"/>
   <TABLE ID="Extension_Data" name="Extension_Data">
    <DESCRIPTION>Data gathered by SExtractor for every FITS extension</DESCRIPTION>
@@ -383,7 +383,7 @@
    <FIELD name="Satur_Level" datatype="float" arraysize="1" ucd="instr.saturation;phot.count" unit="ct"/>
    <DATA><TABLEDATA>
     <TR>
-     <TD>1</TD><TD>14/03/2014</TD><TD>14:55:11</TD><TD>3</TD><TD>280</TD><TD>271</TD>
+     <TD>1</TD><TD>25/03/2014</TD><TD>11:45:06</TD><TD>271</TD><TD>280</TD><TD>271</TD>
      <TD>86 N</TD><TD>0</TD>
      <TD>0.0459177</TD><TD>0</TD><TD>0.114794</TD><TD>0.396</TD><TD>0.000000</TD>
      <TD>0</TD><TD>0.000571228</TD>

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///usr/share/sextractor/sextractor.xsl"?>
+<VOTABLE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.1">
+<DESCRIPTION>produced by SExtractor</DESCRIPTION>
+<!-- VOTable description at http://www.ivoa.net/Documents/latest/VOT.html -->
+<RESOURCE ID="SExtractor" name="J091335.66+300051.1-z.fits">
+ <DESCRIPTION>Catalog of sources extracted with SExtractor</DESCRIPTION>
+ <INFO name="QUERY_STATUS" value="OK" />
+ <COOSYS ID="J2000" equinox="J2000" epoch="J2000" system="ICRS"/>
+ <TABLE ID="Source_List" name="J091335.66+300051.1-z.fits/out">
+  <DESCRIPTION>Table of sources detected in image</DESCRIPTION>
+  <!-- Now comes the definition of each SExtractor parameter -->
+  <FIELD name="NUMBER" ucd="meta.record" datatype="int" unit="">
+   <DESCRIPTION>Running object number</DESCRIPTION>
+  </FIELD>
+  <FIELD name="X_IMAGE" ucd="pos.cartesian.x;pos.barycenter;instr.det;meta.main" datatype="float" unit="pix">
+   <DESCRIPTION>Object position along x</DESCRIPTION>
+  </FIELD>
+  <FIELD name="Y_IMAGE" ucd="pos.cartesian.y;pos.barycenter;instr.det;meta.main" datatype="float" unit="pix">
+   <DESCRIPTION>Object position along y</DESCRIPTION>
+  </FIELD>
+  <FIELD name="ALPHA_SKY" ucd="pos.eq.ra;pos.barycenter" datatype="double" unit="deg">
+   <DESCRIPTION>Right ascension of barycenter (native)</DESCRIPTION>
+  </FIELD>
+  <FIELD name="DELTA_SKY" ucd="pos.eq.dec;pos.barycenter" datatype="double" unit="deg">
+   <DESCRIPTION>Declination of barycenter (native)</DESCRIPTION>
+  </FIELD>
+  <FIELD name="MAG_AUTO" ucd="phot.mag;meta.main" datatype="float" unit="mag">
+   <DESCRIPTION>Kron-like elliptical aperture magnitude</DESCRIPTION>
+  </FIELD>
+  <FIELD name="MAGERR_AUTO" ucd="stat.stdev;phot.mag;meta.main" datatype="float" unit="mag">
+   <DESCRIPTION>RMS error for AUTO magnitude</DESCRIPTION>
+  </FIELD>
+  <FIELD name="ISOAREA_IMAGE" ucd="phys.area" datatype="int" unit="pix2">
+   <DESCRIPTION>Isophotal area above Analysis threshold</DESCRIPTION>
+  </FIELD>
+  <FIELD name="FWHM_IMAGE" ucd="phys.size.diameter;instr.det.psf" datatype="float" unit="pix">
+   <DESCRIPTION>FWHM assuming a gaussian core</DESCRIPTION>
+  </FIELD>
+  <FIELD name="BACKGROUND" ucd="instr.skyLevel" datatype="float" unit="ct">
+   <DESCRIPTION>Background at centroid position</DESCRIPTION>
+  </FIELD>
+  <FIELD name="CLASS_STAR" ucd="src.class.starGalaxy" datatype="float" unit="">
+   <DESCRIPTION>S/G classifier output</DESCRIPTION>
+  </FIELD>
+  <FIELD name="FLUX_BEST" ucd="phot.flux" datatype="float" unit="ct">
+   <DESCRIPTION>Best of FLUX_AUTO and FLUX_ISOCOR</DESCRIPTION>
+  </FIELD>
+  <FIELD name="ELLIPTICITY" ucd="src.ellipticity;instr.det	" datatype="float" unit="">
+   <DESCRIPTION>1 - B_IMAGE/A_IMAGE</DESCRIPTION>
+  </FIELD>
+  <FIELD name="THETA_IMAGE" ucd="pos.posAng;instr.det;meta.main" datatype="float" unit="deg">
+   <DESCRIPTION>Position angle (CCW/x)</DESCRIPTION>
+  </FIELD>
+  <FIELD name="FLUX_RADIUS" ucd="phys.size.radius;instr.det" datatype="float" unit="pix">
+   <DESCRIPTION>Fraction-of-light radii</DESCRIPTION>
+  </FIELD>
+  <FIELD name="KRON_RADIUS" ucd="arith.factor;arith.ratio" datatype="float" unit="">
+   <DESCRIPTION>Kron apertures in units of A or B</DESCRIPTION>
+  </FIELD>
+  <FIELD name="A_IMAGE" ucd="phys.size.smajAxis;instr.det;meta.main" datatype="float" unit="pix">
+   <DESCRIPTION>Profile RMS along major axis</DESCRIPTION>
+  </FIELD>
+  <FIELD name="B_IMAGE" ucd="phys.size.sminAxis;instr.det;meta.main" datatype="float" unit="pix">
+   <DESCRIPTION>Profile RMS along minor axis</DESCRIPTION>
+  </FIELD>
+  <FIELD name="ERRA_IMAGE" ucd="stat.stdev;stat.max;pos.errorEllipse;instr.det;meta.main" datatype="float" unit="pix">
+   <DESCRIPTION>RMS position error along major axis</DESCRIPTION>
+  </FIELD>
+  <FIELD name="ERRB_IMAGE" ucd="stat.stdev;stat.min;pos.errorEllipse;instr.det;meta.main" datatype="float" unit="pix">
+   <DESCRIPTION>RMS position error along minor axis</DESCRIPTION>
+  </FIELD>
+   <DATA><TABLEDATA>
+    <TR><TD>         1</TD><TD>   481.568</TD><TD>   413.473</TD><TD>138.4144674</TD><TD>+29.9929660</TD><TD> 11.4828</TD><TD>  0.0012</TD><TD>    14412</TD><TD>    9.33</TD><TD>   0.2247032</TD><TD> 0.03</TD><TD>    25519.57</TD><TD>   0.437</TD><TD> 78.3</TD><TD>    38.189</TD><TD> 5.06</TD><TD>   34.552</TD><TD>   19.464</TD><TD>  0.0425</TD><TD>  0.0233</TD></TR>
+    <TR><TD>         2</TD><TD>   695.516</TD><TD>   476.605</TD><TD>138.3872934</TD><TD>+29.9999110</TD><TD> 12.7746</TD><TD>  0.0024</TD><TD>     4508</TD><TD>   62.06</TD><TD>  0.04269651</TD><TD> 0.00</TD><TD>    7765.269</TD><TD>   0.844</TD><TD>-14.2</TD><TD>    31.291</TD><TD> 5.09</TD><TD>   40.228</TD><TD>    6.264</TD><TD>  0.0823</TD><TD>  0.0114</TD></TR>
+    <TR><TD>         3</TD><TD>   585.152</TD><TD>    89.771</TD><TD>138.4013104</TD><TD>+29.9573598</TD><TD> 11.7454</TD><TD>  0.0001</TD><TD>     1017</TD><TD>    4.93</TD><TD>  0.05530202</TD><TD> 1.00</TD><TD>    20646.57</TD><TD>   0.157</TD><TD>  5.6</TD><TD>     2.600</TD><TD> 2.55</TD><TD>    3.607</TD><TD>    3.042</TD><TD>  0.0025</TD><TD>  0.0020</TD></TR>
+    <TR><TD>         4</TD><TD>   413.085</TD><TD>    11.112</TD><TD>138.4231543</TD><TD>+29.9487051</TD><TD> 18.4478</TD><TD>  0.0575</TD><TD>        8</TD><TD>    7.37</TD><TD>  0.04009315</TD><TD> 0.37</TD><TD>    41.77283</TD><TD>   0.496</TD><TD> 57.2</TD><TD>     5.360</TD><TD> 8.49</TD><TD>    1.737</TD><TD>    0.875</TD><TD>  0.1620</TD><TD>  0.0809</TD></TR>
+    <TR><TD>         5</TD><TD>   900.188</TD><TD>     8.398</TD><TD>138.3613161</TD><TD>+29.9484036</TD><TD> 18.8351</TD><TD>  0.0415</TD><TD>       22</TD><TD>    2.85</TD><TD>  0.01711658</TD><TD> 0.68</TD><TD>    29.23983</TD><TD>   0.019</TD><TD>-78.1</TD><TD>     1.696</TD><TD> 4.19</TD><TD>    1.259</TD><TD>    1.234</TD><TD>  0.0420</TD><TD>  0.0412</TD></TR>
+    <TR><TD>         6</TD><TD>   598.978</TD><TD>    26.620</TD><TD>138.3995550</TD><TD>+29.9504132</TD><TD> 17.8704</TD><TD>  0.0191</TD><TD>       34</TD><TD>    2.67</TD><TD>   0.0456406</TD><TD> 0.96</TD><TD>    71.09776</TD><TD>   0.034</TD><TD>-26.4</TD><TD>     1.696</TD><TD> 4.10</TD><TD>    1.441</TD><TD>    1.392</TD><TD>  0.0249</TD><TD>  0.0242</TD></TR>
+    <TR><TD>         7</TD><TD>   548.283</TD><TD>    32.200</TD><TD>138.4059909</TD><TD>+29.9510268</TD><TD> 18.8596</TD><TD>  0.0628</TD><TD>       15</TD><TD>    4.81</TD><TD>  0.04653341</TD><TD> 0.59</TD><TD>    28.58643</TD><TD>   0.213</TD><TD>-42.5</TD><TD>     2.897</TD><TD> 6.37</TD><TD>    1.357</TD><TD>    1.067</TD><TD>  0.0676</TD><TD>  0.0535</TD></TR>
+    <TR><TD>         8</TD><TD>   624.079</TD><TD>   250.424</TD><TD>138.3963677</TD><TD>+29.9750317</TD><TD> 10.9615</TD><TD>  0.0001</TD><TD>     4285</TD><TD>   10.62</TD><TD>   0.1003023</TD><TD> 0.05</TD><TD>    41246.25</TD><TD>   0.043</TD><TD> 26.6</TD><TD>     5.101</TD><TD> 2.61</TD><TD>    7.301</TD><TD>    6.988</TD><TD>  0.0041</TD><TD>  0.0038</TD></TR>
+    <TR><TD>         9</TD><TD>   132.386</TD><TD>    83.878</TD><TD>138.4587943</TD><TD>+29.9566979</TD><TD> 14.1705</TD><TD>  0.0006</TD><TD>      241</TD><TD>    2.65</TD><TD> 0.004865155</TD><TD> 0.98</TD><TD>    2146.917</TD><TD>   0.014</TD><TD>-50.6</TD><TD>     1.644</TD><TD> 2.79</TD><TD>    2.056</TD><TD>    2.028</TD><TD>  0.0042</TD><TD>  0.0041</TD></TR>
+    <TR><TD>        10</TD><TD>   554.822</TD><TD>    75.406</TD><TD>138.4051610</TD><TD>+29.9557795</TD><TD> 16.0049</TD><TD>  0.0045</TD><TD>      130</TD><TD>    2.79</TD><TD>  0.05163475</TD><TD> 0.98</TD><TD>    396.3238</TD><TD>   0.080</TD><TD>  9.4</TD><TD>     1.803</TD><TD> 3.66</TD><TD>    2.156</TD><TD>    1.982</TD><TD>  0.0158</TD><TD>  0.0137</TD></TR>
+    <TR><TD>        11</TD><TD>   127.035</TD><TD>    57.666</TD><TD>138.4594719</TD><TD>+29.9538143</TD><TD> 18.8349</TD><TD>  0.0594</TD><TD>       25</TD><TD>    3.93</TD><TD> 0.005860749</TD><TD> 0.73</TD><TD>    29.24305</TD><TD>   0.111</TD><TD> -3.0</TD><TD>     2.305</TD><TD> 5.43</TD><TD>    1.453</TD><TD>    1.291</TD><TD>  0.0596</TD><TD>  0.0524</TD></TR>
+    <TR><TD>        12</TD><TD>   584.192</TD><TD>    97.590</TD><TD>138.4014323</TD><TD>+29.9582199</TD><TD> 12.3978</TD><TD>  0.0001</TD><TD>      348</TD><TD>    2.73</TD><TD>  0.05687791</TD><TD> 0.98</TD><TD>    11324.54</TD><TD>   0.024</TD><TD>-38.7</TD><TD>     1.726</TD><TD> 2.49</TD><TD>    2.239</TD><TD>    2.184</TD><TD>  0.0019</TD><TD>  0.0013</TD></TR>
+    <TR><TD>        13</TD><TD>  1072.615</TD><TD>    74.376</TD><TD>138.3394219</TD><TD>+29.9556532</TD><TD> 17.3352</TD><TD>  0.0108</TD><TD>       43</TD><TD>    2.61</TD><TD> 0.009726281</TD><TD> 0.98</TD><TD>     116.389</TD><TD>   0.067</TD><TD> 18.6</TD><TD>     1.615</TD><TD> 3.73</TD><TD>    1.514</TD><TD>    1.412</TD><TD>  0.0182</TD><TD>  0.0166</TD></TR>
+    <TR><TD>        14</TD><TD>   706.001</TD><TD>    93.865</TD><TD>138.3859671</TD><TD>+29.9578096</TD><TD> 19.0359</TD><TD>  0.0594</TD><TD>       17</TD><TD>    2.97</TD><TD>  0.03338731</TD><TD> 0.59</TD><TD>    24.30095</TD><TD>   0.020</TD><TD> 14.6</TD><TD>     1.803</TD><TD> 5.55</TD><TD>    1.126</TD><TD>    1.104</TD><TD>  0.0462</TD><TD>  0.0460</TD></TR>
+    <TR><TD>        15</TD><TD>   695.034</TD><TD>   100.611</TD><TD>138.3873594</TD><TD>+29.9585518</TD><TD> 18.1222</TD><TD>  0.0267</TD><TD>       30</TD><TD>    2.78</TD><TD>   0.0363437</TD><TD> 0.95</TD><TD>    56.37968</TD><TD>   0.058</TD><TD> 20.8</TD><TD>     1.830</TD><TD> 4.60</TD><TD>    1.435</TD><TD>    1.352</TD><TD>  0.0314</TD><TD>  0.0297</TD></TR>
+    <TR><TD>        16</TD><TD>   948.017</TD><TD>   109.514</TD><TD>138.3552392</TD><TD>+29.9595244</TD><TD> 20.1036</TD><TD>  0.1109</TD><TD>        8</TD><TD>    2.50</TD><TD>  0.01638307</TD><TD> 0.38</TD><TD>    9.089782</TD><TD>   0.236</TD><TD>-89.3</TD><TD>     1.550</TD><TD> 4.71</TD><TD>    1.015</TD><TD>    0.776</TD><TD>  0.0889</TD><TD>  0.0649</TD></TR>
+    <TR><TD>        17</TD><TD>     2.778</TD><TD>   164.191</TD><TD>138.4752564</TD><TD>+29.9655238</TD><TD> 17.6023</TD><TD>  0.0265</TD><TD>       71</TD><TD>   13.04</TD><TD>   0.0105378</TD><TD> 0.19</TD><TD>    91.00888</TD><TD>   0.601</TD><TD> 85.3</TD><TD>     4.561</TD><TD> 4.98</TD><TD>    3.978</TD><TD>    1.586</TD><TD>  0.0854</TD><TD>  0.0347</TD></TR>
+    <TR><TD>        18</TD><TD>   238.248</TD><TD>   136.080</TD><TD>138.4453565</TD><TD>+29.9624456</TD><TD> 19.3109</TD><TD>  0.0552</TD><TD>       18</TD><TD>    4.14</TD><TD>  0.01575357</TD><TD> 0.68</TD><TD>    18.86422</TD><TD>   0.179</TD><TD> 58.1</TD><TD>     2.084</TD><TD> 3.76</TD><TD>    1.302</TD><TD>    1.069</TD><TD>  0.0664</TD><TD>  0.0557</TD></TR>
+    <TR><TD>        19</TD><TD>   664.677</TD><TD>   146.575</TD><TD>138.3912133</TD><TD>+29.9636081</TD><TD> 17.5493</TD><TD>  0.0410</TD><TD>       33</TD><TD>   13.26</TD><TD>  0.06318463</TD><TD> 0.00</TD><TD>    95.56255</TD><TD>   0.446</TD><TD> -2.8</TD><TD>     7.824</TD><TD> 7.57</TD><TD>    2.971</TD><TD>    1.647</TD><TD>  0.1311</TD><TD>  0.0718</TD></TR>
+    <TR><TD>        20</TD><TD>  1140.123</TD><TD>   179.844</TD><TD>138.3308432</TD><TD>+29.9672505</TD><TD> 19.1753</TD><TD>  0.0451</TD><TD>       16</TD><TD>    2.46</TD><TD> 0.004606901</TD><TD> 0.64</TD><TD>    21.37317</TD><TD>   0.087</TD><TD>-36.9</TD><TD>     1.551</TD><TD> 3.69</TD><TD>    1.174</TD><TD>    1.072</TD><TD>  0.0486</TD><TD>  0.0439</TD></TR>
+    <TR><TD>        21</TD><TD>   760.988</TD><TD>   198.673</TD><TD>138.3789835</TD><TD>+29.9693376</TD><TD> 19.2108</TD><TD>  0.0849</TD><TD>       10</TD><TD>    4.99</TD><TD>  0.02782951</TD><TD> 0.43</TD><TD>    20.68682</TD><TD>   0.165</TD><TD>-71.4</TD><TD>     3.297</TD><TD> 7.22</TD><TD>    1.139</TD><TD>    0.952</TD><TD>  0.0941</TD><TD>  0.0786</TD></TR>
+    <TR><TD>        22</TD><TD>   135.172</TD><TD>   934.999</TD><TD>138.4584971</TD><TD>+30.0503214</TD><TD> 19.4633</TD><TD>  0.0827</TD><TD>       13</TD><TD>    5.14</TD><TD>  0.01069961</TD><TD> 0.54</TD><TD>    16.39453</TD><TD>   0.317</TD><TD> 42.1</TD><TD>     2.295</TD><TD> 5.27</TD><TD>    1.352</TD><TD>    0.924</TD><TD>  0.0919</TD><TD>  0.0610</TD></TR>
+    <TR><TD>        23</TD><TD>   289.952</TD><TD>  1209.550</TD><TD>138.4388397</TD><TD>+30.0805294</TD><TD> 18.7142</TD><TD>  0.0515</TD><TD>       21</TD><TD>    5.02</TD><TD>  0.01815196</TD><TD> 0.71</TD><TD>    32.68388</TD><TD>   0.183</TD><TD> 15.2</TD><TD>     2.836</TD><TD> 6.01</TD><TD>    1.544</TD><TD>    1.261</TD><TD>  0.0700</TD><TD>  0.0558</TD></TR>
+    <TR><TD>        24</TD><TD>   926.231</TD><TD>  1207.842</TD><TD>138.3579558</TD><TD>+30.0803414</TD><TD> 18.3823</TD><TD>  0.0270</TD><TD>       27</TD><TD>    2.61</TD><TD>  0.01963717</TD><TD> 0.92</TD><TD>    44.36722</TD><TD>   0.041</TD><TD>-13.4</TD><TD>     1.589</TD><TD> 3.96</TD><TD>    1.324</TD><TD>    1.270</TD><TD>  0.0330</TD><TD>  0.0296</TD></TR>
+    <TR><TD>        25</TD><TD>  1051.280</TD><TD>  1170.439</TD><TD>138.3420619</TD><TD>+30.0762211</TD><TD> 19.4150</TD><TD>  0.0910</TD><TD>       10</TD><TD>    3.13</TD><TD>  0.01600212</TD><TD> 0.48</TD><TD>    17.13947</TD><TD>   0.039</TD><TD>-53.0</TD><TD>     2.255</TD><TD> 6.89</TD><TD>    0.977</TD><TD>    0.939</TD><TD>  0.0659</TD><TD>  0.0644</TD></TR>
+    <TR><TD>        26</TD><TD>   948.122</TD><TD>  1161.830</TD><TD>138.3551752</TD><TD>+30.0752791</TD><TD> 19.0642</TD><TD>  0.0792</TD><TD>       18</TD><TD>    7.49</TD><TD>   0.0155368</TD><TD> 0.02</TD><TD>    23.67718</TD><TD>   0.176</TD><TD> 30.7</TD><TD>     2.893</TD><TD> 6.36</TD><TD>    1.381</TD><TD>    1.137</TD><TD>  0.0832</TD><TD>  0.0694</TD></TR>
+    <TR><TD>        27</TD><TD>   172.605</TD><TD>  1158.346</TD><TD>138.4537537</TD><TD>+30.0748915</TD><TD> 18.6697</TD><TD>  0.0350</TD><TD>       24</TD><TD>    2.53</TD><TD> 0.009437274</TD><TD> 0.81</TD><TD>    34.04969</TD><TD>   0.080</TD><TD> 44.3</TD><TD>     1.573</TD><TD> 4.07</TD><TD>    1.294</TD><TD>    1.191</TD><TD>  0.0376</TD><TD>  0.0336</TD></TR>
+    <TR><TD>        28</TD><TD>   190.956</TD><TD>   856.214</TD><TD>138.4514034</TD><TD>+30.0416580</TD><TD> 20.9048</TD><TD>  0.0806</TD><TD>        7</TD><TD>    3.65</TD><TD> 0.008987049</TD><TD> 0.48</TD><TD>     4.34593</TD><TD>   0.152</TD><TD> 90.0</TD><TD>     1.005</TD><TD> 1.79</TD><TD>    0.894</TD><TD>    0.757</TD><TD>  0.0829</TD><TD>  0.0657</TD></TR>
+    <TR><TD>        29</TD><TD>   660.318</TD><TD>   839.337</TD><TD>138.3917615</TD><TD>+30.0398119</TD><TD> 14.9937</TD><TD>  0.0071</TD><TD>      649</TD><TD>    7.04</TD><TD>   0.0224391</TD><TD> 0.03</TD><TD>    1005.828</TD><TD>   0.083</TD><TD>-14.3</TD><TD>     9.284</TD><TD> 5.13</TD><TD>    6.190</TD><TD>    5.674</TD><TD>  0.0384</TD><TD>  0.0344</TD></TR>
+    <TR><TD>        30</TD><TD>   498.449</TD><TD>   839.189</TD><TD>138.4123298</TD><TD>+30.0397951</TD><TD> 19.4665</TD><TD>  0.0781</TD><TD>       12</TD><TD>    2.82</TD><TD>  0.02324738</TD><TD> 0.55</TD><TD>    16.34519</TD><TD>   0.072</TD><TD> 57.5</TD><TD>     1.694</TD><TD> 5.57</TD><TD>    1.019</TD><TD>    0.946</TD><TD>  0.0565</TD><TD>  0.0497</TD></TR>
+    <TR><TD>        31</TD><TD>   301.379</TD><TD>   829.233</TD><TD>138.4373707</TD><TD>+30.0386950</TD><TD> 19.4314</TD><TD>  0.0918</TD><TD>        8</TD><TD>    3.67</TD><TD>   0.0119183</TD><TD> 0.49</TD><TD>    16.88241</TD><TD>   0.209</TD><TD> 66.0</TD><TD>     2.631</TD><TD> 6.77</TD><TD>    1.105</TD><TD>    0.874</TD><TD>  0.0888</TD><TD>  0.0690</TD></TR>
+    <TR><TD>        32</TD><TD>    77.361</TD><TD>   824.432</TD><TD>138.4658355</TD><TD>+30.0381554</TD><TD> 17.8172</TD><TD>  0.0164</TD><TD>       36</TD><TD>    2.42</TD><TD>   0.0108601</TD><TD> 0.98</TD><TD>    74.66538</TD><TD>   0.070</TD><TD>-14.0</TD><TD>     1.540</TD><TD> 3.87</TD><TD>    1.393</TD><TD>    1.296</TD><TD>  0.0222</TD><TD>  0.0198</TD></TR>
+    <TR><TD>        33</TD><TD>  1184.825</TD><TD>   824.435</TD><TD>138.3251147</TD><TD>+30.0381524</TD><TD> 19.9447</TD><TD>  0.1153</TD><TD>        7</TD><TD>    3.31</TD><TD>  0.01067424</TD><TD> 0.41</TD><TD>     10.5224</TD><TD>   0.298</TD><TD> 46.4</TD><TD>     1.950</TD><TD> 6.01</TD><TD>    1.035</TD><TD>    0.727</TD><TD>  0.0995</TD><TD>  0.0661</TD></TR>
+    <TR><TD>        34</TD><TD>   780.608</TD><TD>   819.221</TD><TD>138.3764769</TD><TD>+30.0375975</TD><TD> 18.0613</TD><TD>  0.0195</TD><TD>       29</TD><TD>    2.50</TD><TD>  0.01229945</TD><TD> 0.95</TD><TD>    59.63369</TD><TD>   0.036</TD><TD>-83.1</TD><TD>     1.502</TD><TD> 3.84</TD><TD>    1.309</TD><TD>    1.262</TD><TD>  0.0239</TD><TD>  0.0211</TD></TR>
+    <TR><TD>        35</TD><TD>   317.174</TD><TD>   812.189</TD><TD>138.4353629</TD><TD>+30.0368207</TD><TD> 17.1974</TD><TD>  0.0092</TD><TD>       43</TD><TD>    2.44</TD><TD>  0.01419075</TD><TD> 0.98</TD><TD>    132.1418</TD><TD>   0.053</TD><TD>  6.1</TD><TD>     1.508</TD><TD> 3.60</TD><TD>    1.477</TD><TD>    1.399</TD><TD>  0.0162</TD><TD>  0.0146</TD></TR>
+    <TR><TD>        36</TD><TD>   999.732</TD><TD>   810.987</TD><TD>138.3486343</TD><TD>+30.0366841</TD><TD> 19.4481</TD><TD>  0.0975</TD><TD>       12</TD><TD>    5.04</TD><TD>  0.01261628</TD><TD> 0.46</TD><TD>    16.62418</TD><TD>   0.372</TD><TD> 27.2</TD><TD>     2.682</TD><TD> 6.50</TD><TD>    1.340</TD><TD>    0.842</TD><TD>  0.1077</TD><TD>  0.0661</TD></TR>
+    <TR><TD>        37</TD><TD>  1121.395</TD><TD>   802.438</TD><TD>138.3331760</TD><TD>+30.0357369</TD><TD> 16.1302</TD><TD>  0.0035</TD><TD>       81</TD><TD>    2.46</TD><TD>  0.01118979</TD><TD> 0.98</TD><TD>    353.1108</TD><TD>   0.062</TD><TD>  5.4</TD><TD>     1.571</TD><TD> 3.25</TD><TD>    1.673</TD><TD>    1.569</TD><TD>  0.0098</TD><TD>  0.0086</TD></TR>
+    <TR><TD>        38</TD><TD>    71.614</TD><TD>   800.680</TD><TD>138.4665639</TD><TD>+30.0355423</TD><TD> 16.0711</TD><TD>  0.0032</TD><TD>       83</TD><TD>    2.50</TD><TD>  0.01098623</TD><TD> 0.98</TD><TD>    372.8855</TD><TD>   0.011</TD><TD>-72.4</TD><TD>     1.530</TD><TD> 3.19</TD><TD>    1.610</TD><TD>    1.593</TD><TD>  0.0090</TD><TD>  0.0086</TD></TR>
+    <TR><TD>        39</TD><TD>   875.506</TD><TD>   801.534</TD><TD>138.3644194</TD><TD>+30.0356493</TD><TD> 19.3509</TD><TD>  0.0935</TD><TD>        7</TD><TD>    5.56</TD><TD> 0.009876681</TD><TD> 0.47</TD><TD>    18.18112</TD><TD>   0.008</TD><TD> 77.6</TD><TD>     3.286</TD><TD> 7.87</TD><TD>    0.937</TD><TD>    0.929</TD><TD>  0.0899</TD><TD>  0.0899</TD></TR>
+    <TR><TD>        40</TD><TD>   507.348</TD><TD>   801.345</TD><TD>138.4111985</TD><TD>+30.0356324</TD><TD> 19.7572</TD><TD>  0.0935</TD><TD>        9</TD><TD>    2.80</TD><TD>   0.0255593</TD><TD> 0.49</TD><TD>    12.50624</TD><TD>   0.137</TD><TD> 47.1</TD><TD>     1.670</TD><TD> 5.44</TD><TD>    0.988</TD><TD>    0.852</TD><TD>  0.0679</TD><TD>  0.0577</TD></TR>
+    <TR><TD>        41</TD><TD>  1004.625</TD><TD>   795.583</TD><TD>138.3480135</TD><TD>+30.0349894</TD><TD> 18.5283</TD><TD>  0.0475</TD><TD>       24</TD><TD>    3.89</TD><TD>  0.01245266</TD><TD> 0.81</TD><TD>    38.78619</TD><TD>   0.054</TD><TD>-41.5</TD><TD>     2.521</TD><TD> 5.73</TD><TD>    1.400</TD><TD>    1.325</TD><TD>  0.0483</TD><TD>  0.0455</TD></TR>
+    <TR><TD>        42</TD><TD>   196.706</TD><TD>   775.146</TD><TD>138.4506680</TD><TD>+30.0327408</TD><TD> 18.1077</TD><TD>  0.0440</TD><TD>       40</TD><TD>    8.60</TD><TD> 0.007170897</TD><TD> 0.04</TD><TD>    57.13918</TD><TD>   0.401</TD><TD> 45.3</TD><TD>     3.820</TD><TD> 5.77</TD><TD>    2.396</TD><TD>    1.435</TD><TD>  0.0745</TD><TD>  0.0456</TD></TR>
+    <TR><TD>        43</TD><TD>   258.796</TD><TD>   756.764</TD><TD>138.4427780</TD><TD>+30.0307216</TD><TD> 19.3087</TD><TD>  0.0831</TD><TD>       12</TD><TD>    4.44</TD><TD>   0.0105053</TD><TD> 0.50</TD><TD>    18.90271</TD><TD>   0.205</TD><TD>-56.6</TD><TD>     2.402</TD><TD> 6.11</TD><TD>    1.228</TD><TD>    0.977</TD><TD>  0.0781</TD><TD>  0.0631</TD></TR>
+    <TR><TD>        44</TD><TD>   141.499</TD><TD>   737.121</TD><TD>138.4576801</TD><TD>+30.0285551</TD><TD> 19.2726</TD><TD>  0.0888</TD><TD>       11</TD><TD>    6.17</TD><TD> 0.007038713</TD><TD> 0.46</TD><TD>    19.54106</TD><TD>   0.573</TD><TD>-11.6</TD><TD>     3.368</TD><TD> 7.14</TD><TD>    1.583</TD><TD>    0.677</TD><TD>  0.1312</TD><TD>  0.0574</TD></TR>
+    <TR><TD>        45</TD><TD>   305.371</TD><TD>   717.843</TD><TD>138.4368587</TD><TD>+30.0264422</TD><TD> 19.0104</TD><TD>  0.0505</TD><TD>       16</TD><TD>    2.74</TD><TD>  0.01638711</TD><TD> 0.66</TD><TD>    24.87872</TD><TD>   0.116</TD><TD>-81.4</TD><TD>     1.632</TD><TD> 4.98</TD><TD>    1.141</TD><TD>    1.008</TD><TD>  0.0445</TD><TD>  0.0379</TD></TR>
+    <TR><TD>        46</TD><TD>   469.617</TD><TD>   704.205</TD><TD>138.4159908</TD><TD>+30.0249464</TD><TD> 18.3996</TD><TD>  0.0460</TD><TD>       27</TD><TD>    3.84</TD><TD>  0.03993596</TD><TD> 0.77</TD><TD>    43.66629</TD><TD>   0.140</TD><TD>-26.5</TD><TD>     2.878</TD><TD> 6.03</TD><TD>    1.520</TD><TD>    1.307</TD><TD>  0.0531</TD><TD>  0.0450</TD></TR>
+    <TR><TD>        47</TD><TD>   789.364</TD><TD>   702.597</TD><TD>138.3753673</TD><TD>+30.0247686</TD><TD> 19.3975</TD><TD>  0.1028</TD><TD>       11</TD><TD>    5.73</TD><TD>    0.017128</TD><TD> 0.07</TD><TD>    17.41778</TD><TD>   0.128</TD><TD> 45.2</TD><TD>     2.956</TD><TD> 7.26</TD><TD>    1.125</TD><TD>    0.981</TD><TD>  0.0981</TD><TD>  0.0855</TD></TR>
+    <TR><TD>        48</TD><TD>   106.148</TD><TD>   701.282</TD><TD>138.4621691</TD><TD>+30.0246107</TD><TD> 18.6391</TD><TD>  0.0554</TD><TD>       30</TD><TD>    8.78</TD><TD> 0.009060529</TD><TD> 0.03</TD><TD>    35.02428</TD><TD>   0.463</TD><TD> 36.7</TD><TD>     3.090</TD><TD> 5.21</TD><TD>    2.170</TD><TD>    1.166</TD><TD>  0.0906</TD><TD>  0.0474</TD></TR>
+    <TR><TD>        49</TD><TD>   605.787</TD><TD>   692.942</TD><TD>138.3986906</TD><TD>+30.0237086</TD><TD> 17.2632</TD><TD>  0.0123</TD><TD>       50</TD><TD>    2.46</TD><TD>  0.04823317</TD><TD> 0.97</TD><TD>    124.3661</TD><TD>   0.020</TD><TD> 80.6</TD><TD>     1.671</TD><TD> 4.27</TD><TD>    1.544</TD><TD>    1.513</TD><TD>  0.0199</TD><TD>  0.0190</TD></TR>
+    <TR><TD>        50</TD><TD>   599.602</TD><TD>   682.403</TD><TD>138.3994764</TD><TD>+30.0225493</TD><TD> 17.0790</TD><TD>  0.0244</TD><TD>       90</TD><TD>    7.34</TD><TD>   0.0517006</TD><TD> 0.29</TD><TD>    147.3684</TD><TD>   0.222</TD><TD>-17.3</TD><TD>     5.630</TD><TD> 6.16</TD><TD>    2.812</TD><TD>    2.189</TD><TD>  0.0561</TD><TD>  0.0430</TD></TR>
+    <TR><TD>        51</TD><TD>   481.751</TD><TD>   686.807</TD><TD>138.4144489</TD><TD>+30.0230328</TD><TD> 16.1753</TD><TD>  0.0039</TD><TD>       79</TD><TD>    2.48</TD><TD>  0.04678154</TD><TD> 0.98</TD><TD>    338.7578</TD><TD>   0.023</TD><TD> 21.2</TD><TD>     1.544</TD><TD> 3.41</TD><TD>    1.648</TD><TD>    1.610</TD><TD>  0.0100</TD><TD>  0.0097</TD></TR>
+    <TR><TD>        52</TD><TD>   519.961</TD><TD>   676.908</TD><TD>138.4095944</TD><TD>+30.0219444</TD><TD> 19.1377</TD><TD>  0.0663</TD><TD>       15</TD><TD>    3.00</TD><TD>  0.05251636</TD><TD> 0.55</TD><TD>    22.12771</TD><TD>   0.122</TD><TD> 22.2</TD><TD>     1.913</TD><TD> 5.74</TD><TD>    1.167</TD><TD>    1.024</TD><TD>  0.0546</TD><TD>  0.0502</TD></TR>
+    <TR><TD>        53</TD><TD>    82.405</TD><TD>   663.960</TD><TD>138.4651828</TD><TD>+30.0205038</TD><TD> 18.8397</TD><TD>  0.0649</TD><TD>       23</TD><TD>    5.87</TD><TD> 0.009314717</TD><TD> 0.13</TD><TD>      29.114</TD><TD>   0.137</TD><TD>-36.0</TD><TD>     2.688</TD><TD> 5.84</TD><TD>    1.502</TD><TD>    1.295</TD><TD>  0.0687</TD><TD>  0.0579</TD></TR>
+    <TR><TD>        54</TD><TD>  1034.121</TD><TD>   640.013</TD><TD>138.3442751</TD><TD>+30.0178752</TD><TD> 18.6281</TD><TD>  0.0322</TD><TD>       22</TD><TD>    2.55</TD><TD> 0.009412925</TD><TD> 0.91</TD><TD>    35.37934</TD><TD>   0.110</TD><TD>-24.2</TD><TD>     1.486</TD><TD> 4.14</TD><TD>    1.249</TD><TD>    1.111</TD><TD>  0.0341</TD><TD>  0.0280</TD></TR>
+    <TR><TD>        55</TD><TD>  1008.902</TD><TD>   630.653</TD><TD>138.3474794</TD><TD>+30.0168470</TD><TD> 16.5580</TD><TD>  0.0052</TD><TD>       64</TD><TD>    2.48</TD><TD>  0.01028442</TD><TD> 0.98</TD><TD>    238.1237</TD><TD>   0.031</TD><TD> -4.7</TD><TD>     1.543</TD><TD> 3.28</TD><TD>    1.622</TD><TD>    1.573</TD><TD>  0.0127</TD><TD>  0.0120</TD></TR>
+    <TR><TD>        56</TD><TD>   665.746</TD><TD>   606.956</TD><TD>138.3910736</TD><TD>+30.0142500</TD><TD> 14.9723</TD><TD>  0.0101</TD><TD>      665</TD><TD>   20.70</TD><TD>  0.03943429</TD><TD> 0.00</TD><TD>    1025.856</TD><TD>   0.197</TD><TD>  3.9</TD><TD>    16.014</TD><TD> 6.26</TD><TD>    7.836</TD><TD>    6.296</TD><TD>  0.0612</TD><TD>  0.0498</TD></TR>
+    <TR><TD>        57</TD><TD>   724.785</TD><TD>   613.558</TD><TD>138.3835735</TD><TD>+30.0149755</TD><TD> 19.3337</TD><TD>  0.0823</TD><TD>       10</TD><TD>    3.35</TD><TD>  0.03188621</TD><TD> 0.42</TD><TD>    18.47248</TD><TD>   0.239</TD><TD> 55.6</TD><TD>     2.894</TD><TD> 7.09</TD><TD>    1.039</TD><TD>    0.791</TD><TD>  0.0820</TD><TD>  0.0627</TD></TR>
+    <TR><TD>        58</TD><TD>   890.412</TD><TD>   609.308</TD><TD>138.3625330</TD><TD>+30.0145039</TD><TD> 15.3240</TD><TD>  0.0017</TD><TD>      127</TD><TD>    2.46</TD><TD>  0.01511423</TD><TD> 0.98</TD><TD>    741.9861</TD><TD>   0.044</TD><TD> 34.8</TD><TD>     1.537</TD><TD> 3.00</TD><TD>    1.794</TD><TD>    1.715</TD><TD>  0.0069</TD><TD>  0.0063</TD></TR>
+    <TR><TD>        59</TD><TD>    63.313</TD><TD>   587.858</TD><TD>138.4676025</TD><TD>+30.0121314</TD><TD> 17.6044</TD><TD>  0.0401</TD><TD>       58</TD><TD>   13.29</TD><TD> 0.009991764</TD><TD> 0.01</TD><TD>    90.83137</TD><TD>   0.259</TD><TD> 48.0</TD><TD>     6.042</TD><TD> 6.76</TD><TD>    2.671</TD><TD>    1.979</TD><TD>  0.0844</TD><TD>  0.0597</TD></TR>
+    <TR><TD>        60</TD><TD>   273.082</TD><TD>   586.303</TD><TD>138.4409549</TD><TD>+30.0119715</TD><TD> 19.8111</TD><TD>  0.1025</TD><TD>       13</TD><TD>    5.34</TD><TD>  0.01756582</TD><TD> 0.47</TD><TD>     11.9009</TD><TD>   0.464</TD><TD> 88.8</TD><TD>     1.631</TD><TD> 5.17</TD><TD>    1.408</TD><TD>    0.755</TD><TD>  0.0968</TD><TD>  0.0475</TD></TR>
+    <TR><TD>        61</TD><TD>   696.605</TD><TD>   574.389</TD><TD>138.3871539</TD><TD>+30.0106673</TD><TD> 19.2336</TD><TD>  0.0768</TD><TD>       12</TD><TD>    2.26</TD><TD>  0.04482071</TD><TD> 0.39</TD><TD>    20.25655</TD><TD>   0.092</TD><TD> 46.5</TD><TD>     2.482</TD><TD> 6.85</TD><TD>    1.020</TD><TD>    0.926</TD><TD>  0.0631</TD><TD>  0.0550</TD></TR>
+    <TR><TD>        62</TD><TD>    10.433</TD><TD>   574.981</TD><TD>138.4743188</TD><TD>+30.0107113</TD><TD> 19.7558</TD><TD>  0.0878</TD><TD>        9</TD><TD>    3.08</TD><TD>  0.00918474</TD><TD> 0.44</TD><TD>    12.52242</TD><TD>   0.244</TD><TD>  3.7</TD><TD>     1.851</TD><TD> 5.23</TD><TD>    1.028</TD><TD>    0.777</TD><TD>  0.0780</TD><TD>  0.0569</TD></TR>
+    <TR><TD>        63</TD><TD>   712.463</TD><TD>   563.788</TD><TD>138.3851397</TD><TD>+30.0095010</TD><TD> 13.8472</TD><TD>  0.0006</TD><TD>      325</TD><TD>    6.55</TD><TD>  0.04278523</TD><TD> 0.98</TD><TD>    2891.523</TD><TD>   0.314</TD><TD>-77.5</TD><TD>     2.636</TD><TD> 3.02</TD><TD>    3.031</TD><TD>    2.079</TD><TD>  0.0045</TD><TD>  0.0039</TD></TR>
+    <TR><TD>        64</TD><TD>   382.998</TD><TD>   569.522</TD><TD>138.4269915</TD><TD>+30.0101294</TD><TD> 17.8691</TD><TD>  0.0430</TD><TD>       37</TD><TD>   10.62</TD><TD>   0.0501304</TD><TD> 0.00</TD><TD>    71.18267</TD><TD>   0.690</TD><TD>  1.4</TD><TD>     7.152</TD><TD> 7.38</TD><TD>    3.184</TD><TD>    0.988</TD><TD>  0.1374</TD><TD>  0.0402</TD></TR>
+    <TR><TD>        65</TD><TD>   360.028</TD><TD>   561.590</TD><TD>138.4299091</TD><TD>+30.0092562</TD><TD> 17.5089</TD><TD>  0.0358</TD><TD>       71</TD><TD>   14.29</TD><TD>  0.04265535</TD><TD> 0.00</TD><TD>    99.18665</TD><TD>   0.654</TD><TD> 70.9</TD><TD>     6.408</TD><TD> 6.39</TD><TD>    4.050</TD><TD>    1.402</TD><TD>  0.1077</TD><TD>  0.0374</TD></TR>
+    <TR><TD>        66</TD><TD>    67.871</TD><TD>   556.433</TD><TD>138.4670210</TD><TD>+30.0086750</TD><TD> 16.4688</TD><TD>  0.0049</TD><TD>       69</TD><TD>    2.73</TD><TD> 0.009669556</TD><TD> 0.98</TD><TD>    258.5155</TD><TD>   0.068</TD><TD> 17.9</TD><TD>     1.624</TD><TD> 3.31</TD><TD>    1.683</TD><TD>    1.569</TD><TD>  0.0123</TD><TD>  0.0106</TD></TR>
+    <TR><TD>        67</TD><TD>   118.596</TD><TD>   535.633</TD><TD>138.4605761</TD><TD>+30.0063901</TD><TD> 17.4498</TD><TD>  0.0124</TD><TD>       47</TD><TD>    2.55</TD><TD>  0.01091114</TD><TD> 0.97</TD><TD>    104.7365</TD><TD>   0.059</TD><TD> 75.5</TD><TD>     1.643</TD><TD> 3.80</TD><TD>    1.518</TD><TD>    1.429</TD><TD>  0.0207</TD><TD>  0.0185</TD></TR>
+    <TR><TD>        68</TD><TD>   494.350</TD><TD>   528.486</TD><TD>138.4128458</TD><TD>+30.0056177</TD><TD> 16.6862</TD><TD>  0.0195</TD><TD>       30</TD><TD>   11.21</TD><TD>    0.145426</TD><TD> 0.00</TD><TD>    42.08728</TD><TD>   0.117</TD><TD> 63.5</TD><TD>    11.926</TD><TD> 9.10</TD><TD>    2.061</TD><TD>    1.820</TD><TD>  0.0928</TD><TD>  0.0830</TD></TR>
+    <TR><TD>        69</TD><TD>  1085.492</TD><TD>   518.070</TD><TD>138.3377571</TD><TD>+30.0044587</TD><TD> 13.4599</TD><TD>  0.0004</TD><TD>      365</TD><TD>    3.53</TD><TD>  0.01033226</TD><TD> 0.98</TD><TD>    4130.835</TD><TD>   0.137</TD><TD>-65.8</TD><TD>     1.868</TD><TD> 2.74</TD><TD>    2.471</TD><TD>    2.132</TD><TD>  0.0033</TD><TD>  0.0031</TD></TR>
+    <TR><TD>        70</TD><TD>   885.308</TD><TD>   521.142</TD><TD>138.3631850</TD><TD>+30.0048059</TD><TD> 19.3590</TD><TD>  0.0880</TD><TD>       12</TD><TD>    6.47</TD><TD>  0.01668086</TD><TD> 0.42</TD><TD>    18.04747</TD><TD>   0.491</TD><TD>-56.7</TD><TD>     2.732</TD><TD> 6.22</TD><TD>    1.519</TD><TD>    0.774</TD><TD>  0.1132</TD><TD>  0.0580</TD></TR>
+    <TR><TD>        71</TD><TD>   550.085</TD><TD>   473.810</TD><TD>138.4057656</TD><TD>+29.9996039</TD><TD> 13.8748</TD><TD>  0.0043</TD><TD>     1585</TD><TD>    8.78</TD><TD>   0.1542848</TD><TD> 0.03</TD><TD>    2123.223</TD><TD>   0.366</TD><TD>-21.4</TD><TD>    17.576</TD><TD> 5.42</TD><TD>   11.832</TD><TD>    7.503</TD><TD>  0.0445</TD><TD>  0.0291</TD></TR>
+    <TR><TD>        72</TD><TD>   425.604</TD><TD>   967.907</TD><TD>138.4215894</TD><TD>+30.0539528</TD><TD> 13.6350</TD><TD>  0.0003</TD><TD>      304</TD><TD>    2.29</TD><TD>  0.01271768</TD><TD> 0.97</TD><TD>    3515.745</TD><TD>   0.015</TD><TD> 31.8</TD><TD>     1.439</TD><TD> 2.55</TD><TD>    1.974</TD><TD>    1.944</TD><TD>  0.0032</TD><TD>  0.0031</TD></TR>
+    <TR><TD>        73</TD><TD>   969.479</TD><TD>   473.711</TD><TD>138.3524957</TD><TD>+29.9995851</TD><TD> 19.6074</TD><TD>  0.0870</TD><TD>       12</TD><TD>    2.99</TD><TD>  0.01323581</TD><TD> 0.46</TD><TD>    14.35622</TD><TD>   0.023</TD><TD> 32.9</TD><TD>     1.860</TD><TD> 5.63</TD><TD>    0.968</TD><TD>    0.946</TD><TD>  0.0643</TD><TD>  0.0630</TD></TR>
+    <TR><TD>        74</TD><TD>    10.564</TD><TD>   961.939</TD><TD>138.4743346</TD><TD>+30.0532766</TD><TD> 19.2023</TD><TD>  0.0847</TD><TD>        8</TD><TD>    6.18</TD><TD> 0.007909872</TD><TD> 0.49</TD><TD>    20.84792</TD><TD>   0.179</TD><TD>-85.4</TD><TD>     3.297</TD><TD> 7.22</TD><TD>    1.144</TD><TD>    0.939</TD><TD>  0.0872</TD><TD>  0.0713</TD></TR>
+    <TR><TD>        75</TD><TD>   949.294</TD><TD>   467.846</TD><TD>138.3550598</TD><TD>+29.9989409</TD><TD> 17.8762</TD><TD>  0.0202</TD><TD>       36</TD><TD>    3.59</TD><TD>  0.01428803</TD><TD> 0.97</TD><TD>    70.71468</TD><TD>   0.172</TD><TD> 72.5</TD><TD>     1.899</TD><TD> 4.07</TD><TD>    1.637</TD><TD>    1.355</TD><TD>  0.0281</TD><TD>  0.0244</TD></TR>
+    <TR><TD>        76</TD><TD>  1046.427</TD><TD>   366.113</TD><TD>138.3427287</TD><TD>+29.9877457</TD><TD> 19.8067</TD><TD>  0.0799</TD><TD>       10</TD><TD>    2.79</TD><TD> 0.009408706</TD><TD> 0.50</TD><TD>    11.94826</TD><TD>   0.157</TD><TD>-11.9</TD><TD>     1.513</TD><TD> 4.44</TD><TD>    1.009</TD><TD>    0.851</TD><TD>  0.0633</TD><TD>  0.0546</TD></TR>
+    <TR><TD>        77</TD><TD>   370.352</TD><TD>   490.865</TD><TD>138.4285953</TD><TD>+30.0014767</TD><TD> 19.2860</TD><TD>  0.0845</TD><TD>       13</TD><TD>    5.49</TD><TD>  0.07019779</TD><TD> 0.58</TD><TD>    19.30144</TD><TD>   0.249</TD><TD> 88.1</TD><TD>     2.914</TD><TD> 6.57</TD><TD>    1.217</TD><TD>    0.914</TD><TD>  0.0887</TD><TD>  0.0675</TD></TR>
+    <TR><TD>        78</TD><TD>  1049.089</TD><TD>   338.580</TD><TD>138.3423923</TD><TD>+29.9847169</TD><TD> 19.2575</TD><TD>  0.0779</TD><TD>       16</TD><TD>    4.34</TD><TD> 0.008607182</TD><TD> 0.56</TD><TD>    19.81542</TD><TD>   0.188</TD><TD>-17.2</TD><TD>     2.185</TD><TD> 5.89</TD><TD>    1.235</TD><TD>    1.003</TD><TD>  0.0702</TD><TD>  0.0544</TD></TR>
+    <TR><TD>        79</TD><TD>   275.758</TD><TD>   449.890</TD><TD>138.4406086</TD><TD>+29.9969662</TD><TD> 19.2889</TD><TD>  0.0902</TD><TD>       12</TD><TD>    5.21</TD><TD>  0.02433207</TD><TD> 0.33</TD><TD>     19.2496</TD><TD>   0.295</TD><TD>-69.6</TD><TD>     2.912</TD><TD> 6.92</TD><TD>    1.271</TD><TD>    0.896</TD><TD>  0.1006</TD><TD>  0.0707</TD></TR>
+    <TR><TD>        80</TD><TD>   884.991</TD><TD>   433.900</TD><TD>138.3632286</TD><TD>+29.9952093</TD><TD> 16.7390</TD><TD>  0.0061</TD><TD>       61</TD><TD>    2.49</TD><TD>  0.01650015</TD><TD> 0.98</TD><TD>    201.5526</TD><TD>   0.038</TD><TD> 18.0</TD><TD>     1.527</TD><TD> 3.42</TD><TD>    1.553</TD><TD>    1.494</TD><TD>  0.0126</TD><TD>  0.0119</TD></TR>
+    <TR><TD>        81</TD><TD>   558.425</TD><TD>   311.011</TD><TD>138.4047052</TD><TD>+29.9816960</TD><TD> 19.1262</TD><TD>  0.0695</TD><TD>        7</TD><TD>    2.49</TD><TD>   0.1464472</TD><TD> 0.37</TD><TD>    22.36227</TD><TD>   0.338</TD><TD>-28.7</TD><TD>     3.813</TD><TD> 8.10</TD><TD>    0.998</TD><TD>    0.660</TD><TD>  0.0908</TD><TD>  0.0555</TD></TR>
+    <TR><TD>        82</TD><TD>   453.069</TD><TD>   866.796</TD><TD>138.4180968</TD><TD>+30.0428311</TD><TD> 18.3062</TD><TD>  0.0231</TD><TD>       24</TD><TD>    2.25</TD><TD>   0.0197412</TD><TD> 0.93</TD><TD>    47.58986</TD><TD>   0.065</TD><TD>-56.4</TD><TD>     1.409</TD><TD> 3.94</TD><TD>    1.231</TD><TD>    1.151</TD><TD>  0.0265</TD><TD>  0.0228</TD></TR>
+    <TR><TD>        83</TD><TD>   541.281</TD><TD>   281.793</TD><TD>138.4068821</TD><TD>+29.9784820</TD><TD> 16.8538</TD><TD>  0.0178</TD><TD>       79</TD><TD>    4.22</TD><TD>   0.1427869</TD><TD> 0.78</TD><TD>    181.3412</TD><TD>   0.114</TD><TD> 14.8</TD><TD>     4.807</TD><TD> 6.26</TD><TD>    2.338</TD><TD>    2.071</TD><TD>  0.0389</TD><TD>  0.0332</TD></TR>
+    <TR><TD>        84</TD><TD>   533.840</TD><TD>   240.275</TD><TD>138.4078267</TD><TD>+29.9739150</TD><TD> 16.7089</TD><TD>  0.0225</TD><TD>       84</TD><TD>    9.30</TD><TD>   0.1139354</TD><TD> 0.00</TD><TD>    207.2243</TD><TD>   0.148</TD><TD> 46.6</TD><TD>    10.063</TD><TD> 7.42</TD><TD>    2.901</TD><TD>    2.470</TD><TD>  0.0666</TD><TD>  0.0560</TD></TR>
+    <TR><TD>        85</TD><TD>    51.614</TD><TD>   414.427</TD><TD>138.4690750</TD><TD>+29.9930532</TD><TD> 17.5879</TD><TD>  0.0263</TD><TD>       50</TD><TD>    3.98</TD><TD> 0.005568637</TD><TD> 0.89</TD><TD>    92.22154</TD><TD>   0.298</TD><TD>-57.6</TD><TD>     3.158</TD><TD> 5.53</TD><TD>    2.221</TD><TD>    1.560</TD><TD>  0.0488</TD><TD>  0.0319</TD></TR>
+    <TR><TD>        86</TD><TD>  1201.533</TD><TD>   230.658</TD><TD>138.3230414</TD><TD>+29.9728358</TD><TD> 18.9927</TD><TD>  0.0688</TD><TD>       16</TD><TD>    5.11</TD><TD> 0.002682221</TD><TD> 0.65</TD><TD>     25.2873</TD><TD>   0.283</TD><TD>-30.1</TD><TD>     2.846</TD><TD> 5.96</TD><TD>    1.474</TD><TD>    1.057</TD><TD>  0.0824</TD><TD>  0.0565</TD></TR>
+    <TR><TD>        87</TD><TD>   839.146</TD><TD>   225.943</TD><TD>138.3690582</TD><TD>+29.9723355</TD><TD> 19.0199</TD><TD>  0.0501</TD><TD>       17</TD><TD>    2.51</TD><TD>   0.0164765</TD><TD> 0.55</TD><TD>    24.66244</TD><TD>   0.076</TD><TD>-40.5</TD><TD>     1.691</TD><TD> 4.64</TD><TD>    1.167</TD><TD>    1.078</TD><TD>  0.0467</TD><TD>  0.0423</TD></TR>
+    <TR><TD>        88</TD><TD>   741.487</TD><TD>   218.050</TD><TD>138.3814593</TD><TD>+29.9714694</TD><TD> 19.0422</TD><TD>  0.0739</TD><TD>       15</TD><TD>    4.42</TD><TD>  0.03344779</TD><TD> 0.56</TD><TD>    24.16236</TD><TD>   0.183</TD><TD> 28.0</TD><TD>     2.913</TD><TD> 6.49</TD><TD>    1.293</TD><TD>    1.056</TD><TD>  0.0773</TD><TD>  0.0626</TD></TR>
+    <TR><TD>        89</TD><TD>   788.419</TD><TD>  1173.931</TD><TD>138.3754754</TD><TD>+30.0766154</TD><TD> 17.3473</TD><TD>  0.0267</TD><TD>       89</TD><TD>   11.34</TD><TD>  0.00995045</TD><TD> 0.01</TD><TD>     115.096</TD><TD>   0.544</TD><TD> 73.0</TD><TD>     4.708</TD><TD> 5.14</TD><TD>    3.793</TD><TD>    1.730</TD><TD>  0.0743</TD><TD>  0.0340</TD></TR>
+    <TR><TD>        90</TD><TD>  1091.781</TD><TD>  1179.867</TD><TD>138.3369130</TD><TD>+30.0772559</TD><TD> 19.2036</TD><TD>  0.0897</TD><TD>       14</TD><TD>    5.40</TD><TD>  0.01673813</TD><TD> 0.53</TD><TD>    20.82472</TD><TD>   0.167</TD><TD> 39.9</TD><TD>     2.904</TD><TD> 6.91</TD><TD>    1.262</TD><TD>    1.051</TD><TD>  0.0901</TD><TD>  0.0747</TD></TR>
+    <TR><TD>        91</TD><TD>   289.302</TD><TD>  1133.711</TD><TD>138.4389189</TD><TD>+30.0721870</TD><TD> 17.3729</TD><TD>  0.0109</TD><TD>       44</TD><TD>    2.61</TD><TD> 0.009604877</TD><TD> 0.97</TD><TD>    112.4225</TD><TD>   0.057</TD><TD> 44.0</TD><TD>     1.598</TD><TD> 3.58</TD><TD>    1.527</TD><TD>    1.439</TD><TD>  0.0188</TD><TD>  0.0170</TD></TR>
+    <TR><TD>        92</TD><TD>  1074.094</TD><TD>   860.677</TD><TD>138.3391823</TD><TD>+30.0421461</TD><TD> 19.2277</TD><TD>  0.0694</TD><TD>       16</TD><TD>    3.89</TD><TD>  0.01251216</TD><TD> 0.64</TD><TD>    20.36683</TD><TD>   0.155</TD><TD> 61.3</TD><TD>     2.189</TD><TD> 5.31</TD><TD>    1.247</TD><TD>    1.053</TD><TD>  0.0680</TD><TD>  0.0560</TD></TR>
+    <TR><TD>        93</TD><TD>   350.541</TD><TD>  1110.697</TD><TD>138.4311340</TD><TD>+30.0696576</TD><TD> 20.1663</TD><TD>  0.0963</TD><TD>        9</TD><TD>    3.05</TD><TD> 0.006575869</TD><TD> 0.47</TD><TD>    8.579825</TD><TD>   0.244</TD><TD> 51.9</TD><TD>     1.510</TD><TD> 3.91</TD><TD>    1.043</TD><TD>    0.788</TD><TD>  0.0896</TD><TD>  0.0684</TD></TR>
+    <TR><TD>        94</TD><TD>   895.409</TD><TD>  1066.460</TD><TD>138.3618796</TD><TD>+30.0647905</TD><TD> 18.2586</TD><TD>  0.0250</TD><TD>       27</TD><TD>    2.38</TD><TD>  0.01112539</TD><TD> 0.96</TD><TD>    49.72155</TD><TD>   0.003</TD><TD> 78.5</TD><TD>     1.614</TD><TD> 4.22</TD><TD>    1.258</TD><TD>    1.255</TD><TD>  0.0269</TD><TD>  0.0268</TD></TR>
+    <TR><TD>        95</TD><TD>   312.655</TD><TD>   941.303</TD><TD>138.4359425</TD><TD>+30.0510230</TD><TD> 19.6620</TD><TD>  0.1026</TD><TD>        9</TD><TD>    3.22</TD><TD> 0.008444507</TD><TD> 0.49</TD><TD>    13.65172</TD><TD>   0.133</TD><TD>-42.2</TD><TD>     2.020</TD><TD> 6.40</TD><TD>    0.999</TD><TD>    0.866</TD><TD>  0.0764</TD><TD>  0.0649</TD></TR>
+    <TR><TD>        96</TD><TD>   234.423</TD><TD>   865.638</TD><TD>138.4458805</TD><TD>+30.0426967</TD><TD> 20.3247</TD><TD>  0.1041</TD><TD>        8</TD><TD>    4.79</TD><TD> 0.008449705</TD><TD> 0.49</TD><TD>    7.415426</TD><TD>   0.022</TD><TD> 16.6</TD><TD>     1.538</TD><TD> 3.98</TD><TD>    0.868</TD><TD>    0.849</TD><TD>  0.0883</TD><TD>  0.0859</TD></TR>
+    <TR><TD>        97</TD><TD>   582.411</TD><TD>  1073.418</TD><TD>138.4016617</TD><TD>+30.0655609</TD><TD> 15.2145</TD><TD>  0.0015</TD><TD>      119</TD><TD>    2.97</TD><TD>  0.01462366</TD><TD> 0.98</TD><TD>    820.7504</TD><TD>   0.100</TD><TD>-67.1</TD><TD>     1.635</TD><TD> 3.04</TD><TD>    1.840</TD><TD>    1.655</TD><TD>  0.0062</TD><TD>  0.0056</TD></TR>
+    <TR><TD>        98</TD><TD>   513.968</TD><TD>  1053.574</TD><TD>138.4103607</TD><TD>+30.0633776</TD><TD> 17.7319</TD><TD>  0.0135</TD><TD>       35</TD><TD>    2.34</TD><TD>  0.01388749</TD><TD> 0.95</TD><TD>    80.76759</TD><TD>   0.047</TD><TD> 66.7</TD><TD>     1.415</TD><TD> 3.52</TD><TD>    1.351</TD><TD>    1.288</TD><TD>  0.0206</TD><TD>  0.0183</TD></TR>
+    <TR><TD>        99</TD><TD>  1111.915</TD><TD>  1045.413</TD><TD>138.3343633</TD><TD>+30.0624648</TD><TD> 17.7709</TD><TD>  0.0149</TD><TD>       35</TD><TD>    2.49</TD><TD>  0.01113019</TD><TD> 0.96</TD><TD>    77.92036</TD><TD>   0.064</TD><TD>-19.7</TD><TD>     1.519</TD><TD> 3.64</TD><TD>    1.407</TD><TD>    1.317</TD><TD>  0.0224</TD><TD>  0.0195</TD></TR>
+    <TR><TD>       100</TD><TD>   582.643</TD><TD>  1117.777</TD><TD>138.4016324</TD><TD>+30.0704404</TD><TD> 20.0183</TD><TD>  0.0796</TD><TD>        9</TD><TD>    2.41</TD><TD>  0.01247205</TD><TD> 0.43</TD><TD>    9.832496</TD><TD>   0.294</TD><TD>-41.4</TD><TD>     1.263</TD><TD> 3.87</TD><TD>    1.004</TD><TD>    0.709</TD><TD>  0.0720</TD><TD>  0.0477</TD></TR>
+    <TR><TD>       101</TD><TD>   811.696</TD><TD>  1065.491</TD><TD>138.3725196</TD><TD>+30.0646864</TD><TD> 19.1251</TD><TD>  0.0582</TD><TD>       19</TD><TD>    3.92</TD><TD>  0.01279372</TD><TD> 0.59</TD><TD>    22.38429</TD><TD>   0.262</TD><TD>-72.7</TD><TD>     2.004</TD><TD> 4.57</TD><TD>    1.419</TD><TD>    1.048</TD><TD>  0.0641</TD><TD>  0.0485</TD></TR>
+    <TR><TD>       102</TD><TD>     9.537</TD><TD>  1057.645</TD><TD>138.4744733</TD><TD>+30.0638042</TD><TD> 18.8378</TD><TD>  0.0679</TD><TD>       11</TD><TD>    3.94</TD><TD> 0.008321959</TD><TD> 0.50</TD><TD>    29.16653</TD><TD>   0.270</TD><TD>-31.7</TD><TD>     3.898</TD><TD> 8.17</TD><TD>    1.213</TD><TD>    0.885</TD><TD>  0.0858</TD><TD>  0.0614</TD></TR>
+    <TR><TD>       103</TD><TD>   995.614</TD><TD>  1030.127</TD><TD>138.3491456</TD><TD>+30.0607897</TD><TD> 19.9676</TD><TD>  0.1067</TD><TD>        9</TD><TD>    3.24</TD><TD> 0.008307314</TD><TD> 0.49</TD><TD>     10.3032</TD><TD>   0.141</TD><TD>  7.0</TD><TD>     1.511</TD><TD> 5.02</TD><TD>    1.002</TD><TD>    0.860</TD><TD>  0.0725</TD><TD>  0.0624</TD></TR>
+    <TR><TD>       104</TD><TD>   346.993</TD><TD>   915.918</TD><TD>138.4315779</TD><TD>+30.0482319</TD><TD> 18.3221</TD><TD>  0.0421</TD><TD>       32</TD><TD>    3.29</TD><TD>  0.01095713</TD><TD> 0.85</TD><TD>    46.89869</TD><TD>   0.017</TD><TD> 45.0</TD><TD>     2.703</TD><TD> 5.84</TD><TD>    1.457</TD><TD>    1.432</TD><TD>  0.0456</TD><TD>  0.0456</TD></TR>
+    <TR><TD>       105</TD><TD>   326.701</TD><TD>   935.071</TD><TD>138.4341573</TD><TD>+30.0503380</TD><TD> 18.7911</TD><TD>  0.0607</TD><TD>       16</TD><TD>    3.68</TD><TD> 0.009318905</TD><TD> 0.56</TD><TD>    30.44794</TD><TD>   0.118</TD><TD>-39.9</TD><TD>     2.761</TD><TD> 6.51</TD><TD>    1.285</TD><TD>    1.133</TD><TD>  0.0611</TD><TD>  0.0514</TD></TR>
+    </TABLEDATA></DATA>
+  </TABLE>
+ <RESOURCE ID="MetaData" name="MetaData">
+  <DESCRIPTION>SExtractor meta-data</DESCRIPTION>
+  <INFO name="QUERY_STATUS" value="OK" />
+  <PARAM name="Software" datatype="char" arraysize="*" ucd="meta.title;meta.software" value="SExtractor"/>
+  <PARAM name="Version" datatype="char" arraysize="*" ucd="meta.version;meta.software" value="2.8.6"/>
+  <PARAM name="Soft_URL" datatype="char" arraysize="*" ucd="meta.ref.url;meta.software" value="http://astromatic.iap.fr/software/sextractor"/>
+  <PARAM name="Soft_Auth" datatype="char" arraysize="*" ucd="meta.bib.author;meta.software" value="Emmanuel Bertin"/>
+  <PARAM name="Soft_Ref" datatype="char" arraysize="*" ucd="meta.bib.bibcode;meta.software" value="1996A&amp;AS..117..393B"/>
+  <PARAM name="NThreads" datatype="int" ucd="meta.number;meta.software" value="2"/>
+  <PARAM name="Date" datatype="char" arraysize="*" ucd="time.event.end;meta.software" value="2014-03-25"/>
+  <PARAM name="Time" datatype="char" arraysize="*" ucd="time.event.end;meta.software" value="11:35:11"/>
+  <PARAM name="Duration" datatype="float" ucd="time.event;meta.software" value="4" unit="s"/>
+  <PARAM name="User" datatype="char" arraysize="*" ucd="meta.curation" value="lourdes"/>
+  <PARAM name="Host" datatype="char" arraysize="*" ucd="meta.curation" value="(null)"/>
+  <PARAM name="Path" datatype="char" arraysize="*" ucd="meta.dataset" value="/tmp/usecase7702848989683155695dir"/>
+  <PARAM name="Image_Name" datatype="char" arraysize="*" ucd="obs.image;meta.fits" value="/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/images/HCG37//J091335.66+300051.1-z.fits"/>
+  <TABLE ID="Extension_Data" name="Extension_Data">
+   <DESCRIPTION>Data gathered by SExtractor for every FITS extension</DESCRIPTION>
+   <!-- NExtensions may be 0 if an error occurred early in the processing -->
+   <PARAM name="NExtensions" datatype="int" ucd="meta.number;meta.dataset" value="1"/>
+   <!-- CurrExtension may differ fromq n_extensions if an error occurred -->
+   <PARAM name="CurrExtension" datatype="int" ucd="meta.number;meta.dataset" value="1"/>
+   <FIELD name="Extension" datatype="int" ucd="meta.record"/>
+   <FIELD name="Date" datatype="char" arraysize="*" ucd="meta.record;time.event.end"/>
+   <FIELD name="Time" datatype="char" arraysize="*" ucd="meta.record;time.event.end"/>
+   <FIELD name="Duration" datatype="float" ucd="meta.record;time.event.end"/>
+   <FIELD name="NDetect" datatype="int" ucd="meta.number;src.sample"/>
+   <FIELD name="NSextracted" datatype="int" ucd="meta.number;src.sample"/>
+   <FIELD name="Image_Ident" datatype="char" arraysize="*" ucd="meta.id;obs"/>
+   <FIELD name="Background_Mean" datatype="float" arraysize="1" ucd="instr.skyLevel;obs.image;stat.median" unit="ct"/>
+   <FIELD name="Background_StDev" datatype="float" arraysize="1" ucd="stat.stdev;obs.image;stat.median" unit="ct"/>
+   <FIELD name="Threshold" datatype="float" arraysize="1" ucd="instr.sensitivity;obs.image;stat.median" unit="ct"/>
+   <FIELD name="Weight_Scaling" datatype="float" arraysize="1" ucd="arith.factor;obs.image;stat.median"/>
+   <FIELD name="Pixel_Scale" datatype="float" arraysize="1" ucd="instr.scale;obs.image;stat.mean" unit="arcsec"/>
+   <FIELD name="Epoch" datatype="float" arraysize="1" ucd="time.epoch;obs" unit="yr"/>
+   <FIELD name="Gain" datatype="float" arraysize="1" ucd="instr.param;obs.param"/>
+   <FIELD name="Satur_Level" datatype="float" arraysize="1" ucd="instr.saturation;phot.count" unit="ct"/>
+   <DATA><TABLEDATA>
+    <TR>
+     <TD>1</TD><TD>25/03/2014</TD><TD>11:35:11</TD><TD>4</TD><TD>133</TD><TD>105</TD>
+     <TD>26 S</TD><TD>0</TD>
+     <TD>0.121867</TD><TD>0</TD><TD>0.304668</TD><TD>0.396</TD><TD>0.000000</TD>
+     <TD>0</TD><TD>49988.5</TD>
+    </TR>
+   </TABLEDATA></DATA>
+  </TABLE>
+  <TABLE ID="Warnings" name="Warnings">
+   <DESCRIPTION>SExtractor warnings (limited to the last 1000)</DESCRIPTION>
+   <FIELD name="Date" datatype="char" arraysize="*" ucd="meta;time.event.end"/>
+   <FIELD name="Time" datatype="char" arraysize="*" ucd="meta;time.event.end"/>
+   <FIELD name="Msg" datatype="char" arraysize="*" ucd="meta"/>
+   <DATA><TABLEDATA>
+   </TABLEDATA></DATA>
+  </TABLE>
+  <RESOURCE ID="Config" name="Config">
+   <DESCRIPTION>SExtractor configuration</DESCRIPTION>
+   <PARAM name="Command_Line" datatype="char" arraysize="*" ucd="obs.param" value="sex /home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/images/HCG37//J091335.66+300051.1-z.fits -c /home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG37_z.sex"/>
+   <PARAM name="Prefs_Name" datatype="char" arraysize="*" ucd="obs.param;meta.file" value="/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG37_z.sex"/>
+   <PARAM name="Catalog_Type" datatype="char" arraysize="*" ucd="meta" value="ASCII_VOTABLE"/>
+   <PARAM name="Catalog_Name" datatype="char" arraysize="*" ucd="meta.dataset;meta.file" value="/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG37_z.cat"/>
+   <PARAM name="Parameters_Name" datatype="char" arraysize="*" ucd="obs.param;meta.file" value="/home/lourdes/src/Size-of-HCGs-vs-CIGs/config/HCG.param"/>
+   <PARAM name="Detect_Type" datatype="char" arraysize="*" ucd="meta.code;instr.det;obs.param" value="CCD"/>
+   <PARAM name="Detect_MinArea" datatype="int" ucd="phys.area;obs.param" value="10" unit="pix2"/>
+   <PARAM name="Thresh_Type" datatype="char" arraysize="*" ucd="meta.code;instr.sensitivity;obs.param" value="RELATIVE"/>
+   <PARAM name="Detect_Thresh" datatype="float" arraysize="1" ucd="instr.sensitivity;obs.param" value="2.5"/>
+   <PARAM name="Analysis_Thresh" datatype="float" arraysize="1" ucd="instr.sensitivity;obs.param" value="3"/>
+   <PARAM name="Filter" datatype="boolean" ucd="meta.code;obs.param" value="T"/>
+   <PARAM name="Filter_Name" datatype="char" arraysize="*" ucd="meta.dataset;meta.file;obs.param" value="/home/lourdes/src/Size-of-HCGs-vs-CIGs/config/default.conv"/>
+   <PARAM name="Deblend_NThresh" datatype="int" ucd="meta.number;obs.param" value="5"/>
+   <PARAM name="Deblend_MinCont" datatype="float" ucd="obs.param;arith.ratio" value="0.005"/>
+   <PARAM name="Clean" datatype="boolean" ucd="meta.code;obs.param" value="T"/>
+   <PARAM name="Clean_Param" datatype="float" ucd="meta" value="1"/>
+   <PARAM name="Mask_Type" datatype="char" arraysize="*" ucd="meta.code;obs.param;" value="CORRECT"/>
+   <PARAM name="Weight_Type" datatype="char" arraysize="*" ucd="meta.code;obs.param" value="NONE"/>
+   <PARAM name="Weight_Thresh" datatype="float" arraysize="0" ucd="instr.sensitivity;obs.param" value="0"/>
+   <PARAM name="Weight_Gain" datatype="boolean" ucd="meta.code;obs.param" value="T"/>
+   <PARAM name="Phot_Apertures" datatype="float" arraysize="1" ucd="obs.param" value="5" unit="pix"/>
+   <PARAM name="Phot_AutoParams" datatype="float" arraysize="2" ucd="obs.param;phot" value="2.5 1.5"/>
+   <PARAM name="Phot_PetroParams" datatype="float" arraysize="2" ucd="obs.param;phot" value="2 3.5"/>
+   <PARAM name="Phot_AutoApers" datatype="float" arraysize="2" ucd="obs.param;phot" value="0 0"/>
+   <PARAM name="Phot_FluxFrac" datatype="float" arraysize="1" ucd="arith.factor;obs.param;phot" value="0.5"/>
+   <PARAM name="Satur_Level" datatype="float" ucd="instr.saturation;phot.count;obs.param" value="10" unit="ct"/>
+   <PARAM name="Mag_ZeroPoint" datatype="float" ucd="phot.calib;phot.mag;obs.param" value="22.5" unit="mag"/>
+   <PARAM name="Mag_Gamma" datatype="float" ucd="phot.calib;obs.param" value="4"/>
+   <PARAM name="Gain" datatype="float" ucd="instr.param;obs.param" value="1"/>
+   <PARAM name="Pixel_Scale" datatype="float" ucd="instr.scale;obs.param" value="0.396" unit="arcsec"/>
+   <PARAM name="Seeing_FWHM" datatype="float" ucd="instr.det.psf;stat.mean;obs.param" value="1.5" unit="pix"/>
+   <PARAM name="StarNNW_Name" datatype="char" arraysize="*" ucd="meta.dataset;meta.file;obs.param" value="/home/lourdes/src/Size-of-HCGs-vs-CIGs/config/default.nnw"/>
+   <PARAM name="Back_Size" datatype="int" arraysize="1" ucd="obs.param" value="64" unit="pix"/>
+   <PARAM name="Back_FilterSize" datatype="int" arraysize="1" ucd="obs.param" value="3"/>
+   <PARAM name="BackPhoto_Type" datatype="char" arraysize="*" ucd="meta.code;obs.param;" value="GLOBAL"/>
+   <PARAM name="BackPhoto_Thick" datatype="int" ucd="obs.param" value="24" unit="pix"/>
+   <PARAM name="Back_FiltThresh" datatype="float" ucd="phot.count;arith.ratio;obs.param" value="0"/>
+   <PARAM name="CheckImage_Type" datatype="char" arraysize="*" ucd="meta.code" value="APERTURES"/>
+   <PARAM name="CheckImage_Name" datatype="char" arraysize="*" ucd="meta.file" value="/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG37_seg_z.fits"/>
+   <PARAM name="Memory_ObjStack" datatype="int" ucd="meta.number;src;obs.param" value="3000"/>
+   <PARAM name="Memory_PixStack" datatype="int" ucd="meta.number;obs.param" value="300000"/>
+   <PARAM name="Memory_BufSize" datatype="int" ucd="meta.number;obs.param" value="1024"/>
+   <PARAM name="Assoc_Name" datatype="char" arraysize="*" ucd="meta.dataset;meta.file" value="sky.list"/>
+   <PARAM name="Assoc_Data" datatype="int" arraysize="3" ucd="meta.code;obs.param" value="2 3 4"/>
+   <PARAM name="Assoc_Params" datatype="int" arraysize="3" ucd="meta.code;obs.param" value="2 3 4"/>
+   <PARAM name="Assoc_Radius" datatype="float" ucd="phys.size.radius;obs.param" value="2" unit="pix"/>
+   <PARAM name="Assoc_Type" datatype="char" arraysize="*" ucd="meta.code;obs.param" value="NEAREST"/>
+   <PARAM name="AssocSelec_Type" datatype="char" arraysize="*" ucd="meta.code;obs.param" value="MATCHED"/>
+   <PARAM name="Verbose_Type" datatype="char" arraysize="*" ucd="meta.code" value="NORMAL"/>
+   <PARAM name="FITS_Unsigned" datatype="boolean" ucd="meta.code;obs.param" value="F"/>
+   <PARAM name="PSF_Name" datatype="char" arraysize="*" ucd="meta.dataset;meta.file;obs.param" value="default.psf"/>
+   <PARAM name="PSF_NMax" datatype="int" ucd="meta.number;obs.param" value="9"/>
+   <PARAM name="PSFDisplay_Type" datatype="char" arraysize="*" ucd="meta.code;obs.param" value="SPLIT"/>
+   <PARAM name="SOM_Name" datatype="char" arraysize="*" ucd="meta.dataset;meta.file;obs.param" value="default.som"/>
+  </RESOURCE>
+ </RESOURCE>
+</RESOURCE>
+</VOTABLE>

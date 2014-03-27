@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///usr/share/sextractor/sextractor.xsl"?>
+<VOTABLE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.1">
+<DESCRIPTION>produced by SExtractor</DESCRIPTION>
+<!-- VOTable description at http://www.ivoa.net/Documents/latest/VOT.html -->
+<RESOURCE ID="SExtractor" name="J095739.55+451421.8-z.fits">
+ <DESCRIPTION>Catalog of sources extracted with SExtractor</DESCRIPTION>
+ <INFO name="QUERY_STATUS" value="OK" />
+ <COOSYS ID="J2000" equinox="J2000" epoch="J2000" system="ICRS"/>
+ <TABLE ID="Source_List" name="J095739.55+451421.8-z.fits/out">
+  <DESCRIPTION>Table of sources detected in image</DESCRIPTION>
+  <!-- Now comes the definition of each SExtractor parameter -->
+  <FIELD name="NUMBER" ucd="meta.record" datatype="int" unit="">
+   <DESCRIPTION>Running object number</DESCRIPTION>
+  </FIELD>
+  <FIELD name="X_IMAGE" ucd="pos.cartesian.x;pos.barycenter;instr.det;meta.main" datatype="float" unit="pix">
+   <DESCRIPTION>Object position along x</DESCRIPTION>
+  </FIELD>
+  <FIELD name="Y_IMAGE" ucd="pos.cartesian.y;pos.barycenter;instr.det;meta.main" datatype="float" unit="pix">
+   <DESCRIPTION>Object position along y</DESCRIPTION>
+  </FIELD>
+  <FIELD name="ALPHA_SKY" ucd="pos.eq.ra;pos.barycenter" datatype="double" unit="deg">
+   <DESCRIPTION>Right ascension of barycenter (native)</DESCRIPTION>
+  </FIELD>
+  <FIELD name="DELTA_SKY" ucd="pos.eq.dec;pos.barycenter" datatype="double" unit="deg">
+   <DESCRIPTION>Declination of barycenter (native)</DESCRIPTION>
+  </FIELD>
+  <FIELD name="MAG_AUTO" ucd="phot.mag;meta.main" datatype="float" unit="mag">
+   <DESCRIPTION>Kron-like elliptical aperture magnitude</DESCRIPTION>
+  </FIELD>
+  <FIELD name="MAGERR_AUTO" ucd="stat.stdev;phot.mag;meta.main" datatype="float" unit="mag">
+   <DESCRIPTION>RMS error for AUTO magnitude</DESCRIPTION>
+  </FIELD>
+  <FIELD name="ISOAREA_IMAGE" ucd="phys.area" datatype="int" unit="pix2">
+   <DESCRIPTION>Isophotal area above Analysis threshold</DESCRIPTION>
+  </FIELD>
+  <FIELD name="FWHM_IMAGE" ucd="phys.size.diameter;instr.det.psf" datatype="float" unit="pix">
+   <DESCRIPTION>FWHM assuming a gaussian core</DESCRIPTION>
+  </FIELD>
+  <FIELD name="BACKGROUND" ucd="instr.skyLevel" datatype="float" unit="ct">
+   <DESCRIPTION>Background at centroid position</DESCRIPTION>
+  </FIELD>
+  <FIELD name="CLASS_STAR" ucd="src.class.starGalaxy" datatype="float" unit="">
+   <DESCRIPTION>S/G classifier output</DESCRIPTION>
+  </FIELD>
+  <FIELD name="FLUX_BEST" ucd="phot.flux" datatype="float" unit="ct">
+   <DESCRIPTION>Best of FLUX_AUTO and FLUX_ISOCOR</DESCRIPTION>
+  </FIELD>
+  <FIELD name="ELLIPTICITY" ucd="src.ellipticity;instr.det	" datatype="float" unit="">
+   <DESCRIPTION>1 - B_IMAGE/A_IMAGE</DESCRIPTION>
+  </FIELD>
+  <FIELD name="THETA_IMAGE" ucd="pos.posAng;instr.det;meta.main" datatype="float" unit="deg">
+   <DESCRIPTION>Position angle (CCW/x)</DESCRIPTION>
+  </FIELD>
+  <FIELD name="FLUX_RADIUS" ucd="phys.size.radius;instr.det" datatype="float" unit="pix">
+   <DESCRIPTION>Fraction-of-light radii</DESCRIPTION>
+  </FIELD>
+  <FIELD name="KRON_RADIUS" ucd="arith.factor;arith.ratio" datatype="float" unit="">
+   <DESCRIPTION>Kron apertures in units of A or B</DESCRIPTION>
+  </FIELD>
+  <FIELD name="A_IMAGE" ucd="phys.size.smajAxis;instr.det;meta.main" datatype="float" unit="pix">
+   <DESCRIPTION>Profile RMS along major axis</DESCRIPTION>
+  </FIELD>
+  <FIELD name="B_IMAGE" ucd="phys.size.sminAxis;instr.det;meta.main" datatype="float" unit="pix">
+   <DESCRIPTION>Profile RMS along minor axis</DESCRIPTION>
+  </FIELD>
+  <FIELD name="ERRA_IMAGE" ucd="stat.stdev;stat.max;pos.errorEllipse;instr.det;meta.main" datatype="float" unit="pix">
+   <DESCRIPTION>RMS position error along major axis</DESCRIPTION>
+  </FIELD>
+  <FIELD name="ERRB_IMAGE" ucd="stat.stdev;stat.min;pos.errorEllipse;instr.det;meta.main" datatype="float" unit="pix">
+   <DESCRIPTION>RMS position error along minor axis</DESCRIPTION>
+  </FIELD>
+   <DATA><TABLEDATA>
+    <TR><TD>         1</TD><TD>   238.771</TD><TD>    51.523</TD><TD>149.3988261</TD><TD>+45.2300514</TD><TD> 12.9483</TD><TD>  0.0013</TD><TD>     2672</TD><TD>   16.89</TD><TD>  0.08141808</TD><TD> 0.03</TD><TD>    6617.066</TD><TD>   0.682</TD><TD>-28.5</TD><TD>    12.437</TD><TD> 3.50</TD><TD>   18.697</TD><TD>    5.946</TD><TD>  0.0307</TD><TD>  0.0101</TD></TR>
+    <TR><TD>         2</TD><TD>    53.699</TD><TD>     3.961</TD><TD>149.4277317</TD><TD>+45.2248200</TD><TD> 16.7402</TD><TD>  0.0065</TD><TD>       65</TD><TD>    3.55</TD><TD>-0.007421217</TD><TD> 0.98</TD><TD>    201.3329</TD><TD>   0.117</TD><TD>-28.4</TD><TD>     1.853</TD><TD> 3.31</TD><TD>    1.766</TD><TD>    1.560</TD><TD>  0.0148</TD><TD>  0.0125</TD></TR>
+    <TR><TD>         3</TD><TD>   207.016</TD><TD>   141.170</TD><TD>149.4037840</TD><TD>+45.2399132</TD><TD> 19.6129</TD><TD>  0.0971</TD><TD>        9</TD><TD>    4.93</TD><TD> 0.009852708</TD><TD> 0.49</TD><TD>    14.28396</TD><TD>   0.173</TD><TD>-81.3</TD><TD>     1.971</TD><TD> 6.64</TD><TD>    0.912</TD><TD>    0.754</TD><TD>  0.0744</TD><TD>  0.0588</TD></TR>
+    <TR><TD>         4</TD><TD>   122.628</TD><TD>   270.183</TD><TD>149.4169677</TD><TD>+45.2541052</TD><TD> 17.4360</TD><TD>  0.0291</TD><TD>       17</TD><TD>   10.71</TD><TD>  0.02111886</TD><TD> 0.01</TD><TD>    106.0716</TD><TD>   0.439</TD><TD>-13.4</TD><TD>     9.591</TD><TD> 8.68</TD><TD>    2.387</TD><TD>    1.339</TD><TD>  0.1530</TD><TD>  0.0847</TD></TR>
+    <TR><TD>         5</TD><TD>   189.823</TD><TD>    44.594</TD><TD>149.4064715</TD><TD>+45.2292901</TD><TD> 19.0797</TD><TD>  0.0668</TD><TD>       19</TD><TD>    4.24</TD><TD>  0.01829665</TD><TD> 0.62</TD><TD>     23.3415</TD><TD>   0.180</TD><TD>-52.3</TD><TD>     2.164</TD><TD> 5.05</TD><TD>    1.350</TD><TD>    1.108</TD><TD>  0.0694</TD><TD>  0.0543</TD></TR>
+    </TABLEDATA></DATA>
+  </TABLE>
+ <RESOURCE ID="MetaData" name="MetaData">
+  <DESCRIPTION>SExtractor meta-data</DESCRIPTION>
+  <INFO name="QUERY_STATUS" value="OK" />
+  <PARAM name="Software" datatype="char" arraysize="*" ucd="meta.title;meta.software" value="SExtractor"/>
+  <PARAM name="Version" datatype="char" arraysize="*" ucd="meta.version;meta.software" value="2.8.6"/>
+  <PARAM name="Soft_URL" datatype="char" arraysize="*" ucd="meta.ref.url;meta.software" value="http://astromatic.iap.fr/software/sextractor"/>
+  <PARAM name="Soft_Auth" datatype="char" arraysize="*" ucd="meta.bib.author;meta.software" value="Emmanuel Bertin"/>
+  <PARAM name="Soft_Ref" datatype="char" arraysize="*" ucd="meta.bib.bibcode;meta.software" value="1996A&amp;AS..117..393B"/>
+  <PARAM name="NThreads" datatype="int" ucd="meta.number;meta.software" value="2"/>
+  <PARAM name="Date" datatype="char" arraysize="*" ucd="time.event.end;meta.software" value="2014-03-25"/>
+  <PARAM name="Time" datatype="char" arraysize="*" ucd="time.event.end;meta.software" value="11:35:59"/>
+  <PARAM name="Duration" datatype="float" ucd="time.event;meta.software" value="1" unit="s"/>
+  <PARAM name="User" datatype="char" arraysize="*" ucd="meta.curation" value="lourdes"/>
+  <PARAM name="Host" datatype="char" arraysize="*" ucd="meta.curation" value="(null)"/>
+  <PARAM name="Path" datatype="char" arraysize="*" ucd="meta.dataset" value="/tmp/usecase7702848989683155695dir"/>
+  <PARAM name="Image_Name" datatype="char" arraysize="*" ucd="obs.image;meta.fits" value="/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/images/HCG41//J095739.55+451421.8-z.fits"/>
+  <TABLE ID="Extension_Data" name="Extension_Data">
+   <DESCRIPTION>Data gathered by SExtractor for every FITS extension</DESCRIPTION>
+   <!-- NExtensions may be 0 if an error occurred early in the processing -->
+   <PARAM name="NExtensions" datatype="int" ucd="meta.number;meta.dataset" value="1"/>
+   <!-- CurrExtension may differ fromq n_extensions if an error occurred -->
+   <PARAM name="CurrExtension" datatype="int" ucd="meta.number;meta.dataset" value="1"/>
+   <FIELD name="Extension" datatype="int" ucd="meta.record"/>
+   <FIELD name="Date" datatype="char" arraysize="*" ucd="meta.record;time.event.end"/>
+   <FIELD name="Time" datatype="char" arraysize="*" ucd="meta.record;time.event.end"/>
+   <FIELD name="Duration" datatype="float" ucd="meta.record;time.event.end"/>
+   <FIELD name="NDetect" datatype="int" ucd="meta.number;src.sample"/>
+   <FIELD name="NSextracted" datatype="int" ucd="meta.number;src.sample"/>
+   <FIELD name="Image_Ident" datatype="char" arraysize="*" ucd="meta.id;obs"/>
+   <FIELD name="Background_Mean" datatype="float" arraysize="1" ucd="instr.skyLevel;obs.image;stat.median" unit="ct"/>
+   <FIELD name="Background_StDev" datatype="float" arraysize="1" ucd="stat.stdev;obs.image;stat.median" unit="ct"/>
+   <FIELD name="Threshold" datatype="float" arraysize="1" ucd="instr.sensitivity;obs.image;stat.median" unit="ct"/>
+   <FIELD name="Weight_Scaling" datatype="float" arraysize="1" ucd="arith.factor;obs.image;stat.median"/>
+   <FIELD name="Pixel_Scale" datatype="float" arraysize="1" ucd="instr.scale;obs.image;stat.mean" unit="arcsec"/>
+   <FIELD name="Epoch" datatype="float" arraysize="1" ucd="time.epoch;obs" unit="yr"/>
+   <FIELD name="Gain" datatype="float" arraysize="1" ucd="instr.param;obs.param"/>
+   <FIELD name="Satur_Level" datatype="float" arraysize="1" ucd="instr.saturation;phot.count" unit="ct"/>
+   <DATA><TABLEDATA>
+    <TR>
+     <TD>1</TD><TD>25/03/2014</TD><TD>11:35:59</TD><TD>0</TD><TD>7</TD><TD>5</TD>
+     <TD>31 S</TD><TD>0</TD>
+     <TD>0.131682</TD><TD>0</TD><TD>0.329204</TD><TD>0.396</TD><TD>0.000000</TD>
+     <TD>0</TD><TD>49987.7</TD>
+    </TR>
+   </TABLEDATA></DATA>
+  </TABLE>
+  <TABLE ID="Warnings" name="Warnings">
+   <DESCRIPTION>SExtractor warnings (limited to the last 1000)</DESCRIPTION>
+   <FIELD name="Date" datatype="char" arraysize="*" ucd="meta;time.event.end"/>
+   <FIELD name="Time" datatype="char" arraysize="*" ucd="meta;time.event.end"/>
+   <FIELD name="Msg" datatype="char" arraysize="*" ucd="meta"/>
+   <DATA><TABLEDATA>
+   </TABLEDATA></DATA>
+  </TABLE>
+  <RESOURCE ID="Config" name="Config">
+   <DESCRIPTION>SExtractor configuration</DESCRIPTION>
+   <PARAM name="Command_Line" datatype="char" arraysize="*" ucd="obs.param" value="sex /home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/images/HCG41//J095739.55+451421.8-z.fits -c /home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG41_z.sex"/>
+   <PARAM name="Prefs_Name" datatype="char" arraysize="*" ucd="obs.param;meta.file" value="/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG41_z.sex"/>
+   <PARAM name="Catalog_Type" datatype="char" arraysize="*" ucd="meta" value="ASCII_VOTABLE"/>
+   <PARAM name="Catalog_Name" datatype="char" arraysize="*" ucd="meta.dataset;meta.file" value="/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG41_z.cat"/>
+   <PARAM name="Parameters_Name" datatype="char" arraysize="*" ucd="obs.param;meta.file" value="/home/lourdes/src/Size-of-HCGs-vs-CIGs/config/HCG.param"/>
+   <PARAM name="Detect_Type" datatype="char" arraysize="*" ucd="meta.code;instr.det;obs.param" value="CCD"/>
+   <PARAM name="Detect_MinArea" datatype="int" ucd="phys.area;obs.param" value="10" unit="pix2"/>
+   <PARAM name="Thresh_Type" datatype="char" arraysize="*" ucd="meta.code;instr.sensitivity;obs.param" value="RELATIVE"/>
+   <PARAM name="Detect_Thresh" datatype="float" arraysize="1" ucd="instr.sensitivity;obs.param" value="2.5"/>
+   <PARAM name="Analysis_Thresh" datatype="float" arraysize="1" ucd="instr.sensitivity;obs.param" value="3"/>
+   <PARAM name="Filter" datatype="boolean" ucd="meta.code;obs.param" value="T"/>
+   <PARAM name="Filter_Name" datatype="char" arraysize="*" ucd="meta.dataset;meta.file;obs.param" value="/home/lourdes/src/Size-of-HCGs-vs-CIGs/config/default.conv"/>
+   <PARAM name="Deblend_NThresh" datatype="int" ucd="meta.number;obs.param" value="5"/>
+   <PARAM name="Deblend_MinCont" datatype="float" ucd="obs.param;arith.ratio" value="0.005"/>
+   <PARAM name="Clean" datatype="boolean" ucd="meta.code;obs.param" value="T"/>
+   <PARAM name="Clean_Param" datatype="float" ucd="meta" value="1"/>
+   <PARAM name="Mask_Type" datatype="char" arraysize="*" ucd="meta.code;obs.param;" value="CORRECT"/>
+   <PARAM name="Weight_Type" datatype="char" arraysize="*" ucd="meta.code;obs.param" value="NONE"/>
+   <PARAM name="Weight_Thresh" datatype="float" arraysize="0" ucd="instr.sensitivity;obs.param" value="0"/>
+   <PARAM name="Weight_Gain" datatype="boolean" ucd="meta.code;obs.param" value="T"/>
+   <PARAM name="Phot_Apertures" datatype="float" arraysize="1" ucd="obs.param" value="5" unit="pix"/>
+   <PARAM name="Phot_AutoParams" datatype="float" arraysize="2" ucd="obs.param;phot" value="2.5 1.5"/>
+   <PARAM name="Phot_PetroParams" datatype="float" arraysize="2" ucd="obs.param;phot" value="2 3.5"/>
+   <PARAM name="Phot_AutoApers" datatype="float" arraysize="2" ucd="obs.param;phot" value="0 0"/>
+   <PARAM name="Phot_FluxFrac" datatype="float" arraysize="1" ucd="arith.factor;obs.param;phot" value="0.5"/>
+   <PARAM name="Satur_Level" datatype="float" ucd="instr.saturation;phot.count;obs.param" value="10" unit="ct"/>
+   <PARAM name="Mag_ZeroPoint" datatype="float" ucd="phot.calib;phot.mag;obs.param" value="22.5" unit="mag"/>
+   <PARAM name="Mag_Gamma" datatype="float" ucd="phot.calib;obs.param" value="4"/>
+   <PARAM name="Gain" datatype="float" ucd="instr.param;obs.param" value="1"/>
+   <PARAM name="Pixel_Scale" datatype="float" ucd="instr.scale;obs.param" value="0.396" unit="arcsec"/>
+   <PARAM name="Seeing_FWHM" datatype="float" ucd="instr.det.psf;stat.mean;obs.param" value="1.5" unit="pix"/>
+   <PARAM name="StarNNW_Name" datatype="char" arraysize="*" ucd="meta.dataset;meta.file;obs.param" value="/home/lourdes/src/Size-of-HCGs-vs-CIGs/config/default.nnw"/>
+   <PARAM name="Back_Size" datatype="int" arraysize="1" ucd="obs.param" value="64" unit="pix"/>
+   <PARAM name="Back_FilterSize" datatype="int" arraysize="1" ucd="obs.param" value="3"/>
+   <PARAM name="BackPhoto_Type" datatype="char" arraysize="*" ucd="meta.code;obs.param;" value="GLOBAL"/>
+   <PARAM name="BackPhoto_Thick" datatype="int" ucd="obs.param" value="24" unit="pix"/>
+   <PARAM name="Back_FiltThresh" datatype="float" ucd="phot.count;arith.ratio;obs.param" value="0"/>
+   <PARAM name="CheckImage_Type" datatype="char" arraysize="*" ucd="meta.code" value="APERTURES"/>
+   <PARAM name="CheckImage_Name" datatype="char" arraysize="*" ucd="meta.file" value="/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG41_seg_z.fits"/>
+   <PARAM name="Memory_ObjStack" datatype="int" ucd="meta.number;src;obs.param" value="3000"/>
+   <PARAM name="Memory_PixStack" datatype="int" ucd="meta.number;obs.param" value="300000"/>
+   <PARAM name="Memory_BufSize" datatype="int" ucd="meta.number;obs.param" value="1024"/>
+   <PARAM name="Assoc_Name" datatype="char" arraysize="*" ucd="meta.dataset;meta.file" value="sky.list"/>
+   <PARAM name="Assoc_Data" datatype="int" arraysize="3" ucd="meta.code;obs.param" value="2 3 4"/>
+   <PARAM name="Assoc_Params" datatype="int" arraysize="3" ucd="meta.code;obs.param" value="2 3 4"/>
+   <PARAM name="Assoc_Radius" datatype="float" ucd="phys.size.radius;obs.param" value="2" unit="pix"/>
+   <PARAM name="Assoc_Type" datatype="char" arraysize="*" ucd="meta.code;obs.param" value="NEAREST"/>
+   <PARAM name="AssocSelec_Type" datatype="char" arraysize="*" ucd="meta.code;obs.param" value="MATCHED"/>
+   <PARAM name="Verbose_Type" datatype="char" arraysize="*" ucd="meta.code" value="NORMAL"/>
+   <PARAM name="FITS_Unsigned" datatype="boolean" ucd="meta.code;obs.param" value="F"/>
+   <PARAM name="PSF_Name" datatype="char" arraysize="*" ucd="meta.dataset;meta.file;obs.param" value="default.psf"/>
+   <PARAM name="PSF_NMax" datatype="int" ucd="meta.number;obs.param" value="9"/>
+   <PARAM name="PSFDisplay_Type" datatype="char" arraysize="*" ucd="meta.code;obs.param" value="SPLIT"/>
+   <PARAM name="SOM_Name" datatype="char" arraysize="*" ucd="meta.dataset;meta.file;obs.param" value="default.som"/>
+  </RESOURCE>
+ </RESOURCE>
+</RESOURCE>
+</VOTABLE>

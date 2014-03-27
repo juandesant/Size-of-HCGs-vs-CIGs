@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///usr/share/sextractor/sextractor.xsl"?>
+<VOTABLE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.1">
+<DESCRIPTION>produced by SExtractor</DESCRIPTION>
+<!-- VOTable description at http://www.ivoa.net/Documents/latest/VOT.html -->
+<RESOURCE ID="SExtractor" name="J140413.17+331940.0-u.fits">
+ <DESCRIPTION>Catalog of sources extracted with SExtractor</DESCRIPTION>
+ <INFO name="QUERY_STATUS" value="OK" />
+ <COOSYS ID="J2000" equinox="J2000" epoch="J2000" system="ICRS"/>
+ <TABLE ID="Source_List" name="J140413.17+331940.0-u.fits/out">
+  <DESCRIPTION>Table of sources detected in image</DESCRIPTION>
+  <!-- Now comes the definition of each SExtractor parameter -->
+  <FIELD name="NUMBER" ucd="meta.record" datatype="int" unit="">
+   <DESCRIPTION>Running object number</DESCRIPTION>
+  </FIELD>
+  <FIELD name="X_IMAGE" ucd="pos.cartesian.x;pos.barycenter;instr.det;meta.main" datatype="float" unit="pix">
+   <DESCRIPTION>Object position along x</DESCRIPTION>
+  </FIELD>
+  <FIELD name="Y_IMAGE" ucd="pos.cartesian.y;pos.barycenter;instr.det;meta.main" datatype="float" unit="pix">
+   <DESCRIPTION>Object position along y</DESCRIPTION>
+  </FIELD>
+  <FIELD name="ALPHA_SKY" ucd="pos.eq.ra;pos.barycenter" datatype="double" unit="deg">
+   <DESCRIPTION>Right ascension of barycenter (native)</DESCRIPTION>
+  </FIELD>
+  <FIELD name="DELTA_SKY" ucd="pos.eq.dec;pos.barycenter" datatype="double" unit="deg">
+   <DESCRIPTION>Declination of barycenter (native)</DESCRIPTION>
+  </FIELD>
+  <FIELD name="MAG_AUTO" ucd="phot.mag;meta.main" datatype="float" unit="mag">
+   <DESCRIPTION>Kron-like elliptical aperture magnitude</DESCRIPTION>
+  </FIELD>
+  <FIELD name="MAGERR_AUTO" ucd="stat.stdev;phot.mag;meta.main" datatype="float" unit="mag">
+   <DESCRIPTION>RMS error for AUTO magnitude</DESCRIPTION>
+  </FIELD>
+  <FIELD name="ISOAREA_IMAGE" ucd="phys.area" datatype="int" unit="pix2">
+   <DESCRIPTION>Isophotal area above Analysis threshold</DESCRIPTION>
+  </FIELD>
+  <FIELD name="FWHM_IMAGE" ucd="phys.size.diameter;instr.det.psf" datatype="float" unit="pix">
+   <DESCRIPTION>FWHM assuming a gaussian core</DESCRIPTION>
+  </FIELD>
+  <FIELD name="BACKGROUND" ucd="instr.skyLevel" datatype="float" unit="ct">
+   <DESCRIPTION>Background at centroid position</DESCRIPTION>
+  </FIELD>
+  <FIELD name="CLASS_STAR" ucd="src.class.starGalaxy" datatype="float" unit="">
+   <DESCRIPTION>S/G classifier output</DESCRIPTION>
+  </FIELD>
+  <FIELD name="FLUX_BEST" ucd="phot.flux" datatype="float" unit="ct">
+   <DESCRIPTION>Best of FLUX_AUTO and FLUX_ISOCOR</DESCRIPTION>
+  </FIELD>
+  <FIELD name="ELLIPTICITY" ucd="src.ellipticity;instr.det	" datatype="float" unit="">
+   <DESCRIPTION>1 - B_IMAGE/A_IMAGE</DESCRIPTION>
+  </FIELD>
+  <FIELD name="THETA_IMAGE" ucd="pos.posAng;instr.det;meta.main" datatype="float" unit="deg">
+   <DESCRIPTION>Position angle (CCW/x)</DESCRIPTION>
+  </FIELD>
+  <FIELD name="FLUX_RADIUS" ucd="phys.size.radius;instr.det" datatype="float" unit="pix">
+   <DESCRIPTION>Fraction-of-light radii</DESCRIPTION>
+  </FIELD>
+  <FIELD name="KRON_RADIUS" ucd="arith.factor;arith.ratio" datatype="float" unit="">
+   <DESCRIPTION>Kron apertures in units of A or B</DESCRIPTION>
+  </FIELD>
+  <FIELD name="A_IMAGE" ucd="phys.size.smajAxis;instr.det;meta.main" datatype="float" unit="pix">
+   <DESCRIPTION>Profile RMS along major axis</DESCRIPTION>
+  </FIELD>
+  <FIELD name="B_IMAGE" ucd="phys.size.sminAxis;instr.det;meta.main" datatype="float" unit="pix">
+   <DESCRIPTION>Profile RMS along minor axis</DESCRIPTION>
+  </FIELD>
+  <FIELD name="ERRA_IMAGE" ucd="stat.stdev;stat.max;pos.errorEllipse;instr.det;meta.main" datatype="float" unit="pix">
+   <DESCRIPTION>RMS position error along major axis</DESCRIPTION>
+  </FIELD>
+  <FIELD name="ERRB_IMAGE" ucd="stat.stdev;stat.min;pos.errorEllipse;instr.det;meta.main" datatype="float" unit="pix">
+   <DESCRIPTION>RMS position error along minor axis</DESCRIPTION>
+  </FIELD>
+   <DATA><TABLEDATA>
+    <TR><TD>         1</TD><TD>   744.612</TD><TD>   114.064</TD><TD>211.0416631</TD><TD>+33.2695063</TD><TD> 12.4424</TD><TD>  0.0000</TD><TD>     1523</TD><TD>    3.80</TD><TD> 0.004945388</TD><TD> 1.00</TD><TD>    10544.64</TD><TD>   0.064</TD><TD>-80.6</TD><TD>     2.196</TD><TD> 2.36</TD><TD>    3.155</TD><TD>    2.953</TD><TD>  0.0014</TD><TD>  0.0012</TD></TR>
+    <TR><TD>         2</TD><TD>   550.981</TD><TD>   125.540</TD><TD>211.0671380</TD><TD>+33.2707688</TD><TD> 17.2226</TD><TD>  0.0025</TD><TD>      120</TD><TD>    3.55</TD><TD>-0.0008369333</TD><TD> 0.98</TD><TD>    129.1063</TD><TD>   0.069</TD><TD>-64.5</TD><TD>     2.006</TD><TD> 3.14</TD><TD>    2.036</TD><TD>    1.895</TD><TD>  0.0085</TD><TD>  0.0082</TD></TR>
+    <TR><TD>         3</TD><TD>  1107.428</TD><TD>   147.584</TD><TD>210.9939274</TD><TD>+33.2731794</TD><TD> 19.4592</TD><TD>  0.0258</TD><TD>       57</TD><TD>    5.38</TD><TD>-0.0003642621</TD><TD> 0.29</TD><TD>    16.45658</TD><TD>   0.046</TD><TD>-45.1</TD><TD>     2.625</TD><TD> 4.23</TD><TD>    1.917</TD><TD>    1.830</TD><TD>  0.0388</TD><TD>  0.0372</TD></TR>
+    <TR><TD>         4</TD><TD>   954.450</TD><TD>   144.744</TD><TD>211.0140547</TD><TD>+33.2728752</TD><TD> 21.7158</TD><TD>  0.1293</TD><TD>        9</TD><TD>    5.39</TD><TD>-0.0005686567</TD><TD> 0.44</TD><TD>    2.059042</TD><TD>   0.376</TD><TD> 87.2</TD><TD>     1.649</TD><TD> 5.50</TD><TD>    1.147</TD><TD>    0.716</TD><TD>  0.1030</TD><TD>  0.0663</TD></TR>
+    <TR><TD>         5</TD><TD>  1025.523</TD><TD>   225.263</TD><TD>211.0046986</TD><TD>+33.2817288</TD><TD> 21.3643</TD><TD>  0.1005</TD><TD>       11</TD><TD>    5.90</TD><TD>-0.0004831473</TD><TD> 0.62</TD><TD>     2.84634</TD><TD>   0.012</TD><TD> 30.2</TD><TD>     1.907</TD><TD> 5.45</TD><TD>    0.996</TD><TD>    0.984</TD><TD>  0.0773</TD><TD>  0.0757</TD></TR>
+    <TR><TD>         6</TD><TD>  1215.041</TD><TD>   301.250</TD><TD>210.9797543</TD><TD>+33.2900749</TD><TD> 15.6956</TD><TD>  0.0006</TD><TD>      226</TD><TD>    3.55</TD><TD> 0.001942785</TD><TD> 0.98</TD><TD>    526.9187</TD><TD>   0.095</TD><TD>-61.4</TD><TD>     2.025</TD><TD> 2.94</TD><TD>    2.245</TD><TD>    2.033</TD><TD>  0.0038</TD><TD>  0.0035</TD></TR>
+    <TR><TD>         7</TD><TD>  1118.562</TD><TD>  1048.024</TD><TD>210.9923914</TD><TD>+33.3722269</TD><TD> 20.7268</TD><TD>  0.0707</TD><TD>       20</TD><TD>    3.98</TD><TD> 0.001395136</TD><TD> 0.67</TD><TD>    5.120064</TD><TD>   0.045</TD><TD> 55.4</TD><TD>     2.271</TD><TD> 5.57</TD><TD>    1.251</TD><TD>    1.194</TD><TD>  0.0632</TD><TD>  0.0592</TD></TR>
+    <TR><TD>         8</TD><TD>   464.651</TD><TD>  1284.740</TD><TD>211.0785307</TD><TD>+33.3982791</TD><TD> 21.1979</TD><TD>  0.0987</TD><TD>        8</TD><TD>    6.20</TD><TD>  0.00260431</TD><TD> 0.30</TD><TD>    3.317625</TD><TD>   0.212</TD><TD>-36.6</TD><TD>     2.582</TD><TD> 6.82</TD><TD>    1.170</TD><TD>    0.923</TD><TD>  0.1111</TD><TD>  0.0883</TD></TR>
+    <TR><TD>         9</TD><TD>   604.292</TD><TD>   867.309</TD><TD>211.0601290</TD><TD>+33.3523639</TD><TD> 20.1588</TD><TD>  0.0411</TD><TD>       30</TD><TD>    4.11</TD><TD>-0.0003089026</TD><TD> 0.89</TD><TD>    8.639267</TD><TD>   0.207</TD><TD>-54.3</TD><TD>     2.177</TD><TD> 4.65</TD><TD>    1.599</TD><TD>    1.268</TD><TD>  0.0491</TD><TD>  0.0383</TD></TR>
+    <TR><TD>        10</TD><TD>   976.028</TD><TD>   837.417</TD><TD>211.0111775</TD><TD>+33.3490683</TD><TD> 19.4024</TD><TD>  0.0200</TD><TD>       42</TD><TD>    3.90</TD><TD>0.0005492711</TD><TD> 0.97</TD><TD>    17.33984</TD><TD>   0.132</TD><TD>-57.5</TD><TD>     2.070</TD><TD> 4.01</TD><TD>    1.726</TD><TD>    1.498</TD><TD>  0.0299</TD><TD>  0.0261</TD></TR>
+    <TR><TD>        11</TD><TD>   748.653</TD><TD>   809.282</TD><TD>211.0411194</TD><TD>+33.3459802</TD><TD> 17.0715</TD><TD>  0.0120</TD><TD>      517</TD><TD>   23.84</TD><TD> 0.001045296</TD><TD> 0.00</TD><TD>    148.3878</TD><TD>   0.236</TD><TD> 13.3</TD><TD>    11.206</TD><TD> 5.29</TD><TD>    7.235</TD><TD>    5.525</TD><TD>  0.0606</TD><TD>  0.0460</TD></TR>
+    <TR><TD>        12</TD><TD>   743.091</TD><TD>   733.246</TD><TD>211.0418531</TD><TD>+33.3376164</TD><TD> 16.7504</TD><TD>  0.0061</TD><TD>      465</TD><TD>    8.08</TD><TD> 0.001502602</TD><TD> 0.03</TD><TD>    199.4476</TD><TD>   0.471</TD><TD> 51.3</TD><TD>     6.269</TD><TD> 4.87</TD><TD>    6.442</TD><TD>    3.411</TD><TD>  0.0385</TD><TD>  0.0192</TD></TR>
+    <TR><TD>        13</TD><TD>   592.114</TD><TD>   700.327</TD><TD>211.0617313</TD><TD>+33.3339958</TD><TD> 20.4316</TD><TD>  0.0455</TD><TD>       24</TD><TD>    3.55</TD><TD>-0.0004154811</TD><TD> 0.91</TD><TD>     6.71962</TD><TD>   0.088</TD><TD>-66.5</TD><TD>     1.903</TD><TD> 4.32</TD><TD>    1.372</TD><TD>    1.251</TD><TD>  0.0460</TD><TD>  0.0430</TD></TR>
+    <TR><TD>        14</TD><TD>  1057.225</TD><TD>   680.060</TD><TD>211.0004960</TD><TD>+33.3317548</TD><TD> 17.5397</TD><TD>  0.0086</TD><TD>      240</TD><TD>    6.13</TD><TD> 0.001850687</TD><TD> 0.03</TD><TD>    96.40979</TD><TD>   0.246</TD><TD>-68.1</TD><TD>     4.444</TD><TD> 4.48</TD><TD>    3.970</TD><TD>    2.994</TD><TD>  0.0323</TD><TD>  0.0235</TD></TR>
+    <TR><TD>        15</TD><TD>   364.204</TD><TD>   672.009</TD><TD>211.0917368</TD><TD>+33.3308755</TD><TD> 19.1907</TD><TD>  0.0432</TD><TD>       52</TD><TD>   15.31</TD><TD>-1.878729e-05</TD><TD> 0.00</TD><TD>     21.0723</TD><TD>   0.784</TD><TD>-88.9</TD><TD>     8.343</TD><TD> 6.66</TD><TD>    5.492</TD><TD>    1.187</TD><TD>  0.1915</TD><TD>  0.0414</TD></TR>
+    <TR><TD>        16</TD><TD>   923.591</TD><TD>   653.811</TD><TD>211.0180911</TD><TD>+33.3288738</TD><TD> 18.1599</TD><TD>  0.0272</TD><TD>      159</TD><TD>   27.49</TD><TD>0.0006347739</TD><TD> 0.00</TD><TD>    54.45706</TD><TD>   0.241</TD><TD> 56.3</TD><TD>    10.024</TD><TD> 6.05</TD><TD>    5.256</TD><TD>    3.991</TD><TD>  0.0970</TD><TD>  0.0742</TD></TR>
+    <TR><TD>        17</TD><TD>    66.896</TD><TD>   658.395</TD><TD>211.1308778</TD><TD>+33.3293603</TD><TD> 21.0375</TD><TD>  0.0848</TD><TD>       15</TD><TD>    4.34</TD><TD>-0.0005275205</TD><TD> 0.58</TD><TD>    3.845824</TD><TD>   0.320</TD><TD>-57.1</TD><TD>     2.073</TD><TD> 5.37</TD><TD>    1.381</TD><TD>    0.938</TD><TD>  0.0843</TD><TD>  0.0564</TD></TR>
+    <TR><TD>        18</TD><TD>   941.129</TD><TD>   650.625</TD><TD>211.0157822</TD><TD>+33.3285226</TD><TD> 19.9870</TD><TD>  0.0552</TD><TD>       27</TD><TD>    9.05</TD><TD>0.0008367123</TD><TD> 0.00</TD><TD>    10.12027</TD><TD>   0.330</TD><TD>-71.7</TD><TD>     4.549</TD><TD> 6.93</TD><TD>    1.847</TD><TD>    1.237</TD><TD>  0.0857</TD><TD>  0.0568</TD></TR>
+    <TR><TD>        19</TD><TD>   416.920</TD><TD>   583.642</TD><TD>211.0847931</TD><TD>+33.3211570</TD><TD> 16.9953</TD><TD>  0.0152</TD><TD>      386</TD><TD>   41.57</TD><TD>-0.0003862809</TD><TD> 0.00</TD><TD>    159.1803</TD><TD>   0.719</TD><TD>-38.2</TD><TD>    21.709</TD><TD> 6.54</TD><TD>   13.074</TD><TD>    3.668</TD><TD>  0.1628</TD><TD>  0.0456</TD></TR>
+    <TR><TD>        20</TD><TD>   875.043</TD><TD>   579.991</TD><TD>211.0244854</TD><TD>+33.3207553</TD><TD> 17.0337</TD><TD>  0.0121</TD><TD>      503</TD><TD>   23.56</TD><TD>0.0004198307</TD><TD> 0.00</TD><TD>    153.6457</TD><TD>   0.319</TD><TD>-57.4</TD><TD>    11.933</TD><TD> 5.73</TD><TD>    7.346</TD><TD>    5.005</TD><TD>  0.0627</TD><TD>  0.0416</TD></TR>
+    <TR><TD>        21</TD><TD>   672.185</TD><TD>   519.037</TD><TD>211.0511900</TD><TD>+33.3140540</TD><TD> 19.9147</TD><TD>  0.0600</TD><TD>       30</TD><TD>   10.84</TD><TD>0.0007021744</TD><TD> 0.00</TD><TD>    10.81718</TD><TD>   0.631</TD><TD>-86.0</TD><TD>     5.230</TD><TD> 6.71</TD><TD>    2.981</TD><TD>    1.099</TD><TD>  0.1547</TD><TD>  0.0554</TD></TR>
+    <TR><TD>        22</TD><TD>   716.825</TD><TD>   462.111</TD><TD>211.0453147</TD><TD>+33.3077918</TD><TD> 16.3967</TD><TD>  0.0074</TD><TD>      731</TD><TD>   19.75</TD><TD> 0.001123628</TD><TD> 0.00</TD><TD>    276.2583</TD><TD>   0.464</TD><TD>-21.5</TD><TD>    13.194</TD><TD> 5.62</TD><TD>    9.255</TD><TD>    4.964</TD><TD>  0.0517</TD><TD>  0.0286</TD></TR>
+    <TR><TD>        23</TD><TD>   341.896</TD><TD>   390.352</TD><TD>211.0946597</TD><TD>+33.2998924</TD><TD> 20.3495</TD><TD>  0.0440</TD><TD>       26</TD><TD>    4.01</TD><TD>-0.000715139</TD><TD> 0.85</TD><TD>    7.247936</TD><TD>   0.095</TD><TD>-50.2</TD><TD>     2.054</TD><TD> 4.35</TD><TD>    1.441</TD><TD>    1.304</TD><TD>  0.0490</TD><TD>  0.0450</TD></TR>
+    <TR><TD>        24</TD><TD>   790.840</TD><TD>   383.701</TD><TD>211.0355747</TD><TD>+33.2991656</TD><TD> 21.2523</TD><TD>  0.1201</TD><TD>        9</TD><TD>    5.73</TD><TD>-0.0003943784</TD><TD> 0.36</TD><TD>    3.155622</TD><TD>   0.469</TD><TD>-26.5</TD><TD>     2.572</TD><TD> 6.53</TD><TD>    1.495</TD><TD>    0.794</TD><TD>  0.1472</TD><TD>  0.0771</TD></TR>
+    <TR><TD>        25</TD><TD>   406.691</TD><TD>   358.002</TD><TD>211.0861308</TD><TD>+33.2963363</TD><TD> 18.7703</TD><TD>  0.0184</TD><TD>       93</TD><TD>    6.31</TD><TD>-0.0006880781</TD><TD> 0.01</TD><TD>    31.03817</TD><TD>   0.118</TD><TD>-78.4</TD><TD>     3.551</TD><TD> 4.43</TD><TD>    2.567</TD><TD>    2.263</TD><TD>  0.0380</TD><TD>  0.0333</TD></TR>
+    <TR><TD>        26</TD><TD>   697.292</TD><TD>  1160.283</TD><TD>211.0478795</TD><TD>+33.3845909</TD><TD> 17.4081</TD><TD>  0.0029</TD><TD>      104</TD><TD>    3.56</TD><TD> 0.000159583</TD><TD> 0.98</TD><TD>     108.831</TD><TD>   0.102</TD><TD>-58.3</TD><TD>     2.004</TD><TD> 3.16</TD><TD>    2.019</TD><TD>    1.812</TD><TD>  0.0092</TD><TD>  0.0085</TD></TR>
+    <TR><TD>        27</TD><TD>  1033.363</TD><TD>   281.440</TD><TD>211.0036634</TD><TD>+33.2879079</TD><TD> 21.1841</TD><TD>  0.0817</TD><TD>       15</TD><TD>    3.69</TD><TD>-0.0003431699</TD><TD> 0.70</TD><TD>    3.360306</TD><TD>   0.093</TD><TD>-77.2</TD><TD>     1.618</TD><TD> 4.64</TD><TD>    1.166</TD><TD>    1.057</TD><TD>  0.0632</TD><TD>  0.0563</TD></TR>
+    <TR><TD>        28</TD><TD>   235.236</TD><TD>  1172.622</TD><TD>211.1087502</TD><TD>+33.3859367</TD><TD> 21.0093</TD><TD>  0.0737</TD><TD>       17</TD><TD>    4.45</TD><TD>-6.193872e-05</TD><TD> 0.60</TD><TD>    3.946941</TD><TD>   0.225</TD><TD>-65.9</TD><TD>     1.855</TD><TD> 4.45</TD><TD>    1.375</TD><TD>    1.065</TD><TD>  0.0725</TD><TD>  0.0544</TD></TR>
+    <TR><TD>        29</TD><TD>   657.019</TD><TD>  1118.428</TD><TD>211.0531850</TD><TD>+33.3799871</TD><TD> 21.3958</TD><TD>  0.1079</TD><TD>        8</TD><TD>    4.93</TD><TD>0.0001265601</TD><TD> 0.52</TD><TD>    2.764992</TD><TD>   0.354</TD><TD>-62.2</TD><TD>     2.105</TD><TD> 6.70</TD><TD>    1.031</TD><TD>    0.666</TD><TD>  0.0974</TD><TD>  0.0596</TD></TR>
+    <TR><TD>        30</TD><TD>   252.621</TD><TD>   951.525</TD><TD>211.1064455</TD><TD>+33.3616171</TD><TD> 20.1413</TD><TD>  0.0421</TD><TD>       27</TD><TD>    4.30</TD><TD>0.0001687406</TD><TD> 0.89</TD><TD>    8.780024</TD><TD>   0.204</TD><TD>-72.4</TD><TD>     2.078</TD><TD> 4.83</TD><TD>    1.609</TD><TD>    1.281</TD><TD>  0.0500</TD><TD>  0.0392</TD></TR>
+    <TR><TD>        31</TD><TD>   131.955</TD><TD>   970.192</TD><TD>211.1223391</TD><TD>+33.3636629</TD><TD> 21.5611</TD><TD>  0.1085</TD><TD>        9</TD><TD>    3.76</TD><TD> 0.000568288</TD><TD> 0.39</TD><TD>    2.374386</TD><TD>   0.214</TD><TD> 88.5</TD><TD>     1.839</TD><TD> 5.71</TD><TD>    0.944</TD><TD>    0.742</TD><TD>  0.0831</TD><TD>  0.0658</TD></TR>
+    </TABLEDATA></DATA>
+  </TABLE>
+ <RESOURCE ID="MetaData" name="MetaData">
+  <DESCRIPTION>SExtractor meta-data</DESCRIPTION>
+  <INFO name="QUERY_STATUS" value="OK" />
+  <PARAM name="Software" datatype="char" arraysize="*" ucd="meta.title;meta.software" value="SExtractor"/>
+  <PARAM name="Version" datatype="char" arraysize="*" ucd="meta.version;meta.software" value="2.8.6"/>
+  <PARAM name="Soft_URL" datatype="char" arraysize="*" ucd="meta.ref.url;meta.software" value="http://astromatic.iap.fr/software/sextractor"/>
+  <PARAM name="Soft_Auth" datatype="char" arraysize="*" ucd="meta.bib.author;meta.software" value="Emmanuel Bertin"/>
+  <PARAM name="Soft_Ref" datatype="char" arraysize="*" ucd="meta.bib.bibcode;meta.software" value="1996A&amp;AS..117..393B"/>
+  <PARAM name="NThreads" datatype="int" ucd="meta.number;meta.software" value="2"/>
+  <PARAM name="Date" datatype="char" arraysize="*" ucd="time.event.end;meta.software" value="2014-03-25"/>
+  <PARAM name="Time" datatype="char" arraysize="*" ucd="time.event.end;meta.software" value="11:40:00"/>
+  <PARAM name="Duration" datatype="float" ucd="time.event;meta.software" value="13" unit="s"/>
+  <PARAM name="User" datatype="char" arraysize="*" ucd="meta.curation" value="lourdes"/>
+  <PARAM name="Host" datatype="char" arraysize="*" ucd="meta.curation" value="(null)"/>
+  <PARAM name="Path" datatype="char" arraysize="*" ucd="meta.dataset" value="/tmp/usecase274734321451542345dir"/>
+  <PARAM name="Image_Name" datatype="char" arraysize="*" ucd="obs.image;meta.fits" value="/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/images/HCG70//J140413.17+331940.0-u.fits"/>
+  <TABLE ID="Extension_Data" name="Extension_Data">
+   <DESCRIPTION>Data gathered by SExtractor for every FITS extension</DESCRIPTION>
+   <!-- NExtensions may be 0 if an error occurred early in the processing -->
+   <PARAM name="NExtensions" datatype="int" ucd="meta.number;meta.dataset" value="1"/>
+   <!-- CurrExtension may differ fromq n_extensions if an error occurred -->
+   <PARAM name="CurrExtension" datatype="int" ucd="meta.number;meta.dataset" value="1"/>
+   <FIELD name="Extension" datatype="int" ucd="meta.record"/>
+   <FIELD name="Date" datatype="char" arraysize="*" ucd="meta.record;time.event.end"/>
+   <FIELD name="Time" datatype="char" arraysize="*" ucd="meta.record;time.event.end"/>
+   <FIELD name="Duration" datatype="float" ucd="meta.record;time.event.end"/>
+   <FIELD name="NDetect" datatype="int" ucd="meta.number;src.sample"/>
+   <FIELD name="NSextracted" datatype="int" ucd="meta.number;src.sample"/>
+   <FIELD name="Image_Ident" datatype="char" arraysize="*" ucd="meta.id;obs"/>
+   <FIELD name="Background_Mean" datatype="float" arraysize="1" ucd="instr.skyLevel;obs.image;stat.median" unit="ct"/>
+   <FIELD name="Background_StDev" datatype="float" arraysize="1" ucd="stat.stdev;obs.image;stat.median" unit="ct"/>
+   <FIELD name="Threshold" datatype="float" arraysize="1" ucd="instr.sensitivity;obs.image;stat.median" unit="ct"/>
+   <FIELD name="Weight_Scaling" datatype="float" arraysize="1" ucd="arith.factor;obs.image;stat.median"/>
+   <FIELD name="Pixel_Scale" datatype="float" arraysize="1" ucd="instr.scale;obs.image;stat.mean" unit="arcsec"/>
+   <FIELD name="Epoch" datatype="float" arraysize="1" ucd="time.epoch;obs" unit="yr"/>
+   <FIELD name="Gain" datatype="float" arraysize="1" ucd="instr.param;obs.param"/>
+   <FIELD name="Satur_Level" datatype="float" arraysize="1" ucd="instr.saturation;phot.count" unit="ct"/>
+   <DATA><TABLEDATA>
+    <TR>
+     <TD>1</TD><TD>25/03/2014</TD><TD>11:40:00</TD><TD>12</TD><TD>34</TD><TD>31</TD>
+     <TD>25 S</TD><TD>0</TD>
+     <TD>0.0277588</TD><TD>0</TD><TD>0.069397</TD><TD>0.396</TD><TD>0.000000</TD>
+     <TD>0</TD><TD>49980.9</TD>
+    </TR>
+   </TABLEDATA></DATA>
+  </TABLE>
+  <TABLE ID="Warnings" name="Warnings">
+   <DESCRIPTION>SExtractor warnings (limited to the last 1000)</DESCRIPTION>
+   <FIELD name="Date" datatype="char" arraysize="*" ucd="meta;time.event.end"/>
+   <FIELD name="Time" datatype="char" arraysize="*" ucd="meta;time.event.end"/>
+   <FIELD name="Msg" datatype="char" arraysize="*" ucd="meta"/>
+   <DATA><TABLEDATA>
+   </TABLEDATA></DATA>
+  </TABLE>
+  <RESOURCE ID="Config" name="Config">
+   <DESCRIPTION>SExtractor configuration</DESCRIPTION>
+   <PARAM name="Command_Line" datatype="char" arraysize="*" ucd="obs.param" value="sex /home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/images/HCG70//J140413.17+331940.0-u.fits -c /home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG70_u.sex"/>
+   <PARAM name="Prefs_Name" datatype="char" arraysize="*" ucd="obs.param;meta.file" value="/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG70_u.sex"/>
+   <PARAM name="Catalog_Type" datatype="char" arraysize="*" ucd="meta" value="ASCII_VOTABLE"/>
+   <PARAM name="Catalog_Name" datatype="char" arraysize="*" ucd="meta.dataset;meta.file" value="/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG70_u.cat"/>
+   <PARAM name="Parameters_Name" datatype="char" arraysize="*" ucd="obs.param;meta.file" value="/home/lourdes/src/Size-of-HCGs-vs-CIGs/config/HCG.param"/>
+   <PARAM name="Detect_Type" datatype="char" arraysize="*" ucd="meta.code;instr.det;obs.param" value="CCD"/>
+   <PARAM name="Detect_MinArea" datatype="int" ucd="phys.area;obs.param" value="10" unit="pix2"/>
+   <PARAM name="Thresh_Type" datatype="char" arraysize="*" ucd="meta.code;instr.sensitivity;obs.param" value="RELATIVE"/>
+   <PARAM name="Detect_Thresh" datatype="float" arraysize="1" ucd="instr.sensitivity;obs.param" value="2.5"/>
+   <PARAM name="Analysis_Thresh" datatype="float" arraysize="1" ucd="instr.sensitivity;obs.param" value="3"/>
+   <PARAM name="Filter" datatype="boolean" ucd="meta.code;obs.param" value="T"/>
+   <PARAM name="Filter_Name" datatype="char" arraysize="*" ucd="meta.dataset;meta.file;obs.param" value="/home/lourdes/src/Size-of-HCGs-vs-CIGs/config/default.conv"/>
+   <PARAM name="Deblend_NThresh" datatype="int" ucd="meta.number;obs.param" value="5"/>
+   <PARAM name="Deblend_MinCont" datatype="float" ucd="obs.param;arith.ratio" value="0.05"/>
+   <PARAM name="Clean" datatype="boolean" ucd="meta.code;obs.param" value="T"/>
+   <PARAM name="Clean_Param" datatype="float" ucd="meta" value="1"/>
+   <PARAM name="Mask_Type" datatype="char" arraysize="*" ucd="meta.code;obs.param;" value="CORRECT"/>
+   <PARAM name="Weight_Type" datatype="char" arraysize="*" ucd="meta.code;obs.param" value="NONE"/>
+   <PARAM name="Weight_Thresh" datatype="float" arraysize="0" ucd="instr.sensitivity;obs.param" value="0"/>
+   <PARAM name="Weight_Gain" datatype="boolean" ucd="meta.code;obs.param" value="T"/>
+   <PARAM name="Phot_Apertures" datatype="float" arraysize="1" ucd="obs.param" value="5" unit="pix"/>
+   <PARAM name="Phot_AutoParams" datatype="float" arraysize="2" ucd="obs.param;phot" value="2.5 1.5"/>
+   <PARAM name="Phot_PetroParams" datatype="float" arraysize="2" ucd="obs.param;phot" value="2 3.5"/>
+   <PARAM name="Phot_AutoApers" datatype="float" arraysize="2" ucd="obs.param;phot" value="0 0"/>
+   <PARAM name="Phot_FluxFrac" datatype="float" arraysize="1" ucd="arith.factor;obs.param;phot" value="0.5"/>
+   <PARAM name="Satur_Level" datatype="float" ucd="instr.saturation;phot.count;obs.param" value="10" unit="ct"/>
+   <PARAM name="Mag_ZeroPoint" datatype="float" ucd="phot.calib;phot.mag;obs.param" value="22.5" unit="mag"/>
+   <PARAM name="Mag_Gamma" datatype="float" ucd="phot.calib;obs.param" value="4"/>
+   <PARAM name="Gain" datatype="float" ucd="instr.param;obs.param" value="1"/>
+   <PARAM name="Pixel_Scale" datatype="float" ucd="instr.scale;obs.param" value="0.396" unit="arcsec"/>
+   <PARAM name="Seeing_FWHM" datatype="float" ucd="instr.det.psf;stat.mean;obs.param" value="1.5" unit="pix"/>
+   <PARAM name="StarNNW_Name" datatype="char" arraysize="*" ucd="meta.dataset;meta.file;obs.param" value="/home/lourdes/src/Size-of-HCGs-vs-CIGs/config/default.nnw"/>
+   <PARAM name="Back_Size" datatype="int" arraysize="1" ucd="obs.param" value="64" unit="pix"/>
+   <PARAM name="Back_FilterSize" datatype="int" arraysize="1" ucd="obs.param" value="3"/>
+   <PARAM name="BackPhoto_Type" datatype="char" arraysize="*" ucd="meta.code;obs.param;" value="GLOBAL"/>
+   <PARAM name="BackPhoto_Thick" datatype="int" ucd="obs.param" value="24" unit="pix"/>
+   <PARAM name="Back_FiltThresh" datatype="float" ucd="phot.count;arith.ratio;obs.param" value="0"/>
+   <PARAM name="CheckImage_Type" datatype="char" arraysize="*" ucd="meta.code" value="APERTURES"/>
+   <PARAM name="CheckImage_Name" datatype="char" arraysize="*" ucd="meta.file" value="/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/sextractor/HCG70_seg_u.fits"/>
+   <PARAM name="Memory_ObjStack" datatype="int" ucd="meta.number;src;obs.param" value="3000"/>
+   <PARAM name="Memory_PixStack" datatype="int" ucd="meta.number;obs.param" value="300000"/>
+   <PARAM name="Memory_BufSize" datatype="int" ucd="meta.number;obs.param" value="1024"/>
+   <PARAM name="Assoc_Name" datatype="char" arraysize="*" ucd="meta.dataset;meta.file" value="sky.list"/>
+   <PARAM name="Assoc_Data" datatype="int" arraysize="3" ucd="meta.code;obs.param" value="2 3 4"/>
+   <PARAM name="Assoc_Params" datatype="int" arraysize="3" ucd="meta.code;obs.param" value="2 3 4"/>
+   <PARAM name="Assoc_Radius" datatype="float" ucd="phys.size.radius;obs.param" value="2" unit="pix"/>
+   <PARAM name="Assoc_Type" datatype="char" arraysize="*" ucd="meta.code;obs.param" value="NEAREST"/>
+   <PARAM name="AssocSelec_Type" datatype="char" arraysize="*" ucd="meta.code;obs.param" value="MATCHED"/>
+   <PARAM name="Verbose_Type" datatype="char" arraysize="*" ucd="meta.code" value="NORMAL"/>
+   <PARAM name="FITS_Unsigned" datatype="boolean" ucd="meta.code;obs.param" value="F"/>
+   <PARAM name="PSF_Name" datatype="char" arraysize="*" ucd="meta.dataset;meta.file;obs.param" value="default.psf"/>
+   <PARAM name="PSF_NMax" datatype="int" ucd="meta.number;obs.param" value="9"/>
+   <PARAM name="PSFDisplay_Type" datatype="char" arraysize="*" ucd="meta.code;obs.param" value="SPLIT"/>
+   <PARAM name="SOM_Name" datatype="char" arraysize="*" ucd="meta.dataset;meta.file;obs.param" value="default.som"/>
+  </RESOURCE>
+ </RESOURCE>
+</RESOURCE>
+</VOTABLE>
