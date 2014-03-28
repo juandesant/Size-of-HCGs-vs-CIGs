@@ -38,3 +38,7 @@ Positions of the galaxies in the compact group:
    http://vizier.u-strasbg.fr/viz-bin/nph-sesame/-ox/NSVA?hcg96a
    http://vizier.u-strasbg.fr/viz-bin/nph-sesame/-ox/NSVA?hcg96d
 
+
+Info about groups in amiga DB is at GRUPOS/NUEVO_INDI_DATA5_KRC3 GRUPOS/NUEVO_INDI_DATA5_MOD GRUPOS/DYNAMICS
+   The first two the galaxies corresponding to around 40-60 groups while the third one contains, for example, the radius. 
+

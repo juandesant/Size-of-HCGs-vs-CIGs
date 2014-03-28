@@ -45,4 +45,9 @@ Dependencies
 Comments on sloan images
 ========
 1. HCG74  returns only a image for g-band ---> removed from the workflow
-2. HCG26  the images seems to be incomplete ---> need to verify this.
+2. HCG26  galaxies are not in sdr9 ---> removed from the workflow.
+3. HCG77 returns only a image for g-band ---> removed from the workflow
+4. HCG53 and HCG54 are very close. Is that a problem? --> I suppose it is not. 
+5. HCG5, HCG36, HCG47 images were to small but this is fixed by including bigger sizes for those groups.
+6. HCG10, HCG16, HCG31, HCG41, HCG59, HCG61, HCG72 images were too small
+

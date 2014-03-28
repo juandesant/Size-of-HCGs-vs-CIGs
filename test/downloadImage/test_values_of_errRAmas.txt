@@ -1,0 +1,27 @@
+HCG31 
+http://vizier.u-strasbg.fr/viz-bin/nph-sesame/-ox/NSVA?hcg31
+2 * 5000 / 1000 / 3600 = 0.002777
+2 * 300 / 1000 / 3600 = 0.0001666
+10 * 5000 / 1000 / 3600 = 0.013
+
+curl -e "http://dr10.sdss3.org/mosaics/check" \
+     -o Mosaic1.tar \
+"http://dr9.sdss3.org/dr9-cgi/getImages/mosaic?onlyprimary=True&pixelscale=0.396&ra=75.41145833&filters=gri&dec=-4.25947222&size=0.002777"
+
+curl -e "http://dr10.sdss3.org/mosaics/check" \
+     -o Mosaic.tar \
+"http://dr9.sdss3.org/dr9-cgi/getImages/mosaic?onlyprimary=True&pixelscale=0.396&ra=75.41145833&filters=gri&dec=-4.25947222&size=0.0001666"
+
+curl -e "http://dr10.sdss3.org/mosaics/check" \
+     -o Mosaic.tar \
+"http://dr9.sdss3.org/dr9-cgi/getImages/mosaic?onlyprimary=True&pixelscale=0.396&ra=75.41145833&filters=gri&dec=-4.25947222&size=0.013888"
+
+HCG41
+http://vizier.u-strasbg.fr/viz-bin/nph-sesame/-ox/NSVA?hcg31
+2 * 53982 / 1000 / 3600 =  0,02999
+2 * 18000 / 1000 / 3600 =  0,01
+
+ 
+curl -e "http://dr10.sdss3.org/mosaics/check" \
+     -o Mosaic41.tar \
+"http://dr9.sdss3.org/dr9-cgi/getImages/mosaic?onlyprimary=True&pixelscale=0.396&ra=149.3933461&filters=gri&dec=45.2375748&size=0.13888"

@@ -2198,12 +2198,12 @@
   <PARAM name="Soft_Auth" datatype="char" arraysize="*" ucd="meta.bib.author;meta.software" value="Emmanuel Bertin"/>
   <PARAM name="Soft_Ref" datatype="char" arraysize="*" ucd="meta.bib.bibcode;meta.software" value="1996A&amp;AS..117..393B"/>
   <PARAM name="NThreads" datatype="int" ucd="meta.number;meta.software" value="2"/>
-  <PARAM name="Date" datatype="char" arraysize="*" ucd="time.event.end;meta.software" value="2014-03-25"/>
-  <PARAM name="Time" datatype="char" arraysize="*" ucd="time.event.end;meta.software" value="11:40:02"/>
-  <PARAM name="Duration" datatype="float" ucd="time.event;meta.software" value="235" unit="s"/>
+  <PARAM name="Date" datatype="char" arraysize="*" ucd="time.event.end;meta.software" value="2014-03-27"/>
+  <PARAM name="Time" datatype="char" arraysize="*" ucd="time.event.end;meta.software" value="13:56:52"/>
+  <PARAM name="Duration" datatype="float" ucd="time.event;meta.software" value="157" unit="s"/>
   <PARAM name="User" datatype="char" arraysize="*" ucd="meta.curation" value="lourdes"/>
   <PARAM name="Host" datatype="char" arraysize="*" ucd="meta.curation" value="(null)"/>
-  <PARAM name="Path" datatype="char" arraysize="*" ucd="meta.dataset" value="/tmp/usecase7702848989683155695dir"/>
+  <PARAM name="Path" datatype="char" arraysize="*" ucd="meta.dataset" value="/tmp/usecase2122779550586456930dir"/>
   <PARAM name="Image_Name" datatype="char" arraysize="*" ucd="obs.image;meta.fits" value="/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/images/HCG44//J101800.47+214844.2-z.fits"/>
   <TABLE ID="Extension_Data" name="Extension_Data">
    <DESCRIPTION>Data gathered by SExtractor for every FITS extension</DESCRIPTION>
@@ -2228,7 +2228,7 @@
    <FIELD name="Satur_Level" datatype="float" arraysize="1" ucd="instr.saturation;phot.count" unit="ct"/>
    <DATA><TABLEDATA>
     <TR>
-     <TD>1</TD><TD>25/03/2014</TD><TD>11:40:01</TD><TD>233</TD><TD>2323</TD><TD>2116</TD>
+     <TD>1</TD><TD>27/03/2014</TD><TD>13:56:49</TD><TD>152</TD><TD>2323</TD><TD>2116</TD>
      <TD>20 S</TD><TD>0</TD>
      <TD>0.147631</TD><TD>0</TD><TD>0.369076</TD><TD>0.396</TD><TD>0.000000</TD>
      <TD>0</TD><TD>49978.9</TD>
