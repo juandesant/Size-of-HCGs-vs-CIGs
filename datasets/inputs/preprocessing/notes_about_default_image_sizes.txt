@@ -6,15 +6,6 @@ HCG37, tiene una estraña muy grande.
 
 Las que se ven claramente mal:
 
-HCG10, la imagen tiene que algo mas grande.  
-HCG16, la imagen es demasiado pequeña. tiene quer ser mucho mas grande. Sdr9 tiene 3 de las 4 del grupo. 
-HCG31, la imagen tiene que ser el doble de grande 
-HCG 41, la imagen tiene que ser el doble de grande
-HCG59, la imagen minuscula
-HCG61, estan todas las galaxias, pero cortadas, tiene que ser ligeramente más grande. --> Siguen estando cortadas
-HCG72, laimagen es minuscula.
-
-HCG77 se descargó, pero está corructa y no ha generado l
-
-La que hay que descartar, porque no hay ninguna en sloan
-HCG26
+- HCG77 se descargó, pero está corructa y no ha generado l
+- La que hay que descartar, porque no hay ninguna en sloan
+- HCG26, se descarta

@@ -71,6 +71,18 @@
    <DESCRIPTION>RMS position error along minor axis</DESCRIPTION>
   </FIELD>
    <DATA><TABLEDATA>
+    <TR><TD>         1</TD><TD>   507.503</TD><TD>     1.800</TD><TD>221.9582175</TD><TD>+19.0248367</TD><TD> 21.0996</TD><TD>  0.0743</TD><TD>        8</TD><TD>    0.00</TD><TD> 0.009663411</TD><TD> 0.48</TD><TD>     3.63217</TD><TD>   0.285</TD><TD> 16.7</TD><TD>     1.422</TD><TD> 5.25</TD><TD>    0.994</TD><TD>    0.712</TD><TD>  0.0674</TD><TD>  0.0473</TD></TR>
+    <TR><TD>         2</TD><TD>   442.910</TD><TD>   609.722</TD><TD>221.9657274</TD><TD>+19.0917089</TD><TD> 17.5646</TD><TD>  0.0033</TD><TD>       62</TD><TD>    0.00</TD><TD>-0.0001973331</TD><TD> 0.98</TD><TD>    94.22498</TD><TD>   0.048</TD><TD> 43.2</TD><TD>     1.402</TD><TD> 2.96</TD><TD>    1.487</TD><TD>    1.415</TD><TD>  0.0084</TD><TD>  0.0080</TD></TR>
+    <TR><TD>         3</TD><TD>   149.488</TD><TD>   609.808</TD><TD>221.9998825</TD><TD>+19.0917178</TD><TD> 19.8844</TD><TD>  0.0302</TD><TD>       22</TD><TD>    0.00</TD><TD> 0.001150675</TD><TD> 0.89</TD><TD>     11.1235</TD><TD>   0.013</TD><TD> -3.6</TD><TD>     1.419</TD><TD> 3.86</TD><TD>    1.199</TD><TD>    1.183</TD><TD>  0.0304</TD><TD>  0.0298</TD></TR>
+    <TR><TD>         4</TD><TD>   385.286</TD><TD>   476.901</TD><TD>221.9724356</TD><TD>+19.0770989</TD><TD> 17.6580</TD><TD>  0.0168</TD><TD>      193</TD><TD>    0.00</TD><TD> 0.001164504</TD><TD> 0.01</TD><TD>    86.45732</TD><TD>   0.569</TD><TD> 15.0</TD><TD>     6.861</TD><TD> 5.51</TD><TD>    5.560</TD><TD>    2.396</TD><TD>  0.0749</TD><TD>  0.0299</TD></TR>
+    <TR><TD>         5</TD><TD>   333.437</TD><TD>   324.547</TD><TD>221.9784707</TD><TD>+19.0603401</TD><TD> 17.9581</TD><TD>  0.0184</TD><TD>      120</TD><TD>    0.00</TD><TD> 0.004976095</TD><TD> 0.51</TD><TD>    65.57751</TD><TD>   0.262</TD><TD>-82.8</TD><TD>     5.897</TD><TD> 6.12</TD><TD>    3.181</TD><TD>    2.348</TD><TD>  0.0498</TD><TD>  0.0363</TD></TR>
+    <TR><TD>         6</TD><TD>    81.476</TD><TD>   305.604</TD><TD>222.0077936</TD><TD>+19.0582544</TD><TD> 14.6784</TD><TD>  0.0002</TD><TD>      230</TD><TD>    0.00</TD><TD> 0.002577228</TD><TD> 1.00</TD><TD>     1344.79</TD><TD>   0.021</TD><TD>  1.9</TD><TD>     1.461</TD><TD> 2.62</TD><TD>    1.754</TD><TD>    1.717</TD><TD>  0.0020</TD><TD>  0.0020</TD></TR>
+    <TR><TD>         7</TD><TD>   301.357</TD><TD>   293.351</TD><TD>221.9822041</TD><TD>+19.0569086</TD><TD> 17.5702</TD><TD>  0.0146</TD><TD>      161</TD><TD>    0.00</TD><TD> 0.007459237</TD><TD> 0.90</TD><TD>    93.73678</TD><TD>   0.608</TD><TD> 58.1</TD><TD>     6.246</TD><TD> 5.55</TD><TD>    5.458</TD><TD>    2.138</TD><TD>  0.0534</TD><TD>  0.0248</TD></TR>
+    <TR><TD>         8</TD><TD>   320.549</TD><TD>   244.768</TD><TD>221.9799706</TD><TD>+19.0515645</TD><TD> 19.0666</TD><TD>  0.0405</TD><TD>       24</TD><TD>    0.00</TD><TD>  0.00840647</TD><TD> 0.01</TD><TD>    23.62372</TD><TD>   0.491</TD><TD>-11.8</TD><TD>     7.485</TD><TD> 8.10</TD><TD>    2.300</TD><TD>    1.172</TD><TD>  0.1189</TD><TD>  0.0616</TD></TR>
+    <TR><TD>         9</TD><TD>   326.073</TD><TD>   209.791</TD><TD>221.9793278</TD><TD>+19.0477170</TD><TD> 19.6318</TD><TD>  0.0543</TD><TD>       21</TD><TD>    0.00</TD><TD>  0.00824672</TD><TD> 0.19</TD><TD>    14.03683</TD><TD>   0.188</TD><TD>-74.5</TD><TD>     4.570</TD><TD> 6.99</TD><TD>    1.671</TD><TD>    1.357</TD><TD>  0.0822</TD><TD>  0.0661</TD></TR>
+    <TR><TD>        10</TD><TD>   262.660</TD><TD>   186.438</TD><TD>221.9867072</TD><TD>+19.0451481</TD><TD> 17.6485</TD><TD>  0.0179</TD><TD>      137</TD><TD>    0.00</TD><TD> 0.007004547</TD><TD> 0.01</TD><TD>     87.2202</TD><TD>   0.181</TD><TD> 52.7</TD><TD>     9.199</TD><TD> 6.89</TD><TD>    3.474</TD><TD>    2.846</TD><TD>  0.0577</TD><TD>  0.0454</TD></TR>
+    <TR><TD>        11</TD><TD>   416.411</TD><TD>   142.253</TD><TD>221.9688155</TD><TD>+19.0402874</TD><TD> 20.6767</TD><TD>  0.0603</TD><TD>       12</TD><TD>    0.00</TD><TD> 0.007419335</TD><TD> 0.61</TD><TD>    5.362065</TD><TD>   0.145</TD><TD>-88.6</TD><TD>     1.416</TD><TD> 4.31</TD><TD>    1.119</TD><TD>    0.956</TD><TD>  0.0517</TD><TD>  0.0421</TD></TR>
+    <TR><TD>        12</TD><TD>   157.693</TD><TD>    84.536</TD><TD>221.9989209</TD><TD>+19.0339380</TD><TD> 20.0793</TD><TD>  0.0592</TD><TD>       20</TD><TD>    0.00</TD><TD>  0.00505427</TD><TD> 0.65</TD><TD>    9.295691</TD><TD>   0.083</TD><TD>-73.0</TD><TD>     2.636</TD><TD> 5.55</TD><TD>    1.425</TD><TD>    1.307</TD><TD>  0.0630</TD><TD>  0.0567</TD></TR>
     </TABLEDATA></DATA>
   </TABLE>
  <RESOURCE ID="MetaData" name="MetaData">
@@ -82,12 +94,12 @@
   <PARAM name="Soft_Auth" datatype="char" arraysize="*" ucd="meta.bib.author;meta.software" value="Emmanuel Bertin"/>
   <PARAM name="Soft_Ref" datatype="char" arraysize="*" ucd="meta.bib.bibcode;meta.software" value="1996A&amp;AS..117..393B"/>
   <PARAM name="NThreads" datatype="int" ucd="meta.number;meta.software" value="2"/>
-  <PARAM name="Date" datatype="char" arraysize="*" ucd="time.event.end;meta.software" value="2014-03-27"/>
-  <PARAM name="Time" datatype="char" arraysize="*" ucd="time.event.end;meta.software" value="13:59:55"/>
-  <PARAM name="Duration" datatype="float" ucd="time.event;meta.software" value="0" unit="s"/>
+  <PARAM name="Date" datatype="char" arraysize="*" ucd="time.event.end;meta.software" value="2014-03-31"/>
+  <PARAM name="Time" datatype="char" arraysize="*" ucd="time.event.end;meta.software" value="10:02:58"/>
+  <PARAM name="Duration" datatype="float" ucd="time.event;meta.software" value="1" unit="s"/>
   <PARAM name="User" datatype="char" arraysize="*" ucd="meta.curation" value="lourdes"/>
   <PARAM name="Host" datatype="char" arraysize="*" ucd="meta.curation" value="(null)"/>
-  <PARAM name="Path" datatype="char" arraysize="*" ucd="meta.dataset" value="/tmp/usecase5944690824390167529dir"/>
+  <PARAM name="Path" datatype="char" arraysize="*" ucd="meta.dataset" value="/tmp/usecase2404021754441833878dir"/>
   <PARAM name="Image_Name" datatype="char" arraysize="*" ucd="obs.image;meta.fits" value="/home/lourdes/src/Size-of-HCGs-vs-CIGs/datasets/results/images/HCG72//J144755.32+190333.8-u.fits"/>
   <TABLE ID="Extension_Data" name="Extension_Data">
    <DESCRIPTION>Data gathered by SExtractor for every FITS extension</DESCRIPTION>
@@ -112,9 +124,9 @@
    <FIELD name="Satur_Level" datatype="float" arraysize="1" ucd="instr.saturation;phot.count" unit="ct"/>
    <DATA><TABLEDATA>
     <TR>
-     <TD>1</TD><TD>27/03/2014</TD><TD>13:59:55</TD><TD>0</TD><TD>0</TD><TD>0</TD>
-     <TD>19 N</TD><TD>0</TD>
-     <TD>0.0347044</TD><TD>0</TD><TD>0.0867609</TD><TD>0.396</TD><TD>0.000000</TD>
+     <TD>1</TD><TD>31/03/2014</TD><TD>10:02:58</TD><TD>1</TD><TD>12</TD><TD>12</TD>
+     <TD>20 N</TD><TD>0</TD>
+     <TD>0.0374814</TD><TD>0</TD><TD>0.0937035</TD><TD>0.396</TD><TD>0.000000</TD>
      <TD>0</TD><TD>1.63846e-06</TD>
     </TR>
    </TABLEDATA></DATA>

@@ -1,3 +1,22 @@
+HCG59 177.1067 12.7262 0 
+HCG16 32.3888 -10.163 0 
+HCG10 21.5308 34.6909 0 
 HCG41 149.4148 45.2394 0
-HCG31 75.4037 -4.2567 0 
-HCG1 6.5008 25.7181 0
+HCG31 75.4037 -4.2567 0  
+HCG72 221.9805 19.0594 0 
+
+
+
+
+rm -r datasets/results/images/HCG59
+rm -r datasets/results/images/HCG16
+rm -r datasets/results/images/HCG10
+rm -r datasets/results/images/HCG41
+rm -r datasets/results/images/HCG31
+rm -r datasets/results/images/HCG72
+
+
+rm -r datasets/results/images/HCG31
+rm -r datasets/results/images/HCG72
+rm -r datasets/results/images/HCG16
+
