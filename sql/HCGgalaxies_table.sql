@@ -76,7 +76,7 @@ FROM
 -- calculate baricenter and group velocity and velocity dispersion
 
 SELECT
-  hcg.groupNumber, count(*) as N, avg(hcg.RA_deg) as RA_deg, avg(hcg.Dec_deg) as Dec_deg, avg(hcg.cz) as cz, stddev(hcg.cz)
+  hcg.groupNumber, count(*) as N, avg(hcg.RA_deg) as RA_deg, avg(hcg.Dec_deg) as Dec_deg, avg(hcg.cz) as cz, stddev(hcg.cz) as cz_std
 FROM
   `HCGgalaxies` hcg group by hcg.groupNumber
 
