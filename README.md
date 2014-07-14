@@ -27,14 +27,19 @@ It has the following structure:
 Steps to reproduce
 ==================
 
-1. Run the `create_hcg_table.sql` script to create the HCG data supporting table.
-1. Run the `populate_hcg_coordinates.py` script
+1. Create Table 'HCGgalaxies' (See HCGgalaxies_table.sql)
+2. Fill Table 'HCGgalaxies' (use: datasets/inputs/preprocessing/sample_selection/galaxy-names-hcg-ned-output-cut.csv)
+3. Add new columns to HCGgalaxies table and calculate new values (See HCGgalaxies_table.sql)
+1. remove this step[Run the `create_hcg_table.sql` script to create the HCG data supporting table.]
+1. remove this step [Run the `populate_hcg_coordinates.py` script]
 
 Todo list
 =========
 
-1. TODO: Create and run the script for populating the coordinates from Sesame
 1. TODO: Create and run the script for populating the sizes from Hyperleda
+2. TODO: Obtain galaxies coordinates and velocity from sextractor
+3. Get group sizes from Hyperleda
+4. Download Images 
 
 Dependencies
 ============
