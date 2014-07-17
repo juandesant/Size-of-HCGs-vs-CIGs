@@ -1,0 +1,3 @@
+This version of the workflows downloads mosaics for the complete group and cross match with an existing catalogue of HCG. 
+	gather_and_preprocessing_data_hcgs.t2flow
+	Gather_HCG_galaxy_properties_using_sextractor_hcgs.t2flow
