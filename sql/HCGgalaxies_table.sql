@@ -57,11 +57,13 @@ ALTER TABLE `HCGgalaxies` ADD `groupNumber` INT NULL COMMENT 'Group number' AFTE
 -- provide values for HCG group column
 
 UPDATE HCGgalaxies SET groupNumber = replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(ObjectName, "HCG", ""), "a", ""), "b", ""), "c", ""), "d", ""), "e", ""), "f", ""), "g", ""), "h", ""), "q", ""), "LEDA", "") ;
+  -- LEDA3080767 belongs to HCG31.
+  UPDATE `UNPUBLISHED_SIZES_HCG_VS_CIG`.`HCGgalaxies` SET `groupNumber` = '31' WHERE `HCGgalaxies`.`ObjectName` = 'LEDA3080767';
 
 
 -- test to see if all the groups have more than 3 galaxies.
 
-SELECT groupNumber, count(*) as N,  FROM `HCGgalaxies` group by groupNumber
+SELECT groupNumber, count(*) as N  FROM `HCGgalaxies` group by groupNumber
 
 
 
