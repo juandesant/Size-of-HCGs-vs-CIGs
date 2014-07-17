@@ -28,18 +28,21 @@ Steps to reproduce
 ==================
 
 1. Create Table 'HCGgalaxies' (See HCGgalaxies_table.sql)
-2. Fill Table 'HCGgalaxies' (use: datasets/inputs/preprocessing/sample_selection/galaxy-names-hcg-ned-output-cut.csv)
-3. Add new columns to HCGgalaxies table and calculate new values (See HCGgalaxies_table.sql)
-1. remove this step[Run the `create_hcg_table.sql` script to create the HCG data supporting table.]
-1. remove this step [Run the `populate_hcg_coordinates.py` script]
+2. Fill Table 'HCGgalaxies' with the sample selection (use: datasets/inputs/preprocessing/sample_selection/galaxy-names-hcg-ned-output-cut.csv)
+3. Add new columns to HCGgalaxies table and calculate new values (See sql/HCGgalaxies_table.sql)
+4. Extract from the DB the input data for the workflow 'gather and preprocessing data'.
+5. Run 'gather and preprocessing data' workflow (it downloads images). 
+6. Run 'gather HCG galaxy properties using sextractor' workflow.
+1. Remove this step[Run the `create_hcg_table.sql` script to create the HCG data supporting table.]
+1. Remove this step [Run the `populate_hcg_coordinates.py` script]
 
 Todo list
 =========
 
 1. TODO: Create and run the script for populating the sizes from Hyperleda
 2. TODO: Obtain galaxies coordinates and velocity from sextractor
-3. Get group sizes from Hyperleda
-4. Download Images 
+3. TODO: Get group sizes from Hyperleda
+4. TODO: Download Images 
 
 Dependencies
 ============
