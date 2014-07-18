@@ -1,4 +1,4 @@
-objectName,groupNumber,ra_deg,dec_deg,cz
+objectHCG,groupNumber,ra_deg,dec_deg,cz
 "HCG01a",1,6.52971,25.7252,10237
 "HCG01b",1,6.52479,25.7193,10266
 "HCG01c",1,6.47671,25.7237,10056
