@@ -33,8 +33,7 @@ CREATE TABLE IF NOT EXISTS `HCGgalaxies` (
   `Dec` varchar(16) NOT NULL COMMENT 'Declination (dms)',
   `RA_deg` float NOT NULL COMMENT 'Right Ascension (degrees)',
   `Dec_deg` float NOT NULL COMMENT 'Declination (degrees)',
-  `l_cz` varchar(3) DEFAULT NULL COMMENT 'lowerlimit on cz',
-  `cz` int(11) DEFAULT NULL COMMENT 'Radial Velocity (km/s)',
+  `vel_hc` int(11) DEFAULT NULL COMMENT 'Radial Velocity (km/s)',
   `z` float DEFAULT NULL COMMENT 'Redshift',
   `z_uncertainty` float DEFAULT NULL COMMENT 'Redshift uncertainty',
   `z_Qual` varchar(3) DEFAULT NULL,
@@ -70,7 +69,7 @@ SELECT groupNumber, count(*) as N  FROM `HCGgalaxies` group by groupNumber
 -- calculate baricenter and group velocity and velocity dispersion
 
 SELECT
-  groupNumber, count(*) as N, avg(RA_deg) as RA_deg, avg(Dec_deg) as Dec_deg, avg(cz) as cz
+  groupNumber, count(*) as N, avg(RA_deg) as RA_deg, avg(Dec_deg) as Dec_deg, avg(vel_hc) as vel_hc
 FROM
   `HCGgalaxies` group by groupNumber
 
@@ -78,7 +77,8 @@ FROM
 -- calculate baricenter and group velocity and velocity dispersion
 
 SELECT
-  hcg.groupNumber, count(*) as N, avg(hcg.RA_deg) as RA_deg, avg(hcg.Dec_deg) as Dec_deg, avg(hcg.cz) as cz, stddev(hcg.cz) as cz_std
+  hcg.groupNumber, count(*) as N, avg(hcg.RA_deg) as RA_deg, avg(hcg.Dec_deg) as Dec_deg,  stddev(hcg.RA_deg) as RA_deg_std,
+  stddev(hcg.Dec_deg) as Dec_deg_std, avg(hcg.vel_hc) as vel_hc, stddev(hcg.vel_hc) as vel_hc_std
 FROM
   `HCGgalaxies` hcg group by hcg.groupNumber
 
