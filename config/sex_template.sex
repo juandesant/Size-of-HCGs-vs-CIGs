@@ -1,13 +1,13 @@
-CATALOG_NAME        HCG_test.cat
-PARAMETERS_NAME     HCG_test.param
+CATALOG_NAME        $cat$
+PARAMETERS_NAME     $sexparam$
 CATALOG_TYPE        ASCII_HEAD
 DETECT_MINAREA      10.
 THRESH_TYPE         RELATIVE
 DETECT_THRESH       2.5
 ANALYSIS_THRESH     3.0
 FILTER              Y
-FILTER_NAME         /Users/jdsant/Downloads/star/bin/extractor/config/default.conv
-DEBLEND_NTHRESH     1
+FILTER_NAME         $conv$
+DEBLEND_NTHRESH     2
 DEBLEND_MINCONT     0.000005
 CLEAN               Y
 CLEAN_PARAM         1.0
@@ -21,7 +21,7 @@ SATUR_LEVEL         10.
 GAIN                1.0
 MAG_GAMMA           4.0
 SEEING_FWHM         1.5
-STARNNW_NAME        /Users/jdsant/Downloads/star/bin/extractor/config/default.nnw
+STARNNW_NAME        $nnw$
 BACK_SIZE           64
 BACK_FILTERSIZE     3
 BACK_TYPE           MANUAL
@@ -29,7 +29,7 @@ BACK_VALUE          0.0,0.0
 BACKPHOTO_TYPE      GLOBAL
 BACKPHOTO_THICK     24
 CHECKIMAGE_TYPE     APERTURES
-CHECKIMAGE_NAME     J205222.80-054528.4-i.fits.sexed.fits
+CHECKIMAGE_NAME     $checkimage_name$
 MEMORY_OBJSTACK     3000
 MEMORY_PIXSTACK     300000
 MEMORY_BUFSIZE      1024

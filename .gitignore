@@ -6,6 +6,8 @@
 *.log
 *.out
 *.synctex.gz
+*.fits
+*~
 stellarmasssize/*
 
 test/MosaicHCG88.tar.bz2

@@ -24,3 +24,21 @@ This leads to the mosaic check, and then you can submit:
 curl -e "http://dr10.sdss3.org/mosaics/check" \
      -o Mosaic.tar \
 "http://dr9.sdss3.org/dr9-cgi/getImages/mosaic?onlyprimary=True&pixelscale=0.396&ra=313.0950391&filters=gri&dec=-5.757906&size=0.22"
+
+Description of parameters in the URL:
+- pixelscale: This is a fix value for dr9
+- RA, DEC: coordinates
+- Size: size of the mosaic- Example to calculate size for HCG96:
+	1) Obtener datos de NED. Por ejemplo, para HCG96:
+	http://vizier.u-strasbg.fr/viz-bin/nph-sesame/-ox/NSVA?hcg96
+	2) Calcular tamaño para el parámetro size: 2*errRAmas/1000/3600 => 0.0972 grados 
+
+Positions of the galaxies in the compact group: 
+ - Use vizier and add at the end of the HCG url a character. Start at 'a' and continue until the number of galaxies in the compact group is reached. For example: 
+   http://vizier.u-strasbg.fr/viz-bin/nph-sesame/-ox/NSVA?hcg96a
+   http://vizier.u-strasbg.fr/viz-bin/nph-sesame/-ox/NSVA?hcg96d
+
+
+Info about groups in amiga DB is at GRUPOS/NUEVO_INDI_DATA5_KRC3 GRUPOS/NUEVO_INDI_DATA5_MOD GRUPOS/DYNAMICS
+   The first two the galaxies corresponding to around 40-60 groups while the third one contains, for example, the radius. 
+
